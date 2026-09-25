@@ -5,6 +5,8 @@ This repository contains the `aiv` Python package, the companion notebooks for t
 notebooks read. The book manuscript is not included. Every notebook runs from a pip
 installation without a checkout of the authors' working repository.
 
+Authors: Agus Sudjianto, Gary Ang and Yu Pan.
+
 The case study throughout is a frozen logistic model of a rare AML outcome. The notebooks
 locate customer regions where the model's Brier loss is elevated, search over those
 regions with and without a language-model structural proposal, confirm the frozen
