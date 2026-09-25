@@ -1,0 +1,143 @@
+{
+  "facts": {
+    "region:confirmation/reflection_74101/brier": {
+      "value": 0.08577237801043543,
+      "source": "regional/results.json",
+      "sha256": "9c80ebefdb314135d6f900ab0fee3505f3adb1863afd2cbc5d10f75c181cf7a7",
+      "pointer": "/confirmation/reflection_74101/brier",
+      "unit": "squared probability error"
+    },
+    "region:confirmation/reflection_74101/contrast": {
+      "value": 0.07251419564465404,
+      "source": "regional/results.json",
+      "sha256": "9c80ebefdb314135d6f900ab0fee3505f3adb1863afd2cbc5d10f75c181cf7a7",
+      "pointer": "/confirmation/reflection_74101/contrast",
+      "unit": "squared probability error"
+    },
+    "region:confirmation/reflection_74101/share": {
+      "value": 0.106785,
+      "source": "regional/results.json",
+      "sha256": "9c80ebefdb314135d6f900ab0fee3505f3adb1863afd2cbc5d10f75c181cf7a7",
+      "pointer": "/confirmation/reflection_74101/share",
+      "unit": "fraction"
+    },
+    "region:confirmation/reflection_74102/brier": {
+      "value": 0.07181148251335943,
+      "source": "regional/results.json",
+      "sha256": "9c80ebefdb314135d6f900ab0fee3505f3adb1863afd2cbc5d10f75c181cf7a7",
+      "pointer": "/confirmation/reflection_74102/brier",
+      "unit": "squared probability error"
+    },
+    "region:confirmation/reflection_74102/contrast": {
+      "value": 0.058639405139949766,
+      "source": "regional/results.json",
+      "sha256": "9c80ebefdb314135d6f900ab0fee3505f3adb1863afd2cbc5d10f75c181cf7a7",
+      "pointer": "/confirmation/reflection_74102/contrast",
+      "unit": "squared probability error"
+    },
+    "region:confirmation/reflection_74102/share": {
+      "value": 0.13352,
+      "source": "regional/results.json",
+      "sha256": "9c80ebefdb314135d6f900ab0fee3505f3adb1863afd2cbc5d10f75c181cf7a7",
+      "pointer": "/confirmation/reflection_74102/share",
+      "unit": "fraction"
+    },
+    "region:confirmation/reflection_74103/brier": {
+      "value": 0.08440101841279432,
+      "source": "regional/results.json",
+      "sha256": "9c80ebefdb314135d6f900ab0fee3505f3adb1863afd2cbc5d10f75c181cf7a7",
+      "pointer": "/confirmation/reflection_74103/brier",
+      "unit": "squared probability error"
+    },
+    "region:confirmation/reflection_74103/contrast": {
+      "value": 0.07090823523534547,
+      "source": "regional/results.json",
+      "sha256": "9c80ebefdb314135d6f900ab0fee3505f3adb1863afd2cbc5d10f75c181cf7a7",
+      "pointer": "/confirmation/reflection_74103/contrast",
+      "unit": "squared probability error"
+    },
+    "region:confirmation/reflection_74103/share": {
+      "value": 0.105895,
+      "source": "regional/results.json",
+      "sha256": "9c80ebefdb314135d6f900ab0fee3505f3adb1863afd2cbc5d10f75c181cf7a7",
+      "pointer": "/confirmation/reflection_74103/share",
+      "unit": "fraction"
+    },
+    "region:confirmation/continuation_74101/brier": {
+      "value": 0.0745244415237961,
+      "source": "regional/results.json",
+      "sha256": "9c80ebefdb314135d6f900ab0fee3505f3adb1863afd2cbc5d10f75c181cf7a7",
+      "pointer": "/confirmation/continuation_74101/brier",
+      "unit": "squared probability error"
+    },
+    "region:confirmation/continuation_74101/contrast": {
+      "value": 0.05968001825998276,
+      "source": "regional/results.json",
+      "sha256": "9c80ebefdb314135d6f900ab0fee3505f3adb1863afd2cbc5d10f75c181cf7a7",
+      "pointer": "/confirmation/continuation_74101/contrast",
+      "unit": "squared probability error"
+    },
+    "region:confirmation/continuation_74101/share": {
+      "value": 0.10317,
+      "source": "regional/results.json",
+      "sha256": "9c80ebefdb314135d6f900ab0fee3505f3adb1863afd2cbc5d10f75c181cf7a7",
+      "pointer": "/confirmation/continuation_74101/share",
+      "unit": "fraction"
+    },
+    "region:confirmation/continuation_74102/brier": {
+      "value": 0.07480510464754667,
+      "source": "regional/results.json",
+      "sha256": "9c80ebefdb314135d6f900ab0fee3505f3adb1863afd2cbc5d10f75c181cf7a7",
+      "pointer": "/confirmation/continuation_74102/brier",
+      "unit": "squared probability error"
+    },
+    "region:confirmation/continuation_74102/contrast": {
+      "value": 0.05978066354433082,
+      "source": "regional/results.json",
+      "sha256": "9c80ebefdb314135d6f900ab0fee3505f3adb1863afd2cbc5d10f75c181cf7a7",
+      "pointer": "/confirmation/continuation_74102/contrast",
+      "unit": "squared probability error"
+    },
+    "region:confirmation/continuation_74102/share": {
+      "value": 0.099985,
+      "source": "regional/results.json",
+      "sha256": "9c80ebefdb314135d6f900ab0fee3505f3adb1863afd2cbc5d10f75c181cf7a7",
+      "pointer": "/confirmation/continuation_74102/share",
+      "unit": "fraction"
+    },
+    "region:confirmation/continuation_74103/brier": {
+      "value": 0.08543208836076815,
+      "source": "regional/results.json",
+      "sha256": "9c80ebefdb314135d6f900ab0fee3505f3adb1863afd2cbc5d10f75c181cf7a7",
+      "pointer": "/confirmation/continuation_74103/brier",
+      "unit": "squared probability error"
+    },
+    "region:confirmation/continuation_74103/contrast": {
+      "value": 0.07181043613462812,
+      "source": "regional/results.json",
+      "sha256": "9c80ebefdb314135d6f900ab0fee3505f3adb1863afd2cbc5d10f75c181cf7a7",
+      "pointer": "/confirmation/continuation_74103/contrast",
+      "unit": "squared probability error"
+    },
+    "region:confirmation/continuation_74103/share": {
+      "value": 0.10277,
+      "source": "regional/results.json",
+      "sha256": "9c80ebefdb314135d6f900ab0fee3505f3adb1863afd2cbc5d10f75c181cf7a7",
+      "pointer": "/confirmation/continuation_74103/share",
+      "unit": "fraction"
+    }
+  },
+  "seeds": [
+    74101,
+    74102,
+    74103
+  ],
+  "qualifiers": {
+    "fixed_predictor": "The base predictor was fixed. No predictor repair gain was measured.",
+    "shared_samples": "Three optimizer seeds share one discovery sample, one reflection and one confirmation sample; not independent study replications.",
+    "structural_change": "A live LLM proposed a dimensionless product feature. Admission allowed an auxiliary error-model refit and retained a single-cell region.",
+    "conditional_inference": "The simultaneous intervals cover 19 declared conditional comparisons; optimizer seeds are not independent study replications.",
+    "inference_scope": "This packet contains point estimates only. Do not infer a statistically established improvement from these values alone."
+  },
+  "source_sha256": "9c80ebefdb314135d6f900ab0fee3505f3adb1863afd2cbc5d10f75c181cf7a7"
+}

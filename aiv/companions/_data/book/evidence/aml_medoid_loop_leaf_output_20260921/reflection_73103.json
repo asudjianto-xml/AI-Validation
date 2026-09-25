@@ -1,0 +1,5404 @@
+{
+  "records": [
+    {
+      "medoids": [
+        829,
+        1055,
+        1398,
+        2003
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1
+        ],
+        "n": 4972,
+        "share": 0.1243,
+        "loss": 0.07399543781710231,
+        "rest_loss": 0.01343927948062049,
+        "contrast": 0.06055615833648183
+      },
+      "objectives": [
+        0.06055615833648183,
+        0.1243
+      ],
+      "counts": [
+        22516,
+        4972,
+        5686,
+        6826
+      ],
+      "id": 0,
+      "parent_id": null,
+      "operation": "seed",
+      "added_region_scores": 10
+    },
+    {
+      "medoids": [
+        620,
+        1582,
+        2074,
+        2417
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          0
+        ],
+        "n": 440,
+        "share": 0.011,
+        "loss": 0.22747231558604106,
+        "rest_loss": 0.01866957986895726,
+        "contrast": 0.2088027357170838
+      },
+      "objectives": [
+        0.2088027357170838,
+        0.011
+      ],
+      "counts": [
+        440,
+        23760,
+        868,
+        14932
+      ],
+      "id": 1,
+      "parent_id": null,
+      "operation": "seed",
+      "added_region_scores": 20
+    },
+    {
+      "medoids": [
+        144,
+        154,
+        620,
+        2074
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          2
+        ],
+        "n": 443,
+        "share": 0.011075,
+        "loss": 0.22401846191568794,
+        "rest_loss": 0.018692424092958453,
+        "contrast": 0.20532603782272948
+      },
+      "objectives": [
+        0.20532603782272948,
+        0.011075
+      ],
+      "counts": [
+        38084,
+        797,
+        443,
+        676
+      ],
+      "id": 2,
+      "parent_id": null,
+      "operation": "seed",
+      "added_region_scores": 30
+    },
+    {
+      "medoids": [
+        154,
+        248,
+        620,
+        2074
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          2
+        ],
+        "n": 451,
+        "share": 0.011275,
+        "loss": 0.22389061629318688,
+        "rest_loss": 0.01865234849239121,
+        "contrast": 0.20523826780079568
+      },
+      "objectives": [
+        0.20523826780079568,
+        0.011275
+      ],
+      "counts": [
+        2180,
+        36627,
+        451,
+        742
+      ],
+      "id": 3,
+      "parent_id": null,
+      "operation": "seed",
+      "added_region_scores": 40
+    },
+    {
+      "medoids": [
+        154,
+        620,
+        1027,
+        2074
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1
+        ],
+        "n": 452,
+        "share": 0.0113,
+        "loss": 0.22341562037203694,
+        "rest_loss": 0.018652587692567172,
+        "contrast": 0.20476303267946977
+      },
+      "objectives": [
+        0.20476303267946977,
+        0.0113
+      ],
+      "counts": [
+        2756,
+        452,
+        36050,
+        742
+      ],
+      "id": 4,
+      "parent_id": null,
+      "operation": "seed",
+      "added_region_scores": 50
+    },
+    {
+      "medoids": [
+        620,
+        722,
+        1027,
+        2074
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          0
+        ],
+        "n": 461,
+        "share": 0.011525,
+        "loss": 0.2224343209022325,
+        "rest_loss": 0.01861742018103336,
+        "contrast": 0.20381690072119915
+      },
+      "objectives": [
+        0.20381690072119915,
+        0.011525
+      ],
+      "counts": [
+        461,
+        2166,
+        36325,
+        1048
+      ],
+      "id": 5,
+      "parent_id": null,
+      "operation": "seed",
+      "added_region_scores": 60
+    },
+    {
+      "medoids": [
+        620,
+        1027,
+        1162,
+        2074
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          0
+        ],
+        "n": 462,
+        "share": 0.01155,
+        "loss": 0.22204498780471005,
+        "rest_loss": 0.018616814560878932,
+        "contrast": 0.2034281732438311
+      },
+      "objectives": [
+        0.2034281732438311,
+        0.01155
+      ],
+      "counts": [
+        462,
+        32548,
+        5969,
+        1021
+      ],
+      "id": 6,
+      "parent_id": null,
+      "operation": "seed",
+      "added_region_scores": 70
+    },
+    {
+      "medoids": [
+        353,
+        556,
+        620,
+        2074
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          2
+        ],
+        "n": 473,
+        "share": 0.011825,
+        "loss": 0.21875640951201816,
+        "rest_loss": 0.018599555159122188,
+        "contrast": 0.20015685435289599
+      },
+      "objectives": [
+        0.20015685435289599,
+        0.011825
+      ],
+      "counts": [
+        31618,
+        7196,
+        473,
+        713
+      ],
+      "id": 7,
+      "parent_id": null,
+      "operation": "seed",
+      "added_region_scores": 80
+    },
+    {
+      "medoids": [
+        353,
+        620,
+        1550,
+        2074
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1
+        ],
+        "n": 475,
+        "share": 0.011875,
+        "loss": 0.2179792024081753,
+        "rest_loss": 0.018598767294874734,
+        "contrast": 0.19938043511330059
+      },
+      "objectives": [
+        0.19938043511330059,
+        0.011875
+      ],
+      "counts": [
+        24132,
+        475,
+        14349,
+        1044
+      ],
+      "id": 8,
+      "parent_id": null,
+      "operation": "seed",
+      "added_region_scores": 90
+    },
+    {
+      "medoids": [
+        620,
+        958,
+        1582,
+        2417
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          0
+        ],
+        "n": 500,
+        "share": 0.0125,
+        "loss": 0.21451832050093447,
+        "rest_loss": 0.018516385777806073,
+        "contrast": 0.1960019347231284
+      },
+      "objectives": [
+        0.1960019347231284,
+        0.0125
+      ],
+      "counts": [
+        500,
+        1435,
+        23728,
+        14337
+      ],
+      "id": 9,
+      "parent_id": null,
+      "operation": "seed",
+      "added_region_scores": 100
+    },
+    {
+      "medoids": [
+        154,
+        464,
+        620,
+        1027
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          2
+        ],
+        "n": 505,
+        "share": 0.012625,
+        "loss": 0.21070908426146856,
+        "rest_loss": 0.01854027879280328,
+        "contrast": 0.19216880546866527
+      },
+      "objectives": [
+        0.19216880546866527,
+        0.012625
+      ],
+      "counts": [
+        1766,
+        6670,
+        505,
+        31059
+      ],
+      "id": 10,
+      "parent_id": null,
+      "operation": "seed",
+      "added_region_scores": 110
+    },
+    {
+      "medoids": [
+        556,
+        620,
+        1027,
+        1188
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1
+        ],
+        "n": 538,
+        "share": 0.01345,
+        "loss": 0.2087419856051901,
+        "rest_loss": 0.018406396285495282,
+        "contrast": 0.19033558931969483
+      },
+      "objectives": [
+        0.19033558931969483,
+        0.01345
+      ],
+      "counts": [
+        8022,
+        538,
+        27787,
+        3653
+      ],
+      "id": 11,
+      "parent_id": null,
+      "operation": "seed",
+      "added_region_scores": 120
+    },
+    {
+      "medoids": [
+        620,
+        1027,
+        1162,
+        2135
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          0
+        ],
+        "n": 575,
+        "share": 0.014375,
+        "loss": 0.20365951891362472,
+        "rest_loss": 0.01830189410522443,
+        "contrast": 0.1853576248084003
+      },
+      "objectives": [
+        0.1853576248084003,
+        0.014375
+      ],
+      "counts": [
+        575,
+        28440,
+        1741,
+        9244
+      ],
+      "id": 12,
+      "parent_id": null,
+      "operation": "seed",
+      "added_region_scores": 130
+    },
+    {
+      "medoids": [
+        620,
+        1582,
+        1825,
+        2417
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          0
+        ],
+        "n": 586,
+        "share": 0.01465,
+        "loss": 0.19857105103302267,
+        "rest_loss": 0.018325817287472877,
+        "contrast": 0.1802452337455498
+      },
+      "objectives": [
+        0.1802452337455498,
+        0.01465
+      ],
+      "counts": [
+        586,
+        21185,
+        4780,
+        13449
+      ],
+      "id": 13,
+      "parent_id": null,
+      "operation": "seed",
+      "added_region_scores": 140
+    },
+    {
+      "medoids": [
+        620,
+        1104,
+        2197,
+        2975
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          0
+        ],
+        "n": 612,
+        "share": 0.0153,
+        "loss": 0.1973308540785343,
+        "rest_loss": 0.01822610733669504,
+        "contrast": 0.17910474674183924
+      },
+      "objectives": [
+        0.17910474674183924,
+        0.0153
+      ],
+      "counts": [
+        612,
+        6024,
+        2806,
+        30558
+      ],
+      "id": 14,
+      "parent_id": null,
+      "operation": "seed",
+      "added_region_scores": 150
+    },
+    {
+      "medoids": [
+        556,
+        620,
+        1027,
+        1930
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1
+        ],
+        "n": 616,
+        "share": 0.0154,
+        "loss": 0.19602178386378732,
+        "rest_loss": 0.01822839172287513,
+        "contrast": 0.1777933921409122
+      },
+      "objectives": [
+        0.1777933921409122,
+        0.0154
+      ],
+      "counts": [
+        9165,
+        616,
+        26512,
+        3707
+      ],
+      "id": 15,
+      "parent_id": null,
+      "operation": "seed",
+      "added_region_scores": 160
+    },
+    {
+      "medoids": [
+        556,
+        620,
+        1027,
+        1619
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1
+        ],
+        "n": 618,
+        "share": 0.01545,
+        "loss": 0.19539344472798728,
+        "rest_loss": 0.018229222732007288,
+        "contrast": 0.17716422199598
+      },
+      "objectives": [
+        0.17716422199598,
+        0.01545
+      ],
+      "counts": [
+        5631,
+        618,
+        25472,
+        8279
+      ],
+      "id": 16,
+      "parent_id": null,
+      "operation": "seed",
+      "added_region_scores": 170
+    },
+    {
+      "medoids": [
+        64,
+        620,
+        722,
+        1027
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1
+        ],
+        "n": 636,
+        "share": 0.0159,
+        "loss": 0.18539037933804706,
+        "rest_loss": 0.01830982921488693,
+        "contrast": 0.16708055012316012
+      },
+      "objectives": [
+        0.16708055012316012,
+        0.0159
+      ],
+      "counts": [
+        9272,
+        636,
+        1714,
+        28378
+      ],
+      "id": 17,
+      "parent_id": 5,
+      "operation": "medoid_replacement",
+      "added_region_scores": 180
+    },
+    {
+      "medoids": [
+        144,
+        154,
+        620,
+        2416
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          2
+        ],
+        "n": 496,
+        "share": 0.0124,
+        "loss": 0.2110169471220377,
+        "rest_loss": 0.01858019422593349,
+        "contrast": 0.1924367528961042
+      },
+      "objectives": [
+        0.1924367528961042,
+        0.0124
+      ],
+      "counts": [
+        33961,
+        1065,
+        496,
+        4478
+      ],
+      "id": 18,
+      "parent_id": 2,
+      "operation": "medoid_replacement",
+      "added_region_scores": 190
+    },
+    {
+      "medoids": [
+        829,
+        1398,
+        2003,
+        2593
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          3
+        ],
+        "n": 4196,
+        "share": 0.1049,
+        "loss": 0.07858115358815591,
+        "rest_loss": 0.014214330187071416,
+        "contrast": 0.0643668234010845
+      },
+      "objectives": [
+        0.0643668234010845,
+        0.1049
+      ],
+      "counts": [
+        22619,
+        7145,
+        6040,
+        4196
+      ],
+      "id": 19,
+      "parent_id": 0,
+      "operation": "medoid_replacement",
+      "added_region_scores": 200
+    },
+    {
+      "medoids": [
+        246,
+        687,
+        1398,
+        2003
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1
+        ],
+        "n": 5032,
+        "share": 0.1258,
+        "loss": 0.05764956600178512,
+        "rest_loss": 0.015687593867330832,
+        "contrast": 0.04196197213445429
+      },
+      "objectives": [
+        0.04196197213445429,
+        0.1258
+      ],
+      "counts": [
+        21974,
+        5032,
+        8059,
+        4935
+      ],
+      "id": 20,
+      "parent_id": 19,
+      "operation": "medoid_replacement",
+      "added_region_scores": 210
+    },
+    {
+      "medoids": [
+        398,
+        1058,
+        2597,
+        2717
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          2,
+          3
+        ],
+        "n": 1681,
+        "share": 0.042025,
+        "loss": 0.08681503117574757,
+        "rest_loss": 0.0180777246553244,
+        "contrast": 0.06873730652042317
+      },
+      "objectives": [
+        0.06873730652042317,
+        0.042025
+      ],
+      "counts": [
+        8465,
+        29854,
+        1397,
+        284
+      ],
+      "id": 21,
+      "parent_id": null,
+      "operation": "restart",
+      "added_region_scores": 220
+    },
+    {
+      "medoids": [
+        154,
+        573,
+        620,
+        1027
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          2
+        ],
+        "n": 496,
+        "share": 0.0124,
+        "loss": 0.2110169471220377,
+        "rest_loss": 0.01858019422593349,
+        "contrast": 0.1924367528961042
+      },
+      "objectives": [
+        0.1924367528961042,
+        0.0124
+      ],
+      "counts": [
+        871,
+        12676,
+        496,
+        25957
+      ],
+      "id": 22,
+      "parent_id": 4,
+      "operation": "medoid_replacement",
+      "added_region_scores": 230
+    },
+    {
+      "medoids": [
+        620,
+        1027,
+        2074,
+        2586
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          0
+        ],
+        "n": 462,
+        "share": 0.01155,
+        "loss": 0.22204498780471005,
+        "rest_loss": 0.018616814560878932,
+        "contrast": 0.2034281732438311
+      },
+      "objectives": [
+        0.2034281732438311,
+        0.01155
+      ],
+      "counts": [
+        462,
+        22563,
+        1071,
+        15904
+      ],
+      "id": 23,
+      "parent_id": 5,
+      "operation": "medoid_replacement",
+      "added_region_scores": 240
+    },
+    {
+      "medoids": [
+        154,
+        469,
+        620,
+        2074
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          2
+        ],
+        "n": 451,
+        "share": 0.011275,
+        "loss": 0.22389061629318688,
+        "rest_loss": 0.01865234849239121,
+        "contrast": 0.20523826780079568
+      },
+      "objectives": [
+        0.20523826780079568,
+        0.011275
+      ],
+      "counts": [
+        1844,
+        36963,
+        451,
+        742
+      ],
+      "id": 24,
+      "parent_id": 3,
+      "operation": "medoid_replacement",
+      "added_region_scores": 250
+    },
+    {
+      "medoids": [
+        154,
+        620,
+        1102,
+        2875
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1
+        ],
+        "n": 504,
+        "share": 0.0126,
+        "loss": 0.21110891883354796,
+        "rest_loss": 0.018540042115193917,
+        "contrast": 0.19256887671835404
+      },
+      "objectives": [
+        0.19256887671835404,
+        0.0126
+      ],
+      "counts": [
+        2502,
+        504,
+        22170,
+        14824
+      ],
+      "id": 25,
+      "parent_id": 4,
+      "operation": "medoid_replacement",
+      "added_region_scores": 260
+    },
+    {
+      "medoids": [
+        246,
+        1398,
+        2003,
+        2889
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1,
+          2
+        ],
+        "n": 16673,
+        "share": 0.416825,
+        "loss": 0.04079573239480614,
+        "rest_loss": 0.0067933790138125115,
+        "contrast": 0.03400235338099363
+      },
+      "objectives": [
+        0.03400235338099363,
+        0.416825
+      ],
+      "counts": [
+        14956,
+        7099,
+        9574,
+        8371
+      ],
+      "id": 26,
+      "parent_id": 20,
+      "operation": "medoid_replacement",
+      "added_region_scores": 270
+    },
+    {
+      "medoids": [
+        829,
+        1398,
+        1865,
+        2003
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          3
+        ],
+        "n": 8197,
+        "share": 0.204925,
+        "loss": 0.045464426432434334,
+        "rest_loss": 0.014652218187188093,
+        "contrast": 0.03081220824524624
+      },
+      "objectives": [
+        0.03081220824524624,
+        0.204925
+      ],
+      "counts": [
+        20176,
+        6255,
+        5372,
+        8197
+      ],
+      "id": 27,
+      "parent_id": 19,
+      "operation": "medoid_replacement",
+      "added_region_scores": 280
+    },
+    {
+      "medoids": [
+        248,
+        620,
+        1512,
+        2074
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1
+        ],
+        "n": 458,
+        "share": 0.01145,
+        "loss": 0.22205908928246454,
+        "rest_loss": 0.01863722966927415,
+        "contrast": 0.2034218596131904
+      },
+      "objectives": [
+        0.2034218596131904,
+        0.01145
+      ],
+      "counts": [
+        31566,
+        458,
+        7263,
+        713
+      ],
+      "id": 28,
+      "parent_id": 3,
+      "operation": "medoid_replacement",
+      "added_region_scores": 290
+    },
+    {
+      "medoids": [
+        246,
+        1398,
+        2003,
+        2583
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1,
+          2
+        ],
+        "n": 15938,
+        "share": 0.39845,
+        "loss": 0.041886348185030425,
+        "rest_loss": 0.007109624349629799,
+        "contrast": 0.034776723835400626
+      },
+      "objectives": [
+        0.034776723835400626,
+        0.39845
+      ],
+      "counts": [
+        14012,
+        6461,
+        9477,
+        10050
+      ],
+      "id": 29,
+      "parent_id": 26,
+      "operation": "medoid_replacement",
+      "added_region_scores": 300
+    },
+    {
+      "medoids": [
+        620,
+        722,
+        1027,
+        2221
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          0
+        ],
+        "n": 535,
+        "share": 0.013375,
+        "loss": 0.2024820860317881,
+        "rest_loss": 0.01850572614840493,
+        "contrast": 0.18397635988338318
+      },
+      "objectives": [
+        0.18397635988338318,
+        0.013375
+      ],
+      "counts": [
+        535,
+        1526,
+        31195,
+        6744
+      ],
+      "id": 30,
+      "parent_id": 5,
+      "operation": "medoid_replacement",
+      "added_region_scores": 310
+    },
+    {
+      "medoids": [
+        246,
+        1591,
+        2003,
+        2889
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          2
+        ],
+        "n": 9809,
+        "share": 0.245225,
+        "loss": 0.04731691439372213,
+        "rest_loss": 0.012405179861077366,
+        "contrast": 0.03491173453264477
+      },
+      "objectives": [
+        0.03491173453264477,
+        0.245225
+      ],
+      "counts": [
+        10083,
+        11768,
+        9809,
+        8340
+      ],
+      "id": 31,
+      "parent_id": 26,
+      "operation": "medoid_replacement",
+      "added_region_scores": 320
+    },
+    {
+      "medoids": [
+        246,
+        1398,
+        1938,
+        2889
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          2
+        ],
+        "n": 5498,
+        "share": 0.13745,
+        "loss": 0.053553263553737226,
+        "rest_loss": 0.015773594442506523,
+        "contrast": 0.03777966911123071
+      },
+      "objectives": [
+        0.03777966911123071,
+        0.13745
+      ],
+      "counts": [
+        18688,
+        4431,
+        5498,
+        11383
+      ],
+      "id": 32,
+      "parent_id": 26,
+      "operation": "medoid_replacement",
+      "added_region_scores": 330
+    },
+    {
+      "medoids": [
+        620,
+        1582,
+        1736,
+        2074
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          0
+        ],
+        "n": 448,
+        "share": 0.0112,
+        "loss": 0.2235925025465997,
+        "rest_loss": 0.018671292408296184,
+        "contrast": 0.20492121013830353
+      },
+      "objectives": [
+        0.20492121013830353,
+        0.0112
+      ],
+      "counts": [
+        448,
+        22427,
+        16283,
+        842
+      ],
+      "id": 33,
+      "parent_id": 1,
+      "operation": "medoid_replacement",
+      "added_region_scores": 340
+    },
+    {
+      "medoids": [
+        246,
+        1449,
+        2003,
+        2889
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1
+        ],
+        "n": 3445,
+        "share": 0.086125,
+        "loss": 0.0726109621052589,
+        "rest_loss": 0.016099347121356595,
+        "contrast": 0.05651161498390231
+      },
+      "objectives": [
+        0.05651161498390231,
+        0.086125
+      ],
+      "counts": [
+        15564,
+        3445,
+        8316,
+        12675
+      ],
+      "id": 34,
+      "parent_id": 26,
+      "operation": "medoid_replacement",
+      "added_region_scores": 350
+    },
+    {
+      "medoids": [
+        620,
+        1381,
+        1582,
+        2642
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          0,
+          1
+        ],
+        "n": 650,
+        "share": 0.01625,
+        "loss": 0.17219192091611613,
+        "rest_loss": 0.018468402792333718,
+        "contrast": 0.1537235181237824
+      },
+      "objectives": [
+        0.1537235181237824,
+        0.01625
+      ],
+      "counts": [
+        369,
+        281,
+        29541,
+        9809
+      ],
+      "id": 35,
+      "parent_id": 1,
+      "operation": "medoid_replacement",
+      "added_region_scores": 360
+    },
+    {
+      "medoids": [
+        144,
+        154,
+        430,
+        2074
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          2
+        ],
+        "n": 405,
+        "share": 0.010125,
+        "loss": 0.18410970777656896,
+        "rest_loss": 0.01929768826428329,
+        "contrast": 0.16481201951228566
+      },
+      "objectives": [
+        0.16481201951228566,
+        0.010125
+      ],
+      "counts": [
+        38022,
+        816,
+        405,
+        757
+      ],
+      "id": 36,
+      "parent_id": 2,
+      "operation": "medoid_replacement",
+      "added_region_scores": 370
+    },
+    {
+      "medoids": [
+        246,
+        1398,
+        2583,
+        2926
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          3
+        ],
+        "n": 1281,
+        "share": 0.032025,
+        "loss": 0.1376243552428266,
+        "rest_loss": 0.01710683642159525,
+        "contrast": 0.12051751882123135
+      },
+      "objectives": [
+        0.12051751882123135,
+        0.032025
+      ],
+      "counts": [
+        17352,
+        8018,
+        13349,
+        1281
+      ],
+      "id": 37,
+      "parent_id": 29,
+      "operation": "medoid_replacement",
+      "added_region_scores": 380
+    },
+    {
+      "medoids": [
+        154,
+        248,
+        620,
+        976
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          2
+        ],
+        "n": 497,
+        "share": 0.012425,
+        "loss": 0.2105997600272118,
+        "rest_loss": 0.01858057154495311,
+        "contrast": 0.1920191884822587
+      },
+      "objectives": [
+        0.1920191884822587,
+        0.012425
+      ],
+      "counts": [
+        1549,
+        34671,
+        497,
+        3283
+      ],
+      "id": 38,
+      "parent_id": 3,
+      "operation": "medoid_replacement",
+      "added_region_scores": 390
+    },
+    {
+      "medoids": [
+        154,
+        620,
+        1306,
+        2074
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1
+        ],
+        "n": 446,
+        "share": 0.01115,
+        "loss": 0.22268868605336734,
+        "rest_loss": 0.018691845186175997,
+        "contrast": 0.20399684086719133
+      },
+      "objectives": [
+        0.20399684086719133,
+        0.01115
+      ],
+      "counts": [
+        4090,
+        446,
+        34781,
+        683
+      ],
+      "id": 39,
+      "parent_id": 2,
+      "operation": "medoid_replacement",
+      "added_region_scores": 400
+    },
+    {
+      "medoids": [
+        144,
+        620,
+        1713,
+        2074
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1
+        ],
+        "n": 442,
+        "share": 0.01105,
+        "loss": 0.22436604795875706,
+        "rest_loss": 0.018693730857880494,
+        "contrast": 0.20567231710087658
+      },
+      "objectives": [
+        0.20567231710087658,
+        0.01105
+      ],
+      "counts": [
+        14346,
+        442,
+        24518,
+        694
+      ],
+      "id": 40,
+      "parent_id": 2,
+      "operation": "medoid_replacement",
+      "added_region_scores": 410
+    },
+    {
+      "medoids": [
+        154,
+        248,
+        655,
+        2710
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          2
+        ],
+        "n": 971,
+        "share": 0.024275,
+        "loss": 0.11831797942858588,
+        "rest_loss": 0.018544406478481393,
+        "contrast": 0.09977357295010449
+      },
+      "objectives": [
+        0.09977357295010449,
+        0.024275
+      ],
+      "counts": [
+        1279,
+        36010,
+        971,
+        1740
+      ],
+      "id": 41,
+      "parent_id": 3,
+      "operation": "medoid_replacement",
+      "added_region_scores": 420
+    },
+    {
+      "medoids": [
+        154,
+        620,
+        1668,
+        2074
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1
+        ],
+        "n": 459,
+        "share": 0.011475,
+        "loss": 0.2220194070862094,
+        "rest_loss": 0.01863254572775694,
+        "contrast": 0.20338686135845246
+      },
+      "objectives": [
+        0.20338686135845246,
+        0.011475
+      ],
+      "counts": [
+        7796,
+        459,
+        31003,
+        742
+      ],
+      "id": 42,
+      "parent_id": 3,
+      "operation": "medoid_replacement",
+      "added_region_scores": 430
+    },
+    {
+      "medoids": [
+        246,
+        338,
+        2003,
+        2889
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          2
+        ],
+        "n": 9921,
+        "share": 0.248025,
+        "loss": 0.047796590286158167,
+        "rest_loss": 0.012116972846332395,
+        "contrast": 0.03567961743982577
+      },
+      "objectives": [
+        0.03567961743982577,
+        0.248025
+      ],
+      "counts": [
+        15992,
+        7869,
+        9921,
+        6218
+      ],
+      "id": 43,
+      "parent_id": 26,
+      "operation": "medoid_replacement",
+      "added_region_scores": 440
+    },
+    {
+      "medoids": [
+        144,
+        363,
+        620,
+        1713
+      ],
+      "valid": false,
+      "region": null,
+      "objectives": null,
+      "counts": [
+        14933,
+        0,
+        549,
+        24518
+      ],
+      "id": 44,
+      "parent_id": 40,
+      "operation": "medoid_replacement",
+      "added_region_scores": 450
+    },
+    {
+      "medoids": [
+        719,
+        1303,
+        1582,
+        2074
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          0
+        ],
+        "n": 1341,
+        "share": 0.033525,
+        "loss": 0.11936372533170102,
+        "rest_loss": 0.017553212519827107,
+        "contrast": 0.10181051281187391
+      },
+      "objectives": [
+        0.10181051281187391,
+        0.033525
+      ],
+      "counts": [
+        1341,
+        12365,
+        25505,
+        789
+      ],
+      "id": 45,
+      "parent_id": 1,
+      "operation": "medoid_replacement",
+      "added_region_scores": 460
+    },
+    {
+      "medoids": [
+        1961,
+        2003,
+        2121,
+        2889
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1
+        ],
+        "n": 9751,
+        "share": 0.243775,
+        "loss": 0.04757869076277634,
+        "rest_loss": 0.012387734630763828,
+        "contrast": 0.035190956132012514
+      },
+      "objectives": [
+        0.035190956132012514,
+        0.243775
+      ],
+      "counts": [
+        13620,
+        9751,
+        10411,
+        6218
+      ],
+      "id": 46,
+      "parent_id": 26,
+      "operation": "medoid_replacement",
+      "added_region_scores": 470
+    },
+    {
+      "medoids": [
+        144,
+        620,
+        2074,
+        2879
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1
+        ],
+        "n": 445,
+        "share": 0.011125,
+        "loss": 0.22303576985259493,
+        "rest_loss": 0.01869309773453173,
+        "contrast": 0.2043426721180632
+      },
+      "objectives": [
+        0.2043426721180632,
+        0.011125
+      ],
+      "counts": [
+        16568,
+        445,
+        687,
+        22300
+      ],
+      "id": 47,
+      "parent_id": 2,
+      "operation": "medoid_replacement",
+      "added_region_scores": 480
+    },
+    {
+      "medoids": [
+        144,
+        1713,
+        1716,
+        2074
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          3
+        ],
+        "n": 825,
+        "share": 0.020625,
+        "loss": 0.08717946136475224,
+        "rest_loss": 0.019572006199052628,
+        "contrast": 0.06760745516569962
+      },
+      "objectives": [
+        0.06760745516569962,
+        0.020625
+      ],
+      "counts": [
+        12089,
+        19680,
+        7406,
+        825
+      ],
+      "id": 48,
+      "parent_id": 40,
+      "operation": "medoid_replacement",
+      "added_region_scores": 490
+    },
+    {
+      "medoids": [
+        620,
+        1582,
+        2074,
+        2445
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          0
+        ],
+        "n": 463,
+        "share": 0.011575,
+        "loss": 0.22160722215391426,
+        "rest_loss": 0.01861679577652692,
+        "contrast": 0.20299042637738735
+      },
+      "objectives": [
+        0.20299042637738735,
+        0.011575
+      ],
+      "counts": [
+        463,
+        23862,
+        1066,
+        14609
+      ],
+      "id": 49,
+      "parent_id": 1,
+      "operation": "medoid_replacement",
+      "added_region_scores": 500
+    },
+    {
+      "medoids": [
+        1290,
+        1398,
+        2179,
+        2889
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1
+        ],
+        "n": 4166,
+        "share": 0.10415,
+        "loss": 0.06494263886627064,
+        "rest_loss": 0.01585380825352804,
+        "contrast": 0.04908883061274259
+      },
+      "objectives": [
+        0.04908883061274259,
+        0.10415
+      ],
+      "counts": [
+        12686,
+        4166,
+        5816,
+        17332
+      ],
+      "id": 50,
+      "parent_id": 26,
+      "operation": "medoid_replacement",
+      "added_region_scores": 510
+    },
+    {
+      "medoids": [
+        144,
+        620,
+        1080,
+        2559
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1,
+          2
+        ],
+        "n": 779,
+        "share": 0.019475,
+        "loss": 0.15238377191851654,
+        "rest_loss": 0.018356223455528484,
+        "contrast": 0.13402754846298806
+      },
+      "objectives": [
+        0.13402754846298806,
+        0.019475
+      ],
+      "counts": [
+        22962,
+        342,
+        437,
+        16259
+      ],
+      "id": 51,
+      "parent_id": 2,
+      "operation": "medoid_replacement",
+      "added_region_scores": 520
+    },
+    {
+      "medoids": [
+        1398,
+        1647,
+        2003,
+        2583
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          0,
+          2
+        ],
+        "n": 15585,
+        "share": 0.389625,
+        "loss": 0.04239407215213604,
+        "rest_loss": 0.007288338479736516,
+        "contrast": 0.035105733672399525
+      },
+      "objectives": [
+        0.035105733672399525,
+        0.389625
+      ],
+      "counts": [
+        6289,
+        17480,
+        9296,
+        6935
+      ],
+      "id": 52,
+      "parent_id": 29,
+      "operation": "medoid_replacement",
+      "added_region_scores": 530
+    },
+    {
+      "medoids": [
+        620,
+        926,
+        2052,
+        2074
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          0
+        ],
+        "n": 482,
+        "share": 0.01205,
+        "loss": 0.21507546393885107,
+        "rest_loss": 0.018598866968350652,
+        "contrast": 0.19647659697050043
+      },
+      "objectives": [
+        0.19647659697050043,
+        0.01205
+      ],
+      "counts": [
+        482,
+        10691,
+        28115,
+        712
+      ],
+      "id": 53,
+      "parent_id": 1,
+      "operation": "medoid_replacement",
+      "added_region_scores": 540
+    },
+    {
+      "medoids": [
+        154,
+        706,
+        1027,
+        2074
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          3
+        ],
+        "n": 871,
+        "share": 0.021775,
+        "loss": 0.09361107382393691,
+        "rest_loss": 0.019349361168779118,
+        "contrast": 0.0742617126551578
+      },
+      "objectives": [
+        0.0742617126551578,
+        0.021775
+      ],
+      "counts": [
+        2134,
+        6033,
+        30962,
+        871
+      ],
+      "id": 54,
+      "parent_id": 4,
+      "operation": "medoid_replacement",
+      "added_region_scores": 550
+    },
+    {
+      "medoids": [
+        246,
+        1002,
+        1398,
+        2710
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          3
+        ],
+        "n": 1635,
+        "share": 0.040875,
+        "loss": 0.05745491361078831,
+        "rest_loss": 0.019411380547899603,
+        "contrast": 0.03804353306288871
+      },
+      "objectives": [
+        0.03804353306288871,
+        0.040875
+      ],
+      "counts": [
+        22689,
+        8185,
+        7491,
+        1635
+      ],
+      "id": 55,
+      "parent_id": 26,
+      "operation": "medoid_replacement",
+      "added_region_scores": 560
+    },
+    {
+      "medoids": [
+        620,
+        1582,
+        1702,
+        2417
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          0
+        ],
+        "n": 594,
+        "share": 0.01485,
+        "loss": 0.1974145048174144,
+        "rest_loss": 0.018306658443187917,
+        "contrast": 0.1791078463742265
+      },
+      "objectives": [
+        0.1791078463742265,
+        0.01485
+      ],
+      "counts": [
+        594,
+        20593,
+        6401,
+        12412
+      ],
+      "id": 56,
+      "parent_id": 1,
+      "operation": "medoid_replacement",
+      "added_region_scores": 570
+    },
+    {
+      "medoids": [
+        246,
+        447,
+        1398,
+        2583
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1,
+          2
+        ],
+        "n": 24853,
+        "share": 0.621325,
+        "loss": 0.029942358223743484,
+        "rest_loss": 0.006238791149343794,
+        "contrast": 0.02370356707439969
+      },
+      "objectives": [
+        0.02370356707439969,
+        0.621325
+      ],
+      "counts": [
+        7861,
+        18991,
+        5862,
+        7286
+      ],
+      "id": 57,
+      "parent_id": 29,
+      "operation": "medoid_replacement",
+      "added_region_scores": 580
+    },
+    {
+      "medoids": [
+        144,
+        620,
+        2074,
+        2539
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1
+        ],
+        "n": 445,
+        "share": 0.011125,
+        "loss": 0.22303576985259493,
+        "rest_loss": 0.01869309773453173,
+        "contrast": 0.2043426721180632
+      },
+      "objectives": [
+        0.2043426721180632,
+        0.011125
+      ],
+      "counts": [
+        12129,
+        445,
+        694,
+        26732
+      ],
+      "id": 58,
+      "parent_id": 2,
+      "operation": "medoid_replacement",
+      "added_region_scores": 590
+    },
+    {
+      "medoids": [
+        98,
+        763,
+        2004,
+        2936
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1
+        ],
+        "n": 1981,
+        "share": 0.049525,
+        "loss": 0.11301754888468712,
+        "rest_loss": 0.016170036932408587,
+        "contrast": 0.09684751195227853
+      },
+      "objectives": [
+        0.09684751195227853,
+        0.049525
+      ],
+      "counts": [
+        21217,
+        1981,
+        7941,
+        8861
+      ],
+      "id": 59,
+      "parent_id": null,
+      "operation": "restart",
+      "added_region_scores": 600
+    },
+    {
+      "medoids": [
+        424,
+        447,
+        1398,
+        2583
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1,
+          2
+        ],
+        "n": 24749,
+        "share": 0.618725,
+        "loss": 0.029951890766331084,
+        "rest_loss": 0.006384961897441427,
+        "contrast": 0.023566928868889656
+      },
+      "objectives": [
+        0.023566928868889656,
+        0.618725
+      ],
+      "counts": [
+        9353,
+        18965,
+        5784,
+        5898
+      ],
+      "id": 60,
+      "parent_id": 57,
+      "operation": "medoid_replacement",
+      "added_region_scores": 610
+    },
+    {
+      "medoids": [
+        66,
+        1413,
+        2042,
+        2422
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          3
+        ],
+        "n": 8582,
+        "share": 0.21455,
+        "loss": 0.04991988463652861,
+        "rest_loss": 0.013057608648644685,
+        "contrast": 0.03686227598788393
+      },
+      "objectives": [
+        0.03686227598788393,
+        0.21455
+      ],
+      "counts": [
+        3667,
+        3992,
+        23759,
+        8582
+      ],
+      "id": 61,
+      "parent_id": null,
+      "operation": "restart",
+      "added_region_scores": 620
+    },
+    {
+      "medoids": [
+        447,
+        1110,
+        1342,
+        1398
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          0,
+          3
+        ],
+        "n": 25317,
+        "share": 0.632925,
+        "loss": 0.029618033955246526,
+        "rest_loss": 0.0060489431879609725,
+        "contrast": 0.023569090767285555
+      },
+      "objectives": [
+        0.023569090767285555,
+        0.632925
+      ],
+      "counts": [
+        19584,
+        3455,
+        11228,
+        5733
+      ],
+      "id": 62,
+      "parent_id": 57,
+      "operation": "medoid_replacement",
+      "added_region_scores": 630
+    },
+    {
+      "medoids": [
+        306,
+        705,
+        722,
+        1975
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          0
+        ],
+        "n": 1907,
+        "share": 0.047675,
+        "loss": 0.05703994878646671,
+        "rest_loss": 0.0191605076034446,
+        "contrast": 0.03787944118302211
+      },
+      "objectives": [
+        0.03787944118302211,
+        0.047675
+      ],
+      "counts": [
+        1907,
+        15449,
+        9327,
+        13317
+      ],
+      "id": 63,
+      "parent_id": null,
+      "operation": "restart",
+      "added_region_scores": 640
+    },
+    {
+      "medoids": [
+        246,
+        447,
+        797,
+        2583
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1,
+          2
+        ],
+        "n": 27849,
+        "share": 0.696225,
+        "loss": 0.02734634816080759,
+        "rest_loss": 0.00634416496942447,
+        "contrast": 0.02100218319138312
+      },
+      "objectives": [
+        0.02100218319138312,
+        0.696225
+      ],
+      "counts": [
+        6003,
+        19522,
+        8327,
+        6148
+      ],
+      "id": 64,
+      "parent_id": 57,
+      "operation": "medoid_replacement",
+      "added_region_scores": 650
+    },
+    {
+      "medoids": [
+        419,
+        447,
+        520,
+        2583
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          0,
+          1
+        ],
+        "n": 27893,
+        "share": 0.697325,
+        "loss": 0.027952380810401016,
+        "rest_loss": 0.0048716148120336745,
+        "contrast": 0.023080765998367343
+      },
+      "objectives": [
+        0.023080765998367343,
+        0.697325
+      ],
+      "counts": [
+        9945,
+        17948,
+        8435,
+        3672
+      ],
+      "id": 65,
+      "parent_id": 64,
+      "operation": "medoid_replacement",
+      "added_region_scores": 660
+    },
+    {
+      "medoids": [
+        419,
+        447,
+        2583,
+        2897
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          0,
+          1
+        ],
+        "n": 27893,
+        "share": 0.697325,
+        "loss": 0.027952380810401016,
+        "rest_loss": 0.0048716148120336745,
+        "contrast": 0.023080765998367343
+      },
+      "objectives": [
+        0.023080765998367343,
+        0.697325
+      ],
+      "counts": [
+        9945,
+        17948,
+        3672,
+        8435
+      ],
+      "id": 66,
+      "parent_id": 65,
+      "operation": "medoid_replacement",
+      "added_region_scores": 670
+    },
+    {
+      "medoids": [
+        32,
+        419,
+        447,
+        520
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1,
+          2
+        ],
+        "n": 30202,
+        "share": 0.75505,
+        "loss": 0.02660774037162869,
+        "rest_loss": 0.0035772018544475963,
+        "contrast": 0.023030538517181093
+      },
+      "objectives": [
+        0.023030538517181093,
+        0.75505
+      ],
+      "counts": [
+        3876,
+        11374,
+        18828,
+        5922
+      ],
+      "id": 67,
+      "parent_id": 65,
+      "operation": "medoid_replacement",
+      "added_region_scores": 680
+    },
+    {
+      "medoids": [
+        32,
+        419,
+        447,
+        1723
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          3
+        ],
+        "n": 2332,
+        "share": 0.0583,
+        "loss": 0.0740428804539368,
+        "rest_loss": 0.0176804821401515,
+        "contrast": 0.0563623983137853
+      },
+      "objectives": [
+        0.0563623983137853,
+        0.0583
+      ],
+      "counts": [
+        8603,
+        12009,
+        17056,
+        2332
+      ],
+      "id": 68,
+      "parent_id": 67,
+      "operation": "medoid_replacement",
+      "added_region_scores": 690
+    },
+    {
+      "medoids": [
+        32,
+        419,
+        520,
+        2111
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1,
+          3
+        ],
+        "n": 29863,
+        "share": 0.746575,
+        "loss": 0.026807846374118666,
+        "rest_loss": 0.0037578851932032653,
+        "contrast": 0.0230499611809154
+      },
+      "objectives": [
+        0.0230499611809154,
+        0.746575
+      ],
+      "counts": [
+        4035,
+        11643,
+        6102,
+        18220
+      ],
+      "id": 69,
+      "parent_id": 67,
+      "operation": "medoid_replacement",
+      "added_region_scores": 700
+    },
+    {
+      "medoids": [
+        32,
+        344,
+        419,
+        520
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1,
+          2
+        ],
+        "n": 29580,
+        "share": 0.7395,
+        "loss": 0.026999128846826786,
+        "rest_loss": 0.0038408989620605516,
+        "contrast": 0.023158229884766235
+      },
+      "objectives": [
+        0.023158229884766235,
+        0.7395
+      ],
+      "counts": [
+        4035,
+        20304,
+        9276,
+        6385
+      ],
+      "id": 70,
+      "parent_id": 69,
+      "operation": "medoid_replacement",
+      "added_region_scores": 710
+    },
+    {
+      "medoids": [
+        344,
+        419,
+        520,
+        1474
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          3
+        ],
+        "n": 7730,
+        "share": 0.19325,
+        "loss": 0.05522535086760157,
+        "rest_loss": 0.012759976333041432,
+        "contrast": 0.04246537453456014
+      },
+      "objectives": [
+        0.04246537453456014,
+        0.19325
+      ],
+      "counts": [
+        14079,
+        8538,
+        9653,
+        7730
+      ],
+      "id": 71,
+      "parent_id": 70,
+      "operation": "medoid_replacement",
+      "added_region_scores": 720
+    },
+    {
+      "medoids": [
+        34,
+        567,
+        620,
+        2145
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          2
+        ],
+        "n": 551,
+        "share": 0.013775,
+        "loss": 0.19500238065254058,
+        "rest_loss": 0.018535579779823504,
+        "contrast": 0.17646680087271707
+      },
+      "objectives": [
+        0.17646680087271707,
+        0.013775
+      ],
+      "counts": [
+        492,
+        228,
+        551,
+        38729
+      ],
+      "id": 72,
+      "parent_id": null,
+      "operation": "restart",
+      "added_region_scores": 730
+    },
+    {
+      "medoids": [
+        225,
+        397,
+        660,
+        1322
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          2
+        ],
+        "n": 4486,
+        "share": 0.11215,
+        "loss": 0.06093112779026237,
+        "rest_loss": 0.015918211387247003,
+        "contrast": 0.04501291640301537
+      },
+      "objectives": [
+        0.04501291640301537,
+        0.11215
+      ],
+      "counts": [
+        4612,
+        15890,
+        4486,
+        15012
+      ],
+      "id": 73,
+      "parent_id": null,
+      "operation": "restart",
+      "added_region_scores": 740
+    },
+    {
+      "medoids": [
+        447,
+        520,
+        1091,
+        1297
+      ],
+      "valid": false,
+      "region": null,
+      "objectives": null,
+      "counts": [
+        22771,
+        15108,
+        2121,
+        0
+      ],
+      "id": 74,
+      "parent_id": 67,
+      "operation": "medoid_replacement",
+      "added_region_scores": 750
+    },
+    {
+      "medoids": [
+        154,
+        271,
+        620,
+        2659
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          2
+        ],
+        "n": 505,
+        "share": 0.012625,
+        "loss": 0.21070908426146856,
+        "rest_loss": 0.01854027879280328,
+        "contrast": 0.19216880546866527
+      },
+      "objectives": [
+        0.19216880546866527,
+        0.012625
+      ],
+      "counts": [
+        2848,
+        20326,
+        505,
+        16321
+      ],
+      "id": 75,
+      "parent_id": 2,
+      "operation": "medoid_replacement",
+      "added_region_scores": 760
+    },
+    {
+      "medoids": [
+        826,
+        1031,
+        1452,
+        1668
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          0,
+          3
+        ],
+        "n": 1885,
+        "share": 0.047125,
+        "loss": 0.04488514203697018,
+        "rest_loss": 0.019783494837573617,
+        "contrast": 0.025101647199396563
+      },
+      "objectives": [
+        0.025101647199396563,
+        0.047125
+      ],
+      "counts": [
+        194,
+        16268,
+        21847,
+        1691
+      ],
+      "id": 76,
+      "parent_id": null,
+      "operation": "restart",
+      "added_region_scores": 770
+    },
+    {
+      "medoids": [
+        620,
+        1319,
+        2074,
+        2417
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          0
+        ],
+        "n": 440,
+        "share": 0.011,
+        "loss": 0.22747231558604106,
+        "rest_loss": 0.01866957986895726,
+        "contrast": 0.2088027357170838
+      },
+      "objectives": [
+        0.2088027357170838,
+        0.011
+      ],
+      "counts": [
+        440,
+        24090,
+        868,
+        14602
+      ],
+      "id": 77,
+      "parent_id": 1,
+      "operation": "medoid_replacement",
+      "added_region_scores": 780
+    },
+    {
+      "medoids": [
+        468,
+        722,
+        1027,
+        2074
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          0
+        ],
+        "n": 791,
+        "share": 0.019775,
+        "loss": 0.17580398597165528,
+        "rest_loss": 0.017842726046831795,
+        "contrast": 0.1579612599248235
+      },
+      "objectives": [
+        0.1579612599248235,
+        0.019775
+      ],
+      "counts": [
+        791,
+        2128,
+        36254,
+        827
+      ],
+      "id": 78,
+      "parent_id": 5,
+      "operation": "medoid_replacement",
+      "added_region_scores": 790
+    },
+    {
+      "medoids": [
+        876,
+        1039,
+        1318,
+        1696
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1,
+          3
+        ],
+        "n": 21598,
+        "share": 0.53995,
+        "loss": 0.030226316381337628,
+        "rest_loss": 0.010098272865431865,
+        "contrast": 0.02012804351590576
+      },
+      "objectives": [
+        0.02012804351590576,
+        0.53995
+      ],
+      "counts": [
+        11178,
+        17654,
+        7224,
+        3944
+      ],
+      "id": 79,
+      "parent_id": null,
+      "operation": "restart",
+      "added_region_scores": 800
+    },
+    {
+      "medoids": [
+        144,
+        850,
+        1713,
+        2074
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          3
+        ],
+        "n": 848,
+        "share": 0.0212,
+        "loss": 0.09230462828565024,
+        "rest_loss": 0.01942128304269452,
+        "contrast": 0.07288334524295573
+      },
+      "objectives": [
+        0.07288334524295573,
+        0.0212
+      ],
+      "counts": [
+        11531,
+        9638,
+        17983,
+        848
+      ],
+      "id": 80,
+      "parent_id": 40,
+      "operation": "medoid_replacement",
+      "added_region_scores": 810
+    },
+    {
+      "medoids": [
+        144,
+        154,
+        406,
+        2074
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          2
+        ],
+        "n": 575,
+        "share": 0.014375,
+        "loss": 0.1443369025068583,
+        "rest_loss": 0.019167093964042196,
+        "contrast": 0.1251698085428161
+      },
+      "objectives": [
+        0.1251698085428161,
+        0.014375
+      ],
+      "counts": [
+        38321,
+        791,
+        575,
+        313
+      ],
+      "id": 81,
+      "parent_id": 2,
+      "operation": "medoid_replacement",
+      "added_region_scores": 820
+    },
+    {
+      "medoids": [
+        333,
+        469,
+        1623,
+        2380
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          2
+        ],
+        "n": 2736,
+        "share": 0.0684,
+        "loss": 0.08988455635954765,
+        "rest_loss": 0.015906297023241867,
+        "contrast": 0.07397825933630578
+      },
+      "objectives": [
+        0.07397825933630578,
+        0.0684
+      ],
+      "counts": [
+        3513,
+        30091,
+        2736,
+        3660
+      ],
+      "id": 82,
+      "parent_id": null,
+      "operation": "restart",
+      "added_region_scores": 830
+    },
+    {
+      "medoids": [
+        144,
+        620,
+        2074,
+        2397
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1
+        ],
+        "n": 445,
+        "share": 0.011125,
+        "loss": 0.22303576985259493,
+        "rest_loss": 0.01869309773453173,
+        "contrast": 0.2043426721180632
+      },
+      "objectives": [
+        0.2043426721180632,
+        0.011125
+      ],
+      "counts": [
+        17420,
+        445,
+        694,
+        21441
+      ],
+      "id": 83,
+      "parent_id": 2,
+      "operation": "medoid_replacement",
+      "added_region_scores": 840
+    },
+    {
+      "medoids": [
+        1582,
+        2020,
+        2074,
+        2417
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          2
+        ],
+        "n": 1048,
+        "share": 0.0262,
+        "loss": 0.09144211434541628,
+        "rest_loss": 0.019070267576499562,
+        "contrast": 0.07237184676891673
+      },
+      "objectives": [
+        0.07237184676891673,
+        0.0262
+      ],
+      "counts": [
+        21369,
+        3874,
+        1048,
+        13709
+      ],
+      "id": 84,
+      "parent_id": 1,
+      "operation": "medoid_replacement",
+      "added_region_scores": 850
+    },
+    {
+      "medoids": [
+        620,
+        1438,
+        1582,
+        2417
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          0
+        ],
+        "n": 627,
+        "share": 0.015675,
+        "loss": 0.1871253280707749,
+        "rest_loss": 0.01832039259831436,
+        "contrast": 0.16880493547246053
+      },
+      "objectives": [
+        0.16880493547246053,
+        0.015675
+      ],
+      "counts": [
+        627,
+        14055,
+        13205,
+        12113
+      ],
+      "id": 85,
+      "parent_id": 1,
+      "operation": "medoid_replacement",
+      "added_region_scores": 860
+    },
+    {
+      "medoids": [
+        620,
+        722,
+        931,
+        1027
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          0
+        ],
+        "n": 652,
+        "share": 0.0163,
+        "loss": 0.17962025041319807,
+        "rest_loss": 0.01833750114883608,
+        "contrast": 0.16128274926436198
+      },
+      "objectives": [
+        0.16128274926436198,
+        0.0163
+      ],
+      "counts": [
+        652,
+        1812,
+        15027,
+        22509
+      ],
+      "id": 86,
+      "parent_id": 5,
+      "operation": "medoid_replacement",
+      "added_region_scores": 870
+    },
+    {
+      "medoids": [
+        256,
+        580,
+        1493,
+        2787
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          0
+        ],
+        "n": 521,
+        "share": 0.013025,
+        "loss": 0.13289178877460706,
+        "rest_loss": 0.019489343107024923,
+        "contrast": 0.11340244566758213
+      },
+      "objectives": [
+        0.11340244566758213,
+        0.013025
+      ],
+      "counts": [
+        521,
+        1029,
+        30175,
+        8275
+      ],
+      "id": 87,
+      "parent_id": null,
+      "operation": "restart",
+      "added_region_scores": 880
+    },
+    {
+      "medoids": [
+        556,
+        620,
+        1188,
+        1627
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1
+        ],
+        "n": 528,
+        "share": 0.0132,
+        "loss": 0.20684704710627885,
+        "rest_loss": 0.018479964471060296,
+        "contrast": 0.18836708263521856
+      },
+      "objectives": [
+        0.18836708263521856,
+        0.0132
+      ],
+      "counts": [
+        26666,
+        528,
+        11226,
+        1580
+      ],
+      "id": 88,
+      "parent_id": 11,
+      "operation": "medoid_replacement",
+      "added_region_scores": 890
+    },
+    {
+      "medoids": [
+        57,
+        219,
+        2029,
+        2582
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          2
+        ],
+        "n": 1530,
+        "share": 0.03825,
+        "loss": 0.10733421711802323,
+        "rest_loss": 0.01753145428342167,
+        "contrast": 0.08980276283460156
+      },
+      "objectives": [
+        0.08980276283460156,
+        0.03825
+      ],
+      "counts": [
+        27649,
+        6731,
+        1530,
+        4090
+      ],
+      "id": 89,
+      "parent_id": null,
+      "operation": "restart",
+      "added_region_scores": 900
+    },
+    {
+      "medoids": [
+        32,
+        344,
+        2753,
+        2861
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1,
+          2
+        ],
+        "n": 30388,
+        "share": 0.7597,
+        "loss": 0.025638998784553755,
+        "rest_loss": 0.006194184707530972,
+        "contrast": 0.019444814077022782
+      },
+      "objectives": [
+        0.019444814077022782,
+        0.7597
+      ],
+      "counts": [
+        7695,
+        18103,
+        12285,
+        1917
+      ],
+      "id": 90,
+      "parent_id": 70,
+      "operation": "medoid_replacement",
+      "added_region_scores": 910
+    },
+    {
+      "medoids": [
+        620,
+        722,
+        2074,
+        2431
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          0
+        ],
+        "n": 459,
+        "share": 0.011475,
+        "loss": 0.22164082147628933,
+        "rest_loss": 0.018636940426802317,
+        "contrast": 0.20300388104948702
+      },
+      "objectives": [
+        0.20300388104948702,
+        0.011475
+      ],
+      "counts": [
+        459,
+        2174,
+        1044,
+        36323
+      ],
+      "id": 91,
+      "parent_id": 5,
+      "operation": "medoid_replacement",
+      "added_region_scores": 920
+    },
+    {
+      "medoids": [
+        144,
+        1449,
+        1713,
+        2074
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          3
+        ],
+        "n": 846,
+        "share": 0.02115,
+        "loss": 0.09159070906415656,
+        "rest_loss": 0.019440431593337356,
+        "contrast": 0.0721502774708192
+      },
+      "objectives": [
+        0.0721502774708192,
+        0.02115
+      ],
+      "counts": [
+        12151,
+        3231,
+        23772,
+        846
+      ],
+      "id": 92,
+      "parent_id": 40,
+      "operation": "medoid_replacement",
+      "added_region_scores": 930
+    },
+    {
+      "medoids": [
+        154,
+        248,
+        2024,
+        2074
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          2
+        ],
+        "n": 1697,
+        "share": 0.042425,
+        "loss": 0.09063167799540406,
+        "rest_loss": 0.01787991647953441,
+        "contrast": 0.07275176151586965
+      },
+      "objectives": [
+        0.07275176151586965,
+        0.042425
+      ],
+      "counts": [
+        1251,
+        36306,
+        1697,
+        746
+      ],
+      "id": 93,
+      "parent_id": 3,
+      "operation": "medoid_replacement",
+      "added_region_scores": 940
+    },
+    {
+      "medoids": [
+        32,
+        520,
+        1687,
+        2111
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          2
+        ],
+        "n": 13713,
+        "share": 0.342825,
+        "loss": 0.040334074929365055,
+        "rest_loss": 0.010862982803949638,
+        "contrast": 0.02947109212541542
+      },
+      "objectives": [
+        0.02947109212541542,
+        0.342825
+      ],
+      "counts": [
+        5867,
+        10430,
+        13713,
+        9990
+      ],
+      "id": 94,
+      "parent_id": 69,
+      "operation": "medoid_replacement",
+      "added_region_scores": 950
+    },
+    {
+      "medoids": [
+        1378,
+        1529,
+        1951,
+        2569
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          0,
+          2
+        ],
+        "n": 8085,
+        "share": 0.202125,
+        "loss": 0.053319743859229204,
+        "rest_loss": 0.012770367205763408,
+        "contrast": 0.04054937665346579
+      },
+      "objectives": [
+        0.04054937665346579,
+        0.202125
+      ],
+      "counts": [
+        180,
+        15062,
+        7905,
+        16853
+      ],
+      "id": 95,
+      "parent_id": null,
+      "operation": "restart",
+      "added_region_scores": 960
+    },
+    {
+      "medoids": [
+        156,
+        248,
+        620,
+        2074
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          2
+        ],
+        "n": 446,
+        "share": 0.01115,
+        "loss": 0.2225439294739873,
+        "rest_loss": 0.018693477421459496,
+        "contrast": 0.2038504520525278
+      },
+      "objectives": [
+        0.2038504520525278,
+        0.01115
+      ],
+      "counts": [
+        2645,
+        36108,
+        446,
+        801
+      ],
+      "id": 96,
+      "parent_id": 3,
+      "operation": "medoid_replacement",
+      "added_region_scores": 970
+    },
+    {
+      "medoids": [
+        144,
+        154,
+        620,
+        1992
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          2
+        ],
+        "n": 404,
+        "share": 0.0101,
+        "loss": 0.2184794517469206,
+        "rest_loss": 0.0189511743602397,
+        "contrast": 0.19952827738668089
+      },
+      "objectives": [
+        0.19952827738668089,
+        0.0101
+      ],
+      "counts": [
+        38092,
+        788,
+        404,
+        716
+      ],
+      "id": 97,
+      "parent_id": 2,
+      "operation": "medoid_replacement",
+      "added_region_scores": 980
+    },
+    {
+      "medoids": [
+        419,
+        520,
+        718,
+        739
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          2
+        ],
+        "n": 9096,
+        "share": 0.2274,
+        "loss": 0.04892064403568982,
+        "rest_loss": 0.012738617018029141,
+        "contrast": 0.03618202701766068
+      },
+      "objectives": [
+        0.03618202701766068,
+        0.2274
+      ],
+      "counts": [
+        13789,
+        12830,
+        9096,
+        4285
+      ],
+      "id": 98,
+      "parent_id": 69,
+      "operation": "medoid_replacement",
+      "added_region_scores": 990
+    },
+    {
+      "medoids": [
+        32,
+        419,
+        953,
+        2111
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1,
+          3
+        ],
+        "n": 29863,
+        "share": 0.746575,
+        "loss": 0.026807846374118666,
+        "rest_loss": 0.0037578851932032653,
+        "contrast": 0.0230499611809154
+      },
+      "objectives": [
+        0.0230499611809154,
+        0.746575
+      ],
+      "counts": [
+        4035,
+        11643,
+        6102,
+        18220
+      ],
+      "id": 99,
+      "parent_id": 69,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1000
+    },
+    {
+      "medoids": [
+        246,
+        419,
+        2111,
+        2337
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1
+        ],
+        "n": 9849,
+        "share": 0.246225,
+        "loss": 0.037324595494743096,
+        "rest_loss": 0.015622913251503515,
+        "contrast": 0.02170168224323958
+      },
+      "objectives": [
+        0.02170168224323958,
+        0.246225
+      ],
+      "counts": [
+        8135,
+        9849,
+        18016,
+        4000
+      ],
+      "id": 100,
+      "parent_id": 69,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1010
+    },
+    {
+      "medoids": [
+        32,
+        129,
+        420,
+        520
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1
+        ],
+        "n": 9442,
+        "share": 0.23605,
+        "loss": 0.054441426510438796,
+        "rest_loss": 0.010623092131757448,
+        "contrast": 0.04381833437868135
+      },
+      "objectives": [
+        0.04381833437868135,
+        0.23605
+      ],
+      "counts": [
+        5755,
+        9442,
+        14446,
+        10357
+      ],
+      "id": 101,
+      "parent_id": 69,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1020
+    },
+    {
+      "medoids": [
+        215,
+        367,
+        620,
+        722
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          2
+        ],
+        "n": 656,
+        "share": 0.0164,
+        "loss": 0.17976484017644023,
+        "rest_loss": 0.018318693150621755,
+        "contrast": 0.16144614702581847
+      },
+      "objectives": [
+        0.16144614702581847,
+        0.0164
+      ],
+      "counts": [
+        22712,
+        14317,
+        656,
+        2315
+      ],
+      "id": 102,
+      "parent_id": 5,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1030
+    },
+    {
+      "medoids": [
+        22,
+        530,
+        776,
+        1398
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          0
+        ],
+        "n": 588,
+        "share": 0.0147,
+        "loss": 0.05459344150217426,
+        "rest_loss": 0.020464717722280746,
+        "contrast": 0.03412872377989351
+      },
+      "objectives": [
+        0.03412872377989351,
+        0.0147
+      ],
+      "counts": [
+        588,
+        23366,
+        10241,
+        5805
+      ],
+      "id": 103,
+      "parent_id": null,
+      "operation": "restart",
+      "added_region_scores": 1040
+    },
+    {
+      "medoids": [
+        133,
+        344,
+        1128,
+        2753
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1,
+          3
+        ],
+        "n": 30037,
+        "share": 0.750925,
+        "loss": 0.024798461834691452,
+        "rest_loss": 0.009413329353124575,
+        "contrast": 0.015385132481566878
+      },
+      "objectives": [
+        0.015385132481566878,
+        0.750925
+      ],
+      "counts": [
+        363,
+        17863,
+        9600,
+        12174
+      ],
+      "id": 104,
+      "parent_id": 90,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1050
+    },
+    {
+      "medoids": [
+        722,
+        1027,
+        1992,
+        2074
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          2
+        ],
+        "n": 480,
+        "share": 0.012,
+        "loss": 0.1774295798691433,
+        "rest_loss": 0.019066047574307143,
+        "contrast": 0.15836353229483616
+      },
+      "objectives": [
+        0.15836353229483616,
+        0.012
+      ],
+      "counts": [
+        2166,
+        36524,
+        480,
+        830
+      ],
+      "id": 105,
+      "parent_id": 5,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1060
+    },
+    {
+      "medoids": [
+        32,
+        520,
+        1986,
+        2111
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          2,
+          3
+        ],
+        "n": 27106,
+        "share": 0.67765,
+        "loss": 0.02804247021152537,
+        "rest_loss": 0.006090988127826932,
+        "contrast": 0.02195148208369844
+      },
+      "objectives": [
+        0.02195148208369844,
+        0.67765
+      ],
+      "counts": [
+        4538,
+        8356,
+        6718,
+        20388
+      ],
+      "id": 106,
+      "parent_id": 69,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1070
+    },
+    {
+      "medoids": [
+        378,
+        419,
+        447,
+        1625
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1,
+          2
+        ],
+        "n": 30750,
+        "share": 0.76875,
+        "loss": 0.02622997746031884,
+        "rest_loss": 0.0034686044939462412,
+        "contrast": 0.0227613729663726
+      },
+      "objectives": [
+        0.0227613729663726,
+        0.76875
+      ],
+      "counts": [
+        4412,
+        11921,
+        18829,
+        4838
+      ],
+      "id": 107,
+      "parent_id": 67,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1080
+    },
+    {
+      "medoids": [
+        154,
+        284,
+        1027,
+        1552
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          3
+        ],
+        "n": 2374,
+        "share": 0.05935,
+        "loss": 0.0787370476455154,
+        "rest_loss": 0.01732139072352505,
+        "contrast": 0.061415656921990344
+      },
+      "objectives": [
+        0.061415656921990344,
+        0.05935
+      ],
+      "counts": [
+        1228,
+        16820,
+        19578,
+        2374
+      ],
+      "id": 108,
+      "parent_id": 4,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1090
+    },
+    {
+      "medoids": [
+        620,
+        1409,
+        2417,
+        2550
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          0
+        ],
+        "n": 574,
+        "share": 0.01435,
+        "loss": 0.19828344987536223,
+        "rest_loss": 0.018384865272798392,
+        "contrast": 0.17989858460256383
+      },
+      "objectives": [
+        0.17989858460256383,
+        0.01435
+      ],
+      "counts": [
+        574,
+        7161,
+        16623,
+        15642
+      ],
+      "id": 109,
+      "parent_id": 1,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1100
+    },
+    {
+      "medoids": [
+        620,
+        722,
+        1664,
+        2074
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          0
+        ],
+        "n": 492,
+        "share": 0.0123,
+        "loss": 0.21059185340275116,
+        "rest_loss": 0.018604971312130545,
+        "contrast": 0.19198688209062062
+      },
+      "objectives": [
+        0.19198688209062062,
+        0.0123
+      ],
+      "counts": [
+        492,
+        38129,
+        329,
+        1050
+      ],
+      "id": 110,
+      "parent_id": 5,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1110
+    },
+    {
+      "medoids": [
+        32,
+        419,
+        520,
+        2538
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1,
+          3
+        ],
+        "n": 27196,
+        "share": 0.6799,
+        "loss": 0.02909776304304848,
+        "rest_loss": 0.0036952229580647245,
+        "contrast": 0.025402540084983757
+      },
+      "objectives": [
+        0.025402540084983757,
+        0.6799
+      ],
+      "counts": [
+        3876,
+        9566,
+        8928,
+        17630
+      ],
+      "id": 111,
+      "parent_id": 67,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1120
+    },
+    {
+      "medoids": [
+        443,
+        620,
+        1733,
+        2074
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1
+        ],
+        "n": 473,
+        "share": 0.011825,
+        "loss": 0.21713611082866607,
+        "rest_loss": 0.01861894446964981,
+        "contrast": 0.19851716635901626
+      },
+      "objectives": [
+        0.19851716635901626,
+        0.011825
+      ],
+      "counts": [
+        33263,
+        473,
+        5217,
+        1047
+      ],
+      "id": 112,
+      "parent_id": 2,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1130
+    },
+    {
+      "medoids": [
+        69,
+        620,
+        1114,
+        2074
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1
+        ],
+        "n": 450,
+        "share": 0.01125,
+        "loss": 0.2208091368557946,
+        "rest_loss": 0.01869259890995448,
+        "contrast": 0.2021165379458401
+      },
+      "objectives": [
+        0.2021165379458401,
+        0.01125
+      ],
+      "counts": [
+        1085,
+        450,
+        37636,
+        829
+      ],
+      "id": 113,
+      "parent_id": 3,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1140
+    },
+    {
+      "medoids": [
+        378,
+        617,
+        1625,
+        2472
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1
+        ],
+        "n": 593,
+        "share": 0.014825,
+        "loss": 0.15635795825415671,
+        "rest_loss": 0.01892902604179695,
+        "contrast": 0.13742893221235977
+      },
+      "objectives": [
+        0.13742893221235977,
+        0.014825
+      ],
+      "counts": [
+        20408,
+        593,
+        4527,
+        14472
+      ],
+      "id": 114,
+      "parent_id": 107,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1150
+    },
+    {
+      "medoids": [
+        32,
+        419,
+        520,
+        554
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1,
+          3
+        ],
+        "n": 29863,
+        "share": 0.746575,
+        "loss": 0.026807846374118666,
+        "rest_loss": 0.0037578851932032653,
+        "contrast": 0.0230499611809154
+      },
+      "objectives": [
+        0.0230499611809154,
+        0.746575
+      ],
+      "counts": [
+        4035,
+        11643,
+        6102,
+        18220
+      ],
+      "id": 115,
+      "parent_id": 67,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1160
+    },
+    {
+      "medoids": [
+        32,
+        419,
+        447,
+        1675
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1,
+          2
+        ],
+        "n": 28592,
+        "share": 0.7148,
+        "loss": 0.027724057350139268,
+        "rest_loss": 0.004029641542656486,
+        "contrast": 0.023694415807482782
+      },
+      "objectives": [
+        0.023694415807482782,
+        0.7148
+      ],
+      "counts": [
+        5753,
+        10869,
+        17723,
+        5655
+      ],
+      "id": 116,
+      "parent_id": 67,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1170
+    },
+    {
+      "medoids": [
+        154,
+        440,
+        1027,
+        2074
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          3
+        ],
+        "n": 789,
+        "share": 0.019725,
+        "loss": 0.09964670361290376,
+        "rest_loss": 0.019383212601648162,
+        "contrast": 0.0802634910112556
+      },
+      "objectives": [
+        0.0802634910112556,
+        0.019725
+      ],
+      "counts": [
+        2082,
+        1108,
+        36021,
+        789
+      ],
+      "id": 117,
+      "parent_id": 4,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1180
+    },
+    {
+      "medoids": [
+        378,
+        419,
+        1084,
+        1625
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          2
+        ],
+        "n": 9029,
+        "share": 0.225725,
+        "loss": 0.049068990214803695,
+        "rest_loss": 0.012773642627759665,
+        "contrast": 0.03629534758704403
+      },
+      "objectives": [
+        0.03629534758704403,
+        0.225725
+      ],
+      "counts": [
+        12326,
+        13715,
+        9029,
+        4930
+      ],
+      "id": 118,
+      "parent_id": 107,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1190
+    },
+    {
+      "medoids": [
+        447,
+        1625,
+        1785,
+        1973
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          0,
+          3
+        ],
+        "n": 29579,
+        "share": 0.739475,
+        "loss": 0.02656728303017405,
+        "rest_loss": 0.005068873786036759,
+        "contrast": 0.021498409244137293
+      },
+      "objectives": [
+        0.021498409244137293,
+        0.739475
+      ],
+      "counts": [
+        20782,
+        4773,
+        5648,
+        8797
+      ],
+      "id": 119,
+      "parent_id": 107,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1200
+    },
+    {
+      "medoids": [
+        419,
+        447,
+        557,
+        1625
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          0,
+          1
+        ],
+        "n": 30202,
+        "share": 0.75505,
+        "loss": 0.02660774037162869,
+        "rest_loss": 0.0035772018544475963,
+        "contrast": 0.023030538517181093
+      },
+      "objectives": [
+        0.023030538517181093,
+        0.75505
+      ],
+      "counts": [
+        11374,
+        18828,
+        3876,
+        5922
+      ],
+      "id": 120,
+      "parent_id": 107,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1210
+    },
+    {
+      "medoids": [
+        303,
+        492,
+        514,
+        1239
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          3
+        ],
+        "n": 9090,
+        "share": 0.22725,
+        "loss": 0.054659528324211344,
+        "rest_loss": 0.01105795166634507,
+        "contrast": 0.04360157665786628
+      },
+      "objectives": [
+        0.04360157665786628,
+        0.22725
+      ],
+      "counts": [
+        14365,
+        2760,
+        13785,
+        9090
+      ],
+      "id": 121,
+      "parent_id": null,
+      "operation": "restart",
+      "added_region_scores": 1220
+    },
+    {
+      "medoids": [
+        253,
+        668,
+        1175,
+        2958
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          3
+        ],
+        "n": 2659,
+        "share": 0.066475,
+        "loss": 0.06589822539026087,
+        "rest_loss": 0.017766878689941448,
+        "contrast": 0.04813134670031942
+      },
+      "objectives": [
+        0.04813134670031942,
+        0.066475
+      ],
+      "counts": [
+        3346,
+        4946,
+        29049,
+        2659
+      ],
+      "id": 122,
+      "parent_id": null,
+      "operation": "restart",
+      "added_region_scores": 1230
+    },
+    {
+      "medoids": [
+        248,
+        620,
+        1628,
+        2074
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1
+        ],
+        "n": 459,
+        "share": 0.011475,
+        "loss": 0.22171352293579577,
+        "rest_loss": 0.018636096493418908,
+        "contrast": 0.20307742644237686
+      },
+      "objectives": [
+        0.20307742644237686,
+        0.011475
+      ],
+      "counts": [
+        18063,
+        459,
+        20466,
+        1012
+      ],
+      "id": 123,
+      "parent_id": 3,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1240
+    },
+    {
+      "medoids": [
+        154,
+        248,
+        2074,
+        2154
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          2
+        ],
+        "n": 783,
+        "share": 0.019575,
+        "loss": 0.07821289808267558,
+        "rest_loss": 0.019823436246400088,
+        "contrast": 0.05838946183627549
+      },
+      "objectives": [
+        0.05838946183627549,
+        0.019575
+      ],
+      "counts": [
+        1065,
+        31480,
+        783,
+        6672
+      ],
+      "id": 124,
+      "parent_id": 3,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1250
+    },
+    {
+      "medoids": [
+        154,
+        1027,
+        2074,
+        2362
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          2
+        ],
+        "n": 775,
+        "share": 0.019375,
+        "loss": 0.08078313324055665,
+        "rest_loss": 0.019784562656784598,
+        "contrast": 0.060998570583772053
+      },
+      "objectives": [
+        0.060998570583772053,
+        0.019375
+      ],
+      "counts": [
+        1143,
+        30557,
+        775,
+        7525
+      ],
+      "id": 125,
+      "parent_id": 4,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1260
+    },
+    {
+      "medoids": [
+        32,
+        447,
+        2099,
+        2187
+      ],
+      "valid": false,
+      "region": null,
+      "objectives": null,
+      "counts": [
+        8576,
+        20240,
+        0,
+        11184
+      ],
+      "id": 126,
+      "parent_id": 67,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1270
+    },
+    {
+      "medoids": [
+        144,
+        154,
+        620,
+        1842
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          2
+        ],
+        "n": 496,
+        "share": 0.0124,
+        "loss": 0.2110169471220377,
+        "rest_loss": 0.01858019422593349,
+        "contrast": 0.1924367528961042
+      },
+      "objectives": [
+        0.1924367528961042,
+        0.0124
+      ],
+      "counts": [
+        21809,
+        955,
+        496,
+        16740
+      ],
+      "id": 127,
+      "parent_id": 2,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1280
+    },
+    {
+      "medoids": [
+        419,
+        447,
+        1002,
+        2305
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          2
+        ],
+        "n": 8166,
+        "share": 0.20415,
+        "loss": 0.05161985144277516,
+        "rest_loss": 0.013103244694103953,
+        "contrast": 0.0385166067486712
+      },
+      "objectives": [
+        0.0385166067486712,
+        0.20415
+      ],
+      "counts": [
+        11066,
+        11034,
+        8166,
+        9734
+      ],
+      "id": 128,
+      "parent_id": 67,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1290
+    },
+    {
+      "medoids": [
+        144,
+        1112,
+        1713,
+        2074
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1,
+          3
+        ],
+        "n": 1213,
+        "share": 0.030325,
+        "loss": 0.12121277554504206,
+        "rest_loss": 0.017831368802373765,
+        "contrast": 0.1033814067426683
+      },
+      "objectives": [
+        0.1033814067426683,
+        0.030325
+      ],
+      "counts": [
+        14331,
+        398,
+        24456,
+        815
+      ],
+      "id": 129,
+      "parent_id": 40,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1300
+    },
+    {
+      "medoids": [
+        144,
+        1713,
+        1782,
+        2074
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          3
+        ],
+        "n": 865,
+        "share": 0.021625,
+        "loss": 0.09711925088724985,
+        "rest_loss": 0.019283205479911487,
+        "contrast": 0.07783604540733836
+      },
+      "objectives": [
+        0.07783604540733836,
+        0.021625
+      ],
+      "counts": [
+        9435,
+        8569,
+        21131,
+        865
+      ],
+      "id": 130,
+      "parent_id": 40,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1310
+    },
+    {
+      "medoids": [
+        32,
+        447,
+        520,
+        2294
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1,
+          3
+        ],
+        "n": 29262,
+        "share": 0.73155,
+        "loss": 0.026926294139192716,
+        "rest_loss": 0.004725198302547019,
+        "contrast": 0.022201095836645698
+      },
+      "objectives": [
+        0.022201095836645698,
+        0.73155
+      ],
+      "counts": [
+        3770,
+        21059,
+        6968,
+        8203
+      ],
+      "id": 131,
+      "parent_id": 67,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1320
+    },
+    {
+      "medoids": [
+        603,
+        620,
+        691,
+        2074
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1
+        ],
+        "n": 470,
+        "share": 0.01175,
+        "loss": 0.2184179422101518,
+        "rest_loss": 0.01861876968467078,
+        "contrast": 0.19979917252548102
+      },
+      "objectives": [
+        0.19979917252548102,
+        0.01175
+      ],
+      "counts": [
+        6608,
+        470,
+        32211,
+        711
+      ],
+      "id": 132,
+      "parent_id": 2,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1330
+    },
+    {
+      "medoids": [
+        378,
+        419,
+        1440,
+        1625
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1,
+          2
+        ],
+        "n": 27698,
+        "share": 0.69245,
+        "loss": 0.028642274900205256,
+        "rest_loss": 0.0036841707273550634,
+        "contrast": 0.024958104172850194
+      },
+      "objectives": [
+        0.024958104172850194,
+        0.69245
+      ],
+      "counts": [
+        7462,
+        10112,
+        17586,
+        4840
+      ],
+      "id": 133,
+      "parent_id": 107,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1340
+    },
+    {
+      "medoids": [
+        620,
+        1713,
+        2074,
+        2778
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          0,
+          2
+        ],
+        "n": 1201,
+        "share": 0.030025,
+        "loss": 0.10979251077228416,
+        "rest_loss": 0.01821685077028516,
+        "contrast": 0.091575660001999
+      },
+      "objectives": [
+        0.091575660001999,
+        0.030025
+      ],
+      "counts": [
+        341,
+        21735,
+        860,
+        17064
+      ],
+      "id": 134,
+      "parent_id": 40,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1350
+    },
+    {
+      "medoids": [
+        144,
+        154,
+        2074,
+        2306
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          2
+        ],
+        "n": 791,
+        "share": 0.019775,
+        "loss": 0.0899017226950751,
+        "rest_loss": 0.01957571312254847,
+        "contrast": 0.07032600957252663
+      },
+      "objectives": [
+        0.07032600957252663,
+        0.019775
+      ],
+      "counts": [
+        36585,
+        621,
+        791,
+        2003
+      ],
+      "id": 135,
+      "parent_id": 2,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1360
+    },
+    {
+      "medoids": [
+        248,
+        620,
+        2333,
+        2609
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1
+        ],
+        "n": 655,
+        "share": 0.016375,
+        "loss": 0.1797215194981713,
+        "rest_loss": 0.01832351768210713,
+        "contrast": 0.16139800181606417
+      },
+      "objectives": [
+        0.16139800181606417,
+        0.016375
+      ],
+      "counts": [
+        24109,
+        655,
+        3136,
+        12100
+      ],
+      "id": 136,
+      "parent_id": 3,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1370
+    },
+    {
+      "medoids": [
+        1027,
+        2074,
+        2146,
+        2730
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          3
+        ],
+        "n": 994,
+        "share": 0.02485,
+        "loss": 0.08279570890072259,
+        "rest_loss": 0.0193907979240755,
+        "contrast": 0.06340491097664709
+      },
+      "objectives": [
+        0.06340491097664709,
+        0.02485
+      ],
+      "counts": [
+        32574,
+        876,
+        5556,
+        994
+      ],
+      "id": 137,
+      "parent_id": 5,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1380
+    },
+    {
+      "medoids": [
+        239,
+        419,
+        447,
+        1625
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          0
+        ],
+        "n": 1507,
+        "share": 0.037675,
+        "loss": 0.11378578100303482,
+        "rest_loss": 0.017332533876347228,
+        "contrast": 0.0964532471266876
+      },
+      "objectives": [
+        0.0964532471266876,
+        0.037675
+      ],
+      "counts": [
+        1507,
+        11627,
+        17655,
+        9211
+      ],
+      "id": 138,
+      "parent_id": 107,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1390
+    },
+    {
+      "medoids": [
+        378,
+        419,
+        1564,
+        1625
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1,
+          2
+        ],
+        "n": 30461,
+        "share": 0.761525,
+        "loss": 0.026411329699364747,
+        "rest_loss": 0.003579084233300932,
+        "contrast": 0.022832245466063814
+      },
+      "objectives": [
+        0.022832245466063814,
+        0.761525
+      ],
+      "counts": [
+        4525,
+        12241,
+        18220,
+        5014
+      ],
+      "id": 139,
+      "parent_id": 107,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1400
+    },
+    {
+      "medoids": [
+        419,
+        447,
+        520,
+        1878
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          0,
+          1
+        ],
+        "n": 30750,
+        "share": 0.76875,
+        "loss": 0.02622997746031884,
+        "rest_loss": 0.0034686044939462412,
+        "contrast": 0.0227613729663726
+      },
+      "objectives": [
+        0.0227613729663726,
+        0.76875
+      ],
+      "counts": [
+        11921,
+        18829,
+        4838,
+        4412
+      ],
+      "id": 140,
+      "parent_id": 67,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1410
+    },
+    {
+      "medoids": [
+        295,
+        740,
+        824,
+        1498
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1
+        ],
+        "n": 6591,
+        "share": 0.164775,
+        "loss": 0.06326599713760978,
+        "rest_loss": 0.01262145563590114,
+        "contrast": 0.050644541501708634
+      },
+      "objectives": [
+        0.050644541501708634,
+        0.164775
+      ],
+      "counts": [
+        4058,
+        6591,
+        13285,
+        16066
+      ],
+      "id": 141,
+      "parent_id": null,
+      "operation": "restart",
+      "added_region_scores": 1420
+    },
+    {
+      "medoids": [
+        1170,
+        2497,
+        2580,
+        2582
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          0
+        ],
+        "n": 1325,
+        "share": 0.033125,
+        "loss": 0.1113195800396589,
+        "rest_loss": 0.017870923204169598,
+        "contrast": 0.09344865683548931
+      },
+      "objectives": [
+        0.09344865683548931,
+        0.033125
+      ],
+      "counts": [
+        1325,
+        22389,
+        14225,
+        2061
+      ],
+      "id": 142,
+      "parent_id": null,
+      "operation": "restart",
+      "added_region_scores": 1430
+    },
+    {
+      "medoids": [
+        1112,
+        1582,
+        2074,
+        2417
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          0,
+          2
+        ],
+        "n": 1396,
+        "share": 0.0349,
+        "loss": 0.11299903757985715,
+        "rest_loss": 0.017638320951516077,
+        "contrast": 0.09536071662834107
+      },
+      "objectives": [
+        0.09536071662834107,
+        0.0349
+      ],
+      "counts": [
+        396,
+        23760,
+        1000,
+        14844
+      ],
+      "id": 143,
+      "parent_id": 1,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1440
+    },
+    {
+      "medoids": [
+        144,
+        620,
+        2074,
+        2292
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1,
+          2
+        ],
+        "n": 1012,
+        "share": 0.0253,
+        "loss": 0.11797301536192327,
+        "rest_loss": 0.018448438158601133,
+        "contrast": 0.09952457720332214
+      },
+      "objectives": [
+        0.09952457720332214,
+        0.0253
+      ],
+      "counts": [
+        22844,
+        318,
+        694,
+        16144
+      ],
+      "id": 144,
+      "parent_id": 40,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1450
+    },
+    {
+      "medoids": [
+        154,
+        620,
+        1653,
+        2074
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1
+        ],
+        "n": 459,
+        "share": 0.011475,
+        "loss": 0.2220194070862094,
+        "rest_loss": 0.01863254572775694,
+        "contrast": 0.20338686135845246
+      },
+      "objectives": [
+        0.20338686135845246,
+        0.011475
+      ],
+      "counts": [
+        36297,
+        459,
+        2585,
+        659
+      ],
+      "id": 145,
+      "parent_id": 3,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1460
+    },
+    {
+      "medoids": [
+        32,
+        419,
+        447,
+        2797
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1,
+          2
+        ],
+        "n": 22541,
+        "share": 0.563525,
+        "loss": 0.02999485049820397,
+        "rest_loss": 0.009309953227206106,
+        "contrast": 0.020684897270997864
+      },
+      "objectives": [
+        0.020684897270997864,
+        0.563525
+      ],
+      "counts": [
+        8552,
+        11085,
+        11456,
+        8907
+      ],
+      "id": 146,
+      "parent_id": 67,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1470
+    },
+    {
+      "medoids": [
+        365,
+        378,
+        419,
+        1625
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          0
+        ],
+        "n": 5123,
+        "share": 0.128075,
+        "loss": 0.066964747407177,
+        "rest_loss": 0.01420982302109813,
+        "contrast": 0.05275492438607887
+      },
+      "objectives": [
+        0.05275492438607887,
+        0.128075
+      ],
+      "counts": [
+        5123,
+        16050,
+        13813,
+        5014
+      ],
+      "id": 147,
+      "parent_id": 107,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1480
+    },
+    {
+      "medoids": [
+        620,
+        1027,
+        2074,
+        2807
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          0,
+          2
+        ],
+        "n": 1230,
+        "share": 0.03075,
+        "loss": 0.09314655976670694,
+        "rest_loss": 0.018676454216166045,
+        "contrast": 0.0744701055505409
+      },
+      "objectives": [
+        0.0744701055505409,
+        0.03075
+      ],
+      "counts": [
+        266,
+        30395,
+        964,
+        8375
+      ],
+      "id": 148,
+      "parent_id": 5,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1490
+    },
+    {
+      "medoids": [
+        325,
+        562,
+        588,
+        749
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          0,
+          2
+        ],
+        "n": 2722,
+        "share": 0.06805,
+        "loss": 0.08978687506627854,
+        "rest_loss": 0.015941212633279602,
+        "contrast": 0.07384566243299893
+      },
+      "objectives": [
+        0.07384566243299893,
+        0.06805
+      ],
+      "counts": [
+        2503,
+        15569,
+        219,
+        21709
+      ],
+      "id": 149,
+      "parent_id": null,
+      "operation": "restart",
+      "added_region_scores": 1500
+    },
+    {
+      "medoids": [
+        620,
+        1375,
+        2074,
+        2417
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          0
+        ],
+        "n": 440,
+        "share": 0.011,
+        "loss": 0.22747231558604106,
+        "rest_loss": 0.01866957986895726,
+        "contrast": 0.2088027357170838
+      },
+      "objectives": [
+        0.2088027357170838,
+        0.011
+      ],
+      "counts": [
+        440,
+        25138,
+        866,
+        13556
+      ],
+      "id": 150,
+      "parent_id": 1,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1510
+    },
+    {
+      "medoids": [
+        378,
+        591,
+        1564,
+        2450
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1,
+          2
+        ],
+        "n": 29966,
+        "share": 0.74915,
+        "loss": 0.026616300378301455,
+        "rest_loss": 0.004093316856450644,
+        "contrast": 0.02252298352185081
+      },
+      "objectives": [
+        0.02252298352185081,
+        0.74915
+      ],
+      "counts": [
+        6257,
+        10592,
+        19374,
+        3777
+      ],
+      "id": 151,
+      "parent_id": 139,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1520
+    },
+    {
+      "medoids": [
+        419,
+        447,
+        699,
+        1625
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          2
+        ],
+        "n": 1225,
+        "share": 0.030625,
+        "loss": 0.12875429671026287,
+        "rest_loss": 0.01756111889113437,
+        "contrast": 0.11119317781912849
+      },
+      "objectives": [
+        0.11119317781912849,
+        0.030625
+      ],
+      "counts": [
+        11618,
+        17946,
+        1225,
+        9211
+      ],
+      "id": 152,
+      "parent_id": 107,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1530
+    },
+    {
+      "medoids": [
+        32,
+        447,
+        1996,
+        2447
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1,
+          2
+        ],
+        "n": 27303,
+        "share": 0.682575,
+        "loss": 0.028344786499803883,
+        "rest_loss": 0.005100314457719286,
+        "contrast": 0.023244472042084595
+      },
+      "objectives": [
+        0.023244472042084595,
+        0.682575
+      ],
+      "counts": [
+        8600,
+        19853,
+        7450,
+        4097
+      ],
+      "id": 153,
+      "parent_id": 67,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1540
+    },
+    {
+      "medoids": [
+        419,
+        1505,
+        1564,
+        1625
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          0,
+          2
+        ],
+        "n": 29863,
+        "share": 0.746575,
+        "loss": 0.026807846374118666,
+        "rest_loss": 0.0037578851932032653,
+        "contrast": 0.0230499611809154
+      },
+      "objectives": [
+        0.0230499611809154,
+        0.746575
+      ],
+      "counts": [
+        11643,
+        4035,
+        18220,
+        6102
+      ],
+      "id": 154,
+      "parent_id": 139,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1550
+    },
+    {
+      "medoids": [
+        378,
+        447,
+        802,
+        1625
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1,
+          2
+        ],
+        "n": 31135,
+        "share": 0.778375,
+        "loss": 0.02574521890330897,
+        "rest_loss": 0.004182629206912849,
+        "contrast": 0.02156258969639612
+      },
+      "objectives": [
+        0.02156258969639612,
+        0.778375
+      ],
+      "counts": [
+        4338,
+        18749,
+        12386,
+        4527
+      ],
+      "id": 155,
+      "parent_id": 107,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1560
+    },
+    {
+      "medoids": [
+        378,
+        419,
+        1488,
+        1866
+      ],
+      "valid": false,
+      "region": null,
+      "objectives": null,
+      "counts": [
+        9245,
+        11926,
+        0,
+        18829
+      ],
+      "id": 156,
+      "parent_id": 107,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1570
+    },
+    {
+      "medoids": [
+        378,
+        802,
+        1625,
+        2854
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          1,
+          3
+        ],
+        "n": 28053,
+        "share": 0.701325,
+        "loss": 0.02806730472886948,
+        "rest_loss": 0.004292650783864713,
+        "contrast": 0.02377465394500477
+      },
+      "objectives": [
+        0.02377465394500477,
+        0.701325
+      ],
+      "counts": [
+        7420,
+        12827,
+        4527,
+        15226
+      ],
+      "id": 157,
+      "parent_id": 155,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1580
+    },
+    {
+      "medoids": [
+        0,
+        378,
+        447,
+        802
+      ],
+      "valid": false,
+      "region": null,
+      "objectives": null,
+      "counts": [
+        8813,
+        0,
+        18749,
+        12438
+      ],
+      "id": 158,
+      "parent_id": 155,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1590
+    },
+    {
+      "medoids": [
+        1582,
+        1623,
+        2074,
+        2417
+      ],
+      "valid": true,
+      "region": {
+        "cells": [
+          2
+        ],
+        "n": 883,
+        "share": 0.022075,
+        "loss": 0.07613002003913624,
+        "rest_loss": 0.019721184926739008,
+        "contrast": 0.056408835112397235
+      },
+      "objectives": [
+        0.056408835112397235,
+        0.022075
+      ],
+      "counts": [
+        21993,
+        6069,
+        883,
+        11055
+      ],
+      "id": 159,
+      "parent_id": 1,
+      "operation": "medoid_replacement",
+      "added_region_scores": 1600
+    }
+  ],
+  "frontier_ids": [
+    1,
+    40,
+    2,
+    3,
+    4,
+    5,
+    6,
+    49,
+    7,
+    8,
+    53,
+    9,
+    25,
+    10,
+    11,
+    12,
+    13,
+    56,
+    14,
+    15,
+    16,
+    85,
+    17,
+    102,
+    78,
+    37,
+    45,
+    59,
+    82,
+    19,
+    0,
+    147,
+    141,
+    101,
+    43,
+    52,
+    29,
+    26,
+    111,
+    133,
+    157,
+    116,
+    70,
+    69,
+    67,
+    139,
+    107,
+    155
+  ],
+  "primary": {
+    "medoids": [
+      829,
+      1398,
+      2003,
+      2593
+    ],
+    "valid": true,
+    "region": {
+      "cells": [
+        3
+      ],
+      "n": 4196,
+      "share": 0.1049,
+      "loss": 0.07858115358815591,
+      "rest_loss": 0.014214330187071416,
+      "contrast": 0.0643668234010845
+    },
+    "objectives": [
+      0.0643668234010845,
+      0.1049
+    ],
+    "counts": [
+      22619,
+      7145,
+      6040,
+      4196
+    ],
+    "id": 19,
+    "parent_id": 0,
+    "operation": "medoid_replacement",
+    "added_region_scores": 200
+  },
+  "trace": [
+    {
+      "added_region_scores": 10,
+      "hypervolume": 0.007527130481224691,
+      "max_contrast": 0.06055615833648183
+    },
+    {
+      "added_region_scores": 210,
+      "hypervolume": 0.010183546947977391,
+      "max_contrast": 0.2088027357170838
+    },
+    {
+      "added_region_scores": 410,
+      "hypervolume": 0.021300563251122055,
+      "max_contrast": 0.2088027357170838
+    },
+    {
+      "added_region_scores": 610,
+      "hypervolume": 0.026855693283626608,
+      "max_contrast": 0.2088027357170838
+    },
+    {
+      "added_region_scores": 810,
+      "hypervolume": 0.030504527371951796,
+      "max_contrast": 0.2088027357170838
+    },
+    {
+      "added_region_scores": 1010,
+      "hypervolume": 0.030817257174608877,
+      "max_contrast": 0.2088027357170838
+    },
+    {
+      "added_region_scores": 1210,
+      "hypervolume": 0.0319091848573918,
+      "max_contrast": 0.2088027357170838
+    },
+    {
+      "added_region_scores": 1410,
+      "hypervolume": 0.03192550304581265,
+      "max_contrast": 0.2088027357170838
+    },
+    {
+      "added_region_scores": 1600,
+      "hypervolume": 0.032418012513804,
+      "max_contrast": 0.2088027357170838
+    }
+  ],
+  "region_score_budget": 1600,
+  "added_candidate_evaluations": 160,
+  "inherited_candidates": 0,
+  "max_union": 2,
+  "unique_medoids": 160,
+  "hypervolume": 0.032418012513804
+}

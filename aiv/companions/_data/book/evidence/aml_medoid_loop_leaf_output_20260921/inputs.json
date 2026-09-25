@@ -1,0 +1,7 @@
+{
+  "book/evidence/aml_error_clustering_current_20260921/observations.npz": "dbd8702113a9327bbb87f86325fca1bbee096f93534ee0f848befcb3c0cba139",
+  "book/evidence/aml_error_clustering_current_20260921/base.joblib": "acb68230b330293625f123a10e5c7f7c9580bb78eabbd286d378290b18be32e7",
+  "book/evidence/aml_error_clustering_current_20260921/residual_model.json": "2c25c2705854bc702780408e8b6599e604115ec120b5a24f7aaed7083832770d",
+  "twinning/gpu_twinning/core.py": "6db65781318b03742d93a890df140f0adc29ee7c263226fd4853e753f336207c",
+  "book/evidence/aml_leaf_geometry_20260921/frozen_selection.json": "251efc7582acb3e491ba3f12602e1c8650cf03b454555d935112aa2b58f37d7c"
+}

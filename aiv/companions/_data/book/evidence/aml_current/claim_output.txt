@@ -1,0 +1,6 @@
+Supported: llm_compromise overall_logloss 0.09826
+Supported: llm_compromise worst_logloss 0.103333
+Supported: experiment confirmation_n 200000
+Supported: full_compromise worst_logloss 0.103417
+Contradicted: llm_compromise worst_logloss 0.4
+Absent: experiment fairness_passed True

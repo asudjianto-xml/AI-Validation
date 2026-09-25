@@ -1,0 +1,6 @@
+{
+  "book/evidence/aml_error_clustering_current_20260921/observations.npz": "dbd8702113a9327bbb87f86325fca1bbee096f93534ee0f848befcb3c0cba139",
+  "book/evidence/aml_error_clustering_current_20260921/base.joblib": "acb68230b330293625f123a10e5c7f7c9580bb78eabbd286d378290b18be32e7",
+  "book/evidence/aml_error_clustering_current_20260921/residual_model.json": "2c25c2705854bc702780408e8b6599e604115ec120b5a24f7aaed7083832770d",
+  "book/evidence/aml_error_clustering_current_20260921/frozen_selection.json": "6aad26c5203b2a69659921b24803cfb67a7aa69e1606df6edb04010ce0de5cb4"
+}

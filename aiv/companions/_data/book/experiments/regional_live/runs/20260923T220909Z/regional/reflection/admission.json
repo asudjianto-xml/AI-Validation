@@ -1,0 +1,29 @@
+{
+  "admitted": true,
+  "response_sha256": "1b9c4f943eb9f5f47a8e94dac5959a082039dd2afbdb64b7c69b64f265b5a8d0",
+  "version": "leaf-output-medoid-derived-product-v1",
+  "parent": "leaf-output-medoid-single-cell-v1",
+  "reviewer": "Codex source and executability review",
+  "reason": "Product of two existing dimensionless pre-decision fields; finite on discovery data. Auxiliary may refit; base predictor stays fixed and region remains a single cell.",
+  "checks": {
+    "feature_metadata": [
+      {
+        "feature": "business_receipt_share",
+        "meaning": "Declared expected share of receipts from business activity",
+        "available": "pre_period",
+        "unit": "fraction",
+        "eligibility": "Available before the monitoring decision; not a post-investigation field"
+      },
+      {
+        "feature": "cash_intensity_z",
+        "meaning": "Standardized deviation of cash receipts from the account's own baseline",
+        "available": "period_end",
+        "unit": "standardized score",
+        "eligibility": "Available before the monitoring decision; not a post-investigation field"
+      }
+    ],
+    "finite_discovery": true,
+    "new_columns": 1
+  },
+  "limits": "Admission establishes eligibility and executability, not causal validity or improvement. Proposal decile wording is inaccurate: packet bins are quintiles. Improvement is evaluated under the unchanged frozen comparison protocol."
+}

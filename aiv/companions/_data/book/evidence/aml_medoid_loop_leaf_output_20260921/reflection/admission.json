@@ -1,0 +1,15 @@
+{
+  "admitted": true,
+  "response_sha256": "ae5eeeb2ed78326e70d5b1e61ff41f8417982a0b383f5e6add3d68f3e0ebd3aa",
+  "reviewer": "Codex",
+  "parent": "leaf-output-medoid-single-cell-v1",
+  "version": "leaf-output-medoid-union-v1",
+  "reason": "A union of at most two cells from the same four-medoid partition preserves the frozen logistic predictor, auxiliary leaf-output embedding, observed covariates, Brier loss reference and all support checks. Membership uses only covariates and frozen output-space medoids. The new rule can be executed and scored without any new measurements. The fragmentation mechanism and performance prediction remain unverified.",
+  "checks": [
+    "schema, parent version and supplied evidence IDs passed",
+    "two cells must come from the same candidate partition",
+    "no outcome-dependent membership or new measurements",
+    "four singles and six pairs charged per partition",
+    "new confirmation seed 62491 after all finalist choices freeze"
+  ]
+}

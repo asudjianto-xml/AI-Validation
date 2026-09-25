@@ -1,0 +1,981 @@
+{
+  "rows": [
+    {
+      "id": "discovery_74101_brier_p0_1",
+      "task": "74101_brier",
+      "rule": "p0",
+      "source_access": true,
+      "phase": "discovery",
+      "verdict": "correct_answer",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": 0.08577237801043543,
+        "sources": [
+          "region:confirmation/reflection_74101/brier"
+        ]
+      }
+    },
+    {
+      "id": "discovery_74101_brier_p0_0",
+      "task": "74101_brier",
+      "rule": "p0",
+      "source_access": false,
+      "phase": "discovery",
+      "verdict": "correct_abstention",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": null,
+        "sources": []
+      }
+    },
+    {
+      "id": "discovery_74101_brier_p1_1",
+      "task": "74101_brier",
+      "rule": "p1",
+      "source_access": true,
+      "phase": "discovery",
+      "verdict": "correct_answer",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": 0.08577237801043543,
+        "sources": [
+          "region:confirmation/reflection_74101/brier"
+        ]
+      }
+    },
+    {
+      "id": "discovery_74101_brier_p1_0",
+      "task": "74101_brier",
+      "rule": "p1",
+      "source_access": false,
+      "phase": "discovery",
+      "verdict": "correct_abstention",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": null,
+        "sources": []
+      }
+    },
+    {
+      "id": "discovery_74101_brier_p2_1",
+      "task": "74101_brier",
+      "rule": "p2",
+      "source_access": true,
+      "phase": "discovery",
+      "verdict": "correct_answer",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": 0.08577237801043543,
+        "sources": [
+          "region:confirmation/reflection_74101/brier"
+        ]
+      }
+    },
+    {
+      "id": "discovery_74101_brier_p2_0",
+      "task": "74101_brier",
+      "rule": "p2",
+      "source_access": false,
+      "phase": "discovery",
+      "verdict": "correct_abstention",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": null,
+        "sources": []
+      }
+    },
+    {
+      "id": "discovery_74101_brier_p3_1",
+      "task": "74101_brier",
+      "rule": "p3",
+      "source_access": true,
+      "phase": "discovery",
+      "verdict": "correct_answer",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": 0.08577237801043543,
+        "sources": [
+          "region:confirmation/reflection_74101/brier"
+        ]
+      }
+    },
+    {
+      "id": "discovery_74101_brier_p3_0",
+      "task": "74101_brier",
+      "rule": "p3",
+      "source_access": false,
+      "phase": "discovery",
+      "verdict": "correct_abstention",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": null,
+        "sources": []
+      }
+    },
+    {
+      "id": "discovery_74101_contrast_p0_1",
+      "task": "74101_contrast",
+      "rule": "p0",
+      "source_access": true,
+      "phase": "discovery",
+      "verdict": "correct_answer",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": 0.07251419564465404,
+        "sources": [
+          "region:confirmation/reflection_74101/contrast"
+        ]
+      }
+    },
+    {
+      "id": "discovery_74101_contrast_p0_0",
+      "task": "74101_contrast",
+      "rule": "p0",
+      "source_access": false,
+      "phase": "discovery",
+      "verdict": "correct_abstention",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": null,
+        "sources": []
+      }
+    },
+    {
+      "id": "discovery_74101_contrast_p1_1",
+      "task": "74101_contrast",
+      "rule": "p1",
+      "source_access": true,
+      "phase": "discovery",
+      "verdict": "correct_answer",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": 0.07251419564465404,
+        "sources": [
+          "region:confirmation/reflection_74101/contrast"
+        ]
+      }
+    },
+    {
+      "id": "discovery_74101_contrast_p1_0",
+      "task": "74101_contrast",
+      "rule": "p1",
+      "source_access": false,
+      "phase": "discovery",
+      "verdict": "correct_abstention",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": null,
+        "sources": []
+      }
+    },
+    {
+      "id": "discovery_74101_contrast_p2_1",
+      "task": "74101_contrast",
+      "rule": "p2",
+      "source_access": true,
+      "phase": "discovery",
+      "verdict": "correct_answer",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": 0.07251419564465404,
+        "sources": [
+          "region:confirmation/reflection_74101/contrast"
+        ]
+      }
+    },
+    {
+      "id": "discovery_74101_contrast_p2_0",
+      "task": "74101_contrast",
+      "rule": "p2",
+      "source_access": false,
+      "phase": "discovery",
+      "verdict": "correct_abstention",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": null,
+        "sources": []
+      }
+    },
+    {
+      "id": "discovery_74101_contrast_p3_1",
+      "task": "74101_contrast",
+      "rule": "p3",
+      "source_access": true,
+      "phase": "discovery",
+      "verdict": "correct_answer",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": 0.07251419564465404,
+        "sources": [
+          "region:confirmation/reflection_74101/contrast"
+        ]
+      }
+    },
+    {
+      "id": "discovery_74101_contrast_p3_0",
+      "task": "74101_contrast",
+      "rule": "p3",
+      "source_access": false,
+      "phase": "discovery",
+      "verdict": "correct_abstention",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": null,
+        "sources": []
+      }
+    },
+    {
+      "id": "discovery_74101_share_p0_1",
+      "task": "74101_share",
+      "rule": "p0",
+      "source_access": true,
+      "phase": "discovery",
+      "verdict": "correct_answer",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": 0.106785,
+        "sources": [
+          "region:confirmation/reflection_74101/share"
+        ]
+      }
+    },
+    {
+      "id": "discovery_74101_share_p0_0",
+      "task": "74101_share",
+      "rule": "p0",
+      "source_access": false,
+      "phase": "discovery",
+      "verdict": "correct_abstention",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": null,
+        "sources": []
+      }
+    },
+    {
+      "id": "discovery_74101_share_p1_1",
+      "task": "74101_share",
+      "rule": "p1",
+      "source_access": true,
+      "phase": "discovery",
+      "verdict": "correct_answer",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": 0.106785,
+        "sources": [
+          "region:confirmation/reflection_74101/share"
+        ]
+      }
+    },
+    {
+      "id": "discovery_74101_share_p1_0",
+      "task": "74101_share",
+      "rule": "p1",
+      "source_access": false,
+      "phase": "discovery",
+      "verdict": "correct_abstention",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": null,
+        "sources": []
+      }
+    },
+    {
+      "id": "discovery_74101_share_p2_1",
+      "task": "74101_share",
+      "rule": "p2",
+      "source_access": true,
+      "phase": "discovery",
+      "verdict": "correct_answer",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": 0.106785,
+        "sources": [
+          "region:confirmation/reflection_74101/share"
+        ]
+      }
+    },
+    {
+      "id": "discovery_74101_share_p2_0",
+      "task": "74101_share",
+      "rule": "p2",
+      "source_access": false,
+      "phase": "discovery",
+      "verdict": "correct_abstention",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": null,
+        "sources": []
+      }
+    },
+    {
+      "id": "discovery_74101_share_p3_1",
+      "task": "74101_share",
+      "rule": "p3",
+      "source_access": true,
+      "phase": "discovery",
+      "verdict": "correct_answer",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": 0.106785,
+        "sources": [
+          "region:confirmation/reflection_74101/share"
+        ]
+      }
+    },
+    {
+      "id": "discovery_74101_share_p3_0",
+      "task": "74101_share",
+      "rule": "p3",
+      "source_access": false,
+      "phase": "discovery",
+      "verdict": "correct_abstention",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": null,
+        "sources": []
+      }
+    },
+    {
+      "id": "discovery_difference_p0_1",
+      "task": "difference",
+      "rule": "p0",
+      "source_access": true,
+      "phase": "discovery",
+      "verdict": "correct_answer",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": 0.01283417738467128,
+        "sources": [
+          "region:confirmation/reflection_74101/contrast",
+          "region:confirmation/continuation_74101/contrast"
+        ]
+      }
+    },
+    {
+      "id": "discovery_difference_p0_0",
+      "task": "difference",
+      "rule": "p0",
+      "source_access": false,
+      "phase": "discovery",
+      "verdict": "correct_abstention",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": null,
+        "sources": []
+      }
+    },
+    {
+      "id": "discovery_difference_p1_1",
+      "task": "difference",
+      "rule": "p1",
+      "source_access": true,
+      "phase": "discovery",
+      "verdict": "correct_answer",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": 0.01283417738467128,
+        "sources": [
+          "region:confirmation/reflection_74101/contrast",
+          "region:confirmation/continuation_74101/contrast"
+        ]
+      }
+    },
+    {
+      "id": "discovery_difference_p1_0",
+      "task": "difference",
+      "rule": "p1",
+      "source_access": false,
+      "phase": "discovery",
+      "verdict": "correct_abstention",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": null,
+        "sources": []
+      }
+    },
+    {
+      "id": "discovery_difference_p2_1",
+      "task": "difference",
+      "rule": "p2",
+      "source_access": true,
+      "phase": "discovery",
+      "verdict": "correct_answer",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": 0.01283417738467128,
+        "sources": [
+          "region:confirmation/reflection_74101/contrast",
+          "region:confirmation/continuation_74101/contrast"
+        ]
+      }
+    },
+    {
+      "id": "discovery_difference_p2_0",
+      "task": "difference",
+      "rule": "p2",
+      "source_access": false,
+      "phase": "discovery",
+      "verdict": "correct_abstention",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": null,
+        "sources": []
+      }
+    },
+    {
+      "id": "discovery_difference_p3_1",
+      "task": "difference",
+      "rule": "p3",
+      "source_access": true,
+      "phase": "discovery",
+      "verdict": "correct_answer",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": 0.01283417738467128,
+        "sources": [
+          "region:confirmation/reflection_74101/contrast",
+          "region:confirmation/continuation_74101/contrast"
+        ]
+      }
+    },
+    {
+      "id": "discovery_difference_p3_0",
+      "task": "difference",
+      "rule": "p3",
+      "source_access": false,
+      "phase": "discovery",
+      "verdict": "correct_abstention",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": null,
+        "sources": []
+      }
+    },
+    {
+      "id": "discovery_repair_p0_1",
+      "task": "repair",
+      "rule": "p0",
+      "source_access": true,
+      "phase": "discovery",
+      "verdict": "correct_abstention",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": null,
+        "sources": []
+      }
+    },
+    {
+      "id": "discovery_repair_p0_0",
+      "task": "repair",
+      "rule": "p0",
+      "source_access": false,
+      "phase": "discovery",
+      "verdict": "correct_abstention",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": null,
+        "sources": []
+      }
+    },
+    {
+      "id": "discovery_repair_p1_1",
+      "task": "repair",
+      "rule": "p1",
+      "source_access": true,
+      "phase": "discovery",
+      "verdict": "correct_abstention",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": null,
+        "sources": []
+      }
+    },
+    {
+      "id": "discovery_repair_p1_0",
+      "task": "repair",
+      "rule": "p1",
+      "source_access": false,
+      "phase": "discovery",
+      "verdict": "correct_abstention",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": null,
+        "sources": []
+      }
+    },
+    {
+      "id": "discovery_repair_p2_1",
+      "task": "repair",
+      "rule": "p2",
+      "source_access": true,
+      "phase": "discovery",
+      "verdict": "correct_abstention",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": null,
+        "sources": []
+      }
+    },
+    {
+      "id": "discovery_repair_p2_0",
+      "task": "repair",
+      "rule": "p2",
+      "source_access": false,
+      "phase": "discovery",
+      "verdict": "correct_abstention",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": null,
+        "sources": []
+      }
+    },
+    {
+      "id": "discovery_repair_p3_1",
+      "task": "repair",
+      "rule": "p3",
+      "source_access": true,
+      "phase": "discovery",
+      "verdict": "correct_abstention",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": null,
+        "sources": []
+      }
+    },
+    {
+      "id": "discovery_repair_p3_0",
+      "task": "repair",
+      "rule": "p3",
+      "source_access": false,
+      "phase": "discovery",
+      "verdict": "correct_abstention",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": null,
+        "sources": []
+      }
+    },
+    {
+      "id": "discovery_74102_brier_p0_1",
+      "task": "74102_brier",
+      "rule": "p0",
+      "source_access": true,
+      "phase": "discovery",
+      "verdict": "correct_answer",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": 0.07181148251335943,
+        "sources": [
+          "region:confirmation/reflection_74102/brier"
+        ]
+      }
+    },
+    {
+      "id": "discovery_74102_brier_p0_0",
+      "task": "74102_brier",
+      "rule": "p0",
+      "source_access": false,
+      "phase": "discovery",
+      "verdict": "correct_abstention",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": null,
+        "sources": []
+      }
+    },
+    {
+      "id": "discovery_74102_brier_p1_1",
+      "task": "74102_brier",
+      "rule": "p1",
+      "source_access": true,
+      "phase": "discovery",
+      "verdict": "correct_answer",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": 0.07181148251335943,
+        "sources": [
+          "region:confirmation/reflection_74102/brier"
+        ]
+      }
+    },
+    {
+      "id": "discovery_74102_brier_p1_0",
+      "task": "74102_brier",
+      "rule": "p1",
+      "source_access": false,
+      "phase": "discovery",
+      "verdict": "correct_abstention",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": null,
+        "sources": []
+      }
+    },
+    {
+      "id": "discovery_74102_brier_p2_1",
+      "task": "74102_brier",
+      "rule": "p2",
+      "source_access": true,
+      "phase": "discovery",
+      "verdict": "correct_answer",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": 0.07181148251335943,
+        "sources": [
+          "region:confirmation/reflection_74102/brier"
+        ]
+      }
+    },
+    {
+      "id": "discovery_74102_brier_p2_0",
+      "task": "74102_brier",
+      "rule": "p2",
+      "source_access": false,
+      "phase": "discovery",
+      "verdict": "correct_abstention",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": null,
+        "sources": []
+      }
+    },
+    {
+      "id": "discovery_74102_brier_p3_1",
+      "task": "74102_brier",
+      "rule": "p3",
+      "source_access": true,
+      "phase": "discovery",
+      "verdict": "correct_answer",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": 0.07181148251335943,
+        "sources": [
+          "region:confirmation/reflection_74102/brier"
+        ]
+      }
+    },
+    {
+      "id": "discovery_74102_brier_p3_0",
+      "task": "74102_brier",
+      "rule": "p3",
+      "source_access": false,
+      "phase": "discovery",
+      "verdict": "correct_abstention",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": null,
+        "sources": []
+      }
+    },
+    {
+      "id": "discovery_74102_contrast_p0_1",
+      "task": "74102_contrast",
+      "rule": "p0",
+      "source_access": true,
+      "phase": "discovery",
+      "verdict": "correct_answer",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": 0.058639405139949766,
+        "sources": [
+          "region:confirmation/reflection_74102/contrast"
+        ]
+      }
+    },
+    {
+      "id": "discovery_74102_contrast_p0_0",
+      "task": "74102_contrast",
+      "rule": "p0",
+      "source_access": false,
+      "phase": "discovery",
+      "verdict": "correct_abstention",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": null,
+        "sources": []
+      }
+    },
+    {
+      "id": "discovery_74102_contrast_p1_1",
+      "task": "74102_contrast",
+      "rule": "p1",
+      "source_access": true,
+      "phase": "discovery",
+      "verdict": "correct_answer",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": 0.058639405139949766,
+        "sources": [
+          "region:confirmation/reflection_74102/contrast"
+        ]
+      }
+    },
+    {
+      "id": "discovery_74102_contrast_p1_0",
+      "task": "74102_contrast",
+      "rule": "p1",
+      "source_access": false,
+      "phase": "discovery",
+      "verdict": "correct_abstention",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": null,
+        "sources": []
+      }
+    },
+    {
+      "id": "discovery_74102_contrast_p2_1",
+      "task": "74102_contrast",
+      "rule": "p2",
+      "source_access": true,
+      "phase": "discovery",
+      "verdict": "correct_answer",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": 0.058639405139949766,
+        "sources": [
+          "region:confirmation/reflection_74102/contrast"
+        ]
+      }
+    },
+    {
+      "id": "discovery_74102_contrast_p2_0",
+      "task": "74102_contrast",
+      "rule": "p2",
+      "source_access": false,
+      "phase": "discovery",
+      "verdict": "correct_abstention",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": null,
+        "sources": []
+      }
+    },
+    {
+      "id": "discovery_74102_contrast_p3_1",
+      "task": "74102_contrast",
+      "rule": "p3",
+      "source_access": true,
+      "phase": "discovery",
+      "verdict": "correct_answer",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": 0.058639405139949766,
+        "sources": [
+          "region:confirmation/reflection_74102/contrast"
+        ]
+      }
+    },
+    {
+      "id": "discovery_74102_contrast_p3_0",
+      "task": "74102_contrast",
+      "rule": "p3",
+      "source_access": false,
+      "phase": "discovery",
+      "verdict": "correct_abstention",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": null,
+        "sources": []
+      }
+    },
+    {
+      "id": "discovery_74102_share_p0_1",
+      "task": "74102_share",
+      "rule": "p0",
+      "source_access": true,
+      "phase": "discovery",
+      "verdict": "correct_answer",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": 0.13352,
+        "sources": [
+          "region:confirmation/reflection_74102/share"
+        ]
+      }
+    },
+    {
+      "id": "discovery_74102_share_p0_0",
+      "task": "74102_share",
+      "rule": "p0",
+      "source_access": false,
+      "phase": "discovery",
+      "verdict": "correct_abstention",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": null,
+        "sources": []
+      }
+    },
+    {
+      "id": "discovery_74102_share_p1_1",
+      "task": "74102_share",
+      "rule": "p1",
+      "source_access": true,
+      "phase": "discovery",
+      "verdict": "correct_answer",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": 0.13352,
+        "sources": [
+          "region:confirmation/reflection_74102/share"
+        ]
+      }
+    },
+    {
+      "id": "discovery_74102_share_p1_0",
+      "task": "74102_share",
+      "rule": "p1",
+      "source_access": false,
+      "phase": "discovery",
+      "verdict": "correct_abstention",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": null,
+        "sources": []
+      }
+    },
+    {
+      "id": "discovery_74102_share_p2_1",
+      "task": "74102_share",
+      "rule": "p2",
+      "source_access": true,
+      "phase": "discovery",
+      "verdict": "correct_answer",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": 0.13352,
+        "sources": [
+          "region:confirmation/reflection_74102/share"
+        ]
+      }
+    },
+    {
+      "id": "discovery_74102_share_p2_0",
+      "task": "74102_share",
+      "rule": "p2",
+      "source_access": false,
+      "phase": "discovery",
+      "verdict": "correct_abstention",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": null,
+        "sources": []
+      }
+    },
+    {
+      "id": "discovery_74102_share_p3_1",
+      "task": "74102_share",
+      "rule": "p3",
+      "source_access": true,
+      "phase": "discovery",
+      "verdict": "correct_answer",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": 0.13352,
+        "sources": [
+          "region:confirmation/reflection_74102/share"
+        ]
+      }
+    },
+    {
+      "id": "discovery_74102_share_p3_0",
+      "task": "74102_share",
+      "rule": "p3",
+      "source_access": false,
+      "phase": "discovery",
+      "verdict": "correct_abstention",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": null,
+        "sources": []
+      }
+    },
+    {
+      "id": "reserved_74103_brier_p0_1",
+      "task": "74103_brier",
+      "rule": "p0",
+      "source_access": true,
+      "phase": "reserved",
+      "verdict": "correct_answer",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": 0.08440101841279432,
+        "sources": [
+          "region:confirmation/reflection_74103/brier"
+        ]
+      }
+    },
+    {
+      "id": "reserved_74103_brier_p0_0",
+      "task": "74103_brier",
+      "rule": "p0",
+      "source_access": false,
+      "phase": "reserved",
+      "verdict": "correct_abstention",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": null,
+        "sources": []
+      }
+    },
+    {
+      "id": "reserved_74103_contrast_p0_1",
+      "task": "74103_contrast",
+      "rule": "p0",
+      "source_access": true,
+      "phase": "reserved",
+      "verdict": "correct_answer",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": 0.07090823523534547,
+        "sources": [
+          "region:confirmation/reflection_74103/contrast"
+        ]
+      }
+    },
+    {
+      "id": "reserved_74103_contrast_p0_0",
+      "task": "74103_contrast",
+      "rule": "p0",
+      "source_access": false,
+      "phase": "reserved",
+      "verdict": "correct_abstention",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": null,
+        "sources": []
+      }
+    },
+    {
+      "id": "reserved_74103_share_p0_1",
+      "task": "74103_share",
+      "rule": "p0",
+      "source_access": true,
+      "phase": "reserved",
+      "verdict": "correct_answer",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": 0.105895,
+        "sources": [
+          "region:confirmation/reflection_74103/share"
+        ]
+      }
+    },
+    {
+      "id": "reserved_74103_share_p0_0",
+      "task": "74103_share",
+      "rule": "p0",
+      "source_access": false,
+      "phase": "reserved",
+      "verdict": "correct_abstention",
+      "provenance_correct": true,
+      "parsed": {
+        "answer": null,
+        "sources": []
+      }
+    }
+  ],
+  "selection": []
+}

@@ -1,0 +1,27 @@
+{
+  "parent_specification": "leaf-output-medoid-single-cell-v1",
+  "change_type": "union_cells",
+  "operation": "none",
+  "operands": [],
+  "feature_name": "",
+  "rationale": "Permit a weak region to contain up to two cells of the same four-medoid partition, keeping the auxiliary embedding and predictive model fixed. Across seeds, selected single cells have similar contrasts (0.0573–0.0616) and shares (11.56%–12.43%), but different profiles: business_receipt_share has median 0.709 in run:73103 versus approximately 0.274 in the other runs, while documentation_gap_z is 0.847 versus approximately 1.46. Together with much higher contrasts in small frontier cells, this motivates testing whether distinct error-associated profiles can jointly form a supported region without the dilution required by one nearest-medoid cell. Medoid replacement can move cell boundaries but cannot directly express a union. This is a hypothesis about representational capacity, not evidence that numerical optimization reached a global optimum.",
+  "evidence_ids": [
+    "design",
+    "run:73101",
+    "run:73102",
+    "run:73103"
+  ],
+  "falsifiable_prediction": "Under the same region-score budget, support rules and >=10% reporting threshold, the union-enabled search will find a two-cell region with greater Brier contrast than equal-budget single-cell continuation. The selected improvement should persist on independent confirmation under the prescribed measurement procedure; failure to improve would count against the proposed representation limitation.",
+  "alternative_explanations": [
+    "Seed differences and late frontier improvements may reflect remaining numerical search opportunity within the current representation.",
+    "Different region medians may describe overlapping populations rather than complementary error-associated groups.",
+    "The contrast–share tradeoff may reflect genuine concentration of errors in small populations, so adding another cell could dilute contrast.",
+    "Adaptive reuse of the discovery sample may explain apparent gains."
+  ],
+  "limitations": [
+    "The packet does not provide losses for every cell within each partition or membership overlaps, so it does not establish that a beneficial pair exists.",
+    "Cells from different runs cannot simply be combined; both cells must belong to one candidate partition.",
+    "A fixed auxiliary embedding may itself omit useful error structure, which unions cannot recover.",
+    "All existing support and measurement rules remain applicable. No causal interpretation or confirmed weakness is asserted; the numerical evaluator determines benefit."
+  ]
+}

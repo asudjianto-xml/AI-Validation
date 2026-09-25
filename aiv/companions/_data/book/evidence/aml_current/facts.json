@@ -1,0 +1,414 @@
+[
+  {
+    "entity": "original_mean",
+    "field": "overall_logloss",
+    "value": 0.08861662209161544,
+    "pointer": "/runs/original/endpoints/mean/confirmation/0",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "original_mean",
+    "field": "worst_logloss",
+    "value": 0.12184648295379921,
+    "pointer": "/runs/original/endpoints/mean/confirmation/1",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "original_mean",
+    "field": "personal_remittance_logloss",
+    "value": 0.07878560733324261,
+    "pointer": "/runs/original/endpoints/mean/group_losses/0",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "original_mean",
+    "field": "cash_business_logloss",
+    "value": 0.09218811915882522,
+    "pointer": "/runs/original/endpoints/mean/group_losses/1",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "original_mean",
+    "field": "trading_business_logloss",
+    "value": 0.12184648295379921,
+    "pointer": "/runs/original/endpoints/mean/group_losses/2",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "original_compromise",
+    "field": "overall_logloss",
+    "value": 0.09745314529248374,
+    "pointer": "/runs/original/endpoints/compromise/confirmation/0",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "original_compromise",
+    "field": "worst_logloss",
+    "value": 0.10843550388068951,
+    "pointer": "/runs/original/endpoints/compromise/confirmation/1",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "original_compromise",
+    "field": "personal_remittance_logloss",
+    "value": 0.0914129837528793,
+    "pointer": "/runs/original/endpoints/compromise/group_losses/0",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "original_compromise",
+    "field": "cash_business_logloss",
+    "value": 0.10843550388068951,
+    "pointer": "/runs/original/endpoints/compromise/group_losses/1",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "original_compromise",
+    "field": "trading_business_logloss",
+    "value": 0.10330536027913596,
+    "pointer": "/runs/original/endpoints/compromise/group_losses/2",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "original_robust",
+    "field": "overall_logloss",
+    "value": 0.09745314529248374,
+    "pointer": "/runs/original/endpoints/robust/confirmation/0",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "original_robust",
+    "field": "worst_logloss",
+    "value": 0.10843550388068951,
+    "pointer": "/runs/original/endpoints/robust/confirmation/1",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "original_robust",
+    "field": "personal_remittance_logloss",
+    "value": 0.0914129837528793,
+    "pointer": "/runs/original/endpoints/robust/group_losses/0",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "original_robust",
+    "field": "cash_business_logloss",
+    "value": 0.10843550388068951,
+    "pointer": "/runs/original/endpoints/robust/group_losses/1",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "original_robust",
+    "field": "trading_business_logloss",
+    "value": 0.10330536027913596,
+    "pointer": "/runs/original/endpoints/robust/group_losses/2",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "llm_mean",
+    "field": "overall_logloss",
+    "value": 0.08738219492064418,
+    "pointer": "/runs/llm/endpoints/mean/confirmation/0",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "llm_mean",
+    "field": "worst_logloss",
+    "value": 0.11790825603175795,
+    "pointer": "/runs/llm/endpoints/mean/confirmation/1",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "llm_mean",
+    "field": "personal_remittance_logloss",
+    "value": 0.0774868935424204,
+    "pointer": "/runs/llm/endpoints/mean/group_losses/0",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "llm_mean",
+    "field": "cash_business_logloss",
+    "value": 0.09273963929335952,
+    "pointer": "/runs/llm/endpoints/mean/group_losses/1",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "llm_mean",
+    "field": "trading_business_logloss",
+    "value": 0.11790825603175795,
+    "pointer": "/runs/llm/endpoints/mean/group_losses/2",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "llm_compromise",
+    "field": "overall_logloss",
+    "value": 0.09826040743318754,
+    "pointer": "/runs/llm/endpoints/compromise/confirmation/0",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "llm_compromise",
+    "field": "worst_logloss",
+    "value": 0.10333273408629849,
+    "pointer": "/runs/llm/endpoints/compromise/confirmation/1",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "llm_compromise",
+    "field": "personal_remittance_logloss",
+    "value": 0.0958074653937336,
+    "pointer": "/runs/llm/endpoints/compromise/group_losses/0",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "llm_compromise",
+    "field": "cash_business_logloss",
+    "value": 0.10109380686772451,
+    "pointer": "/runs/llm/endpoints/compromise/group_losses/1",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "llm_compromise",
+    "field": "trading_business_logloss",
+    "value": 0.10333273408629849,
+    "pointer": "/runs/llm/endpoints/compromise/group_losses/2",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "llm_robust",
+    "field": "overall_logloss",
+    "value": 0.09826040743318754,
+    "pointer": "/runs/llm/endpoints/robust/confirmation/0",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "llm_robust",
+    "field": "worst_logloss",
+    "value": 0.10333273408629849,
+    "pointer": "/runs/llm/endpoints/robust/confirmation/1",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "llm_robust",
+    "field": "personal_remittance_logloss",
+    "value": 0.0958074653937336,
+    "pointer": "/runs/llm/endpoints/robust/group_losses/0",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "llm_robust",
+    "field": "cash_business_logloss",
+    "value": 0.10109380686772451,
+    "pointer": "/runs/llm/endpoints/robust/group_losses/1",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "llm_robust",
+    "field": "trading_business_logloss",
+    "value": 0.10333273408629849,
+    "pointer": "/runs/llm/endpoints/robust/group_losses/2",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "full_mean",
+    "field": "overall_logloss",
+    "value": 0.08646306659366024,
+    "pointer": "/runs/full/endpoints/mean/confirmation/0",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "full_mean",
+    "field": "worst_logloss",
+    "value": 0.11309142581486561,
+    "pointer": "/runs/full/endpoints/mean/confirmation/1",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "full_mean",
+    "field": "personal_remittance_logloss",
+    "value": 0.07842130781124675,
+    "pointer": "/runs/full/endpoints/mean/group_losses/0",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "full_mean",
+    "field": "cash_business_logloss",
+    "value": 0.08971860743585593,
+    "pointer": "/runs/full/endpoints/mean/group_losses/1",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "full_mean",
+    "field": "trading_business_logloss",
+    "value": 0.11309142581486561,
+    "pointer": "/runs/full/endpoints/mean/group_losses/2",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "full_compromise",
+    "field": "overall_logloss",
+    "value": 0.09263891856852173,
+    "pointer": "/runs/full/endpoints/compromise/confirmation/0",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "full_compromise",
+    "field": "worst_logloss",
+    "value": 0.10341720864010438,
+    "pointer": "/runs/full/endpoints/compromise/confirmation/1",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "full_compromise",
+    "field": "personal_remittance_logloss",
+    "value": 0.08978802690917263,
+    "pointer": "/runs/full/endpoints/compromise/group_losses/0",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "full_compromise",
+    "field": "cash_business_logloss",
+    "value": 0.09298554484893985,
+    "pointer": "/runs/full/endpoints/compromise/group_losses/1",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "full_compromise",
+    "field": "trading_business_logloss",
+    "value": 0.10341720864010438,
+    "pointer": "/runs/full/endpoints/compromise/group_losses/2",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "full_robust",
+    "field": "overall_logloss",
+    "value": 0.09263891856852173,
+    "pointer": "/runs/full/endpoints/robust/confirmation/0",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "full_robust",
+    "field": "worst_logloss",
+    "value": 0.10341720864010438,
+    "pointer": "/runs/full/endpoints/robust/confirmation/1",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "full_robust",
+    "field": "personal_remittance_logloss",
+    "value": 0.08978802690917263,
+    "pointer": "/runs/full/endpoints/robust/group_losses/0",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "full_robust",
+    "field": "cash_business_logloss",
+    "value": 0.09298554484893985,
+    "pointer": "/runs/full/endpoints/robust/group_losses/1",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "full_robust",
+    "field": "trading_business_logloss",
+    "value": 0.10341720864010438,
+    "pointer": "/runs/full/endpoints/robust/group_losses/2",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "experiment",
+    "field": "confirmation_n",
+    "value": 200000,
+    "pointer": "/confirmation_n",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "original:compromise->llm:compromise",
+    "field": "worst_reduction_ci",
+    "value": [
+      -0.00018948382673587247,
+      0.008041654579091815
+    ],
+    "pointer": "/worst_reduction_ci/original:compromise->llm:compromise",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "original:robust->llm:robust",
+    "field": "worst_reduction_ci",
+    "value": [
+      -0.00018948382673587247,
+      0.008041654579091815
+    ],
+    "pointer": "/worst_reduction_ci/original:robust->llm:robust",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "llm:mean->llm:compromise",
+    "field": "worst_reduction_ci",
+    "value": [
+      0.008482055054623867,
+      0.01685886345432988
+    ],
+    "pointer": "/worst_reduction_ci/llm:mean->llm:compromise",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  },
+  {
+    "entity": "llm:mean->llm:robust",
+    "field": "worst_reduction_ci",
+    "value": [
+      0.008482055054623867,
+      0.01685886345432988
+    ],
+    "pointer": "/worst_reduction_ci/llm:mean->llm:robust",
+    "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+    "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+  }
+]

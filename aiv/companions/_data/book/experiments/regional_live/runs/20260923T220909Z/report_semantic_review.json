@@ -1,0 +1,17 @@
+{
+  "reviewer": "Codex direct reading against source results, supplied packets and experiment definitions",
+  "scope": "Post-run qualitative audit, not a preregistered or independent semantic benchmark. Raw model drafts are unchanged. Identifier-based selection was frozen before this review.",
+  "rows": [
+    {"call": "discovery_w0_seed_74101", "verdict": "needs_revision", "findings": ["Brier score alone does not establish comparable calibration quality or low absolute error without an appropriate reference.", "Omits the fixed-predictor qualification."]},
+    {"call": "discovery_w0_seed_74102", "verdict": "needs_revision", "findings": ["Calls positive error contrast a predictive edge. Here contrast is region Brier loss minus pooled-rest Brier loss; positive contrast identifies higher error.", "Calls Brier measurements predictive calibration and refers to intervals elsewhere in a point-estimate packet."]},
+    {"call": "discovery_w1_seed_74101", "verdict": "no_substantive_error_identified", "findings": ["Values are correctly rounded and qualifications retained. Improve the ambiguous reflection/confirmation sample phrasing: one proposal and one shared confirmation sample."]},
+    {"call": "discovery_w1_seed_74102", "verdict": "needs_revision", "findings": ["Defines contrast as control-vs-treatment error. It is region-minus-pooled-rest error, not a treatment contrast.", "Infers predictive calibration from Brier scores."]},
+    {"call": "discovery_w2_seed_74101", "verdict": "needs_revision", "findings": ["Calls lower contrast better. This search maximizes weakness contrast; lower regional loss also does not establish model repair across different subsets.", "Omits fixed-predictor and conditional-inference qualifications."]},
+    {"call": "discovery_w2_seed_74102", "verdict": "needs_revision", "findings": ["Infers comparable predictive calibration from Brier values.", "Omits fixed-predictor and structural-change qualifications. Continuation share 0.0999 is truncated rather than correctly rounded to four decimals."]},
+    {"call": "discovery_w3_seed_74101", "verdict": "needs_revision", "findings": ["Converts absence of variance estimates in the supplied packet into absence in the underlying data. The experiment has saved standard errors and simultaneous intervals."]},
+    {"call": "discovery_w3_seed_74102", "verdict": "no_substantive_error_identified", "findings": ["Exact supplied numbers and comparison direction preserved. Simplify wording and distinguish reporting discovery packets from numerical confirmation observations."]},
+    {"call": "reserved_w1_seed_74103", "verdict": "needs_revision", "findings": ["Claims no meaningful divergence from close point estimates without a materiality or equivalence criterion. The packet supplies no such criterion."]}
+  ],
+  "interpretation": "Seven of nine drafts need substantive revision. Two had no substantive error identified in this review; this is not a certification. Six of nine passed identifier coverage, including the reserved draft that made an unsupported materiality statement.",
+  "design_limitation": "The reference projection supplies values and units but does not include full metric definitions. A future separately versioned experiment should test definition-rich packets and semantic acceptance gates. Do not retrofit those changes into these results."
+}

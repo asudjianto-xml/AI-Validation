@@ -1,0 +1,55 @@
+{
+  "version": "regional-live-rerun-v1",
+  "seeds": [
+    74101,
+    74102,
+    74103
+  ],
+  "discovery_source": "aml_error_clustering_current_20260921; same 40000 rows reused adaptively; fixed 3000-row medoid pool",
+  "base_model": "unchanged saved logistic model",
+  "auxiliary": "unchanged saved depth-two 120-tree model",
+  "geometry": "Euclidean distance across actual per-tree leaf outputs, float64, no coordinate standardization",
+  "outer_array": [
+    "current rare-event population; same fixed 40000-row discovery sample"
+  ],
+  "objectives": [
+    "largest eligible region Brier contrast versus pooled rest",
+    "selected region population share"
+  ],
+  "region_min_n": 50,
+  "region_min_share": 0.01,
+  "region_max_share": 0.8,
+  "cluster_min_n": 30,
+  "k_medoids": 4,
+  "multiplets": 16,
+  "multiplet_strategy": 1,
+  "initial_budget_region_scores": 1600,
+  "additional_budget_region_scores": 1600,
+  "primary_policy": "maximum discovery contrast on Pareto frontier with share >= 0.10; tie larger share then earlier ID",
+  "parent_selection": "fractional ownership of each objective within tolerances [0.005, 0.02], 5% uniform frontier exploration",
+  "mutation": "10% fresh uniform medoid set; otherwise replace one (75%) or two medoids; 50% local among 200 leaf-output neighbors",
+  "controls": [
+    "random representative-subset PAM initializations",
+    "Chapter 2 subset PAM, rescored under the loop contrast rule",
+    "equal-region-budget continuation without reflection"
+  ],
+  "reflection_options": [
+    "one derived feature: difference, absolute difference or product",
+    "allow unions of up to two cells",
+    "retain current structure"
+  ],
+  "medoid_pool": "fixed Chapter 2 PAM subset, 3000 observed rows; scores on all 40000",
+  "reflection_calls": 1,
+  "confirmation_n": 200000,
+  "confirmation_seed": 62593,
+  "inference": "Bonferroni simultaneous normal intervals for 13 selected gaps and six paired differences (19 claims); iid observations conditional on fixed fits",
+  "restrictions": [
+    "no previous confirmation data supplied to search or LLM",
+    "no simulated group labels supplied to search or LLM",
+    "no base-model retraining",
+    "no retries chosen for favorable LLM content"
+  ],
+  "rerun_scope": "Fresh optimizer seeds and fresh proposal on the established discovery sample; new confirmation draw after freezing.",
+  "model_requested": "claude-sonnet-5",
+  "host": "spark-fe12"
+}

@@ -1,0 +1,155 @@
+{
+  "model": "claude-sonnet-5",
+  "host": "spark-ef84",
+  "cli_version": "2.1.147 (Claude Code)",
+  "tasks": [
+    {
+      "id": "74101_brier",
+      "category": "exact_recall",
+      "phase": "discovery",
+      "question": "For reflection_74101, what is the confirmation brier?",
+      "answer": 0.08577237801043543,
+      "sources": [
+        "region:confirmation/reflection_74101/brier"
+      ]
+    },
+    {
+      "id": "74101_contrast",
+      "category": "exact_recall",
+      "phase": "discovery",
+      "question": "For reflection_74101, what is the confirmation contrast?",
+      "answer": 0.07251419564465404,
+      "sources": [
+        "region:confirmation/reflection_74101/contrast"
+      ]
+    },
+    {
+      "id": "74101_share",
+      "category": "exact_recall",
+      "phase": "discovery",
+      "question": "For reflection_74101, what is the confirmation share?",
+      "answer": 0.106785,
+      "sources": [
+        "region:confirmation/reflection_74101/share"
+      ]
+    },
+    {
+      "id": "difference",
+      "category": "numeric_comparison",
+      "phase": "discovery",
+      "question": "What is confirmation contrast for reflection_74101 minus continuation_74101?",
+      "answer": 0.012834177384671283,
+      "sources": [
+        "region:confirmation/reflection_74101/contrast",
+        "region:confirmation/continuation_74101/contrast"
+      ]
+    },
+    {
+      "id": "repair",
+      "category": "relation_absent",
+      "phase": "discovery",
+      "question": "What measured predictor repair gain did this region-search experiment establish?",
+      "answer": null,
+      "sources": []
+    },
+    {
+      "id": "74102_brier",
+      "category": "exact_recall",
+      "phase": "discovery",
+      "question": "For reflection_74102, what is the confirmation brier?",
+      "answer": 0.07181148251335943,
+      "sources": [
+        "region:confirmation/reflection_74102/brier"
+      ]
+    },
+    {
+      "id": "74102_contrast",
+      "category": "exact_recall",
+      "phase": "discovery",
+      "question": "For reflection_74102, what is the confirmation contrast?",
+      "answer": 0.058639405139949766,
+      "sources": [
+        "region:confirmation/reflection_74102/contrast"
+      ]
+    },
+    {
+      "id": "74102_share",
+      "category": "exact_recall",
+      "phase": "discovery",
+      "question": "For reflection_74102, what is the confirmation share?",
+      "answer": 0.13352,
+      "sources": [
+        "region:confirmation/reflection_74102/share"
+      ]
+    },
+    {
+      "id": "74103_brier",
+      "category": "exact_recall",
+      "phase": "reserved",
+      "question": "For reflection_74103, what is the confirmation brier?",
+      "answer": 0.08440101841279432,
+      "sources": [
+        "region:confirmation/reflection_74103/brier"
+      ]
+    },
+    {
+      "id": "74103_contrast",
+      "category": "exact_recall",
+      "phase": "reserved",
+      "question": "For reflection_74103, what is the confirmation contrast?",
+      "answer": 0.07090823523534547,
+      "sources": [
+        "region:confirmation/reflection_74103/contrast"
+      ]
+    },
+    {
+      "id": "74103_share",
+      "category": "exact_recall",
+      "phase": "reserved",
+      "question": "For reflection_74103, what is the confirmation share?",
+      "answer": 0.105895,
+      "sources": [
+        "region:confirmation/reflection_74103/share"
+      ]
+    }
+  ],
+  "inner": [
+    {
+      "id": "p0",
+      "anchor": false,
+      "format": "question"
+    },
+    {
+      "id": "p1",
+      "anchor": false,
+      "format": "imperative"
+    },
+    {
+      "id": "p2",
+      "anchor": true,
+      "format": "question"
+    },
+    {
+      "id": "p3",
+      "anchor": true,
+      "format": "imperative"
+    }
+  ],
+  "outer": [
+    {
+      "source_access": true
+    },
+    {
+      "source_access": false
+    }
+  ],
+  "workers": 4,
+  "selection": "At most two nonbaseline rules with wrong/unsupported scorable answers; descending count then ID. Assess these and baseline on reserved-seed tasks.",
+  "limits": [
+    "Supplied-context retrieval; no tools",
+    "Same simulator and result-source family for reserved tasks",
+    "Single realization per cell",
+    "Source-set check is not semantic citation entailment",
+    "Report text requires a separate semantic audit"
+  ]
+}

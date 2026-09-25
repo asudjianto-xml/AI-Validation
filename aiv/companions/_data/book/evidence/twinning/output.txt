@@ -1,0 +1,4 @@
+observed rows: 8000; selected rows: 1600
+twinning full energy: 0.000740
+random full energy, mean: 0.002431
+random full energy, range: [0.001956, 0.003007]

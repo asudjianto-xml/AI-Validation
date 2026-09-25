@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "response_sha256": "ae5eeeb2ed78326e70d5b1e61ff41f8417982a0b383f5e6add3d68f3e0ebd3aa",
+  "tools_used": false,
+  "usage": [
+    {
+      "input_tokens": 37042,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 561,
+      "reasoning_output_tokens": 34
+    }
+  ]
+}

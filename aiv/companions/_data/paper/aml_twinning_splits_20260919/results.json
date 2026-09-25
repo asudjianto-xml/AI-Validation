@@ -1,0 +1,777 @@
+{
+  "records": [
+    {
+      "key": "random_r0",
+      "method": "random",
+      "replication": 0,
+      "test_logloss": 0.41100347881003757,
+      "reference_logloss": 0.4150761235277882,
+      "test_minus_reference": -0.004072644717750651
+    },
+    {
+      "key": "twin_x_r0",
+      "method": "twin_x",
+      "replication": 0,
+      "test_logloss": 0.4135887626620924,
+      "reference_logloss": 0.4212982938388914,
+      "test_minus_reference": -0.0077095311767990116
+    },
+    {
+      "key": "twin_xy_r0",
+      "method": "twin_xy",
+      "replication": 0,
+      "test_logloss": 0.40160493097947564,
+      "reference_logloss": 0.41525796848475965,
+      "test_minus_reference": -0.013653037505284016
+    },
+    {
+      "key": "random_r1",
+      "method": "random",
+      "replication": 1,
+      "test_logloss": 0.41151069622825887,
+      "reference_logloss": 0.41309284395130763,
+      "test_minus_reference": -0.0015821477230487657
+    },
+    {
+      "key": "twin_x_r1",
+      "method": "twin_x",
+      "replication": 1,
+      "test_logloss": 0.4199751674228401,
+      "reference_logloss": 0.4163121476831352,
+      "test_minus_reference": 0.003663019739704898
+    },
+    {
+      "key": "twin_xy_r1",
+      "method": "twin_xy",
+      "replication": 1,
+      "test_logloss": 0.40759481529936975,
+      "reference_logloss": 0.41574954335912306,
+      "test_minus_reference": -0.008154728059753313
+    },
+    {
+      "key": "random_r2",
+      "method": "random",
+      "replication": 2,
+      "test_logloss": 0.39551965886611185,
+      "reference_logloss": 0.41080858620588795,
+      "test_minus_reference": -0.015288927339776104
+    },
+    {
+      "key": "twin_x_r2",
+      "method": "twin_x",
+      "replication": 2,
+      "test_logloss": 0.42726404011982283,
+      "reference_logloss": 0.4214753122666023,
+      "test_minus_reference": 0.005788727853220543
+    },
+    {
+      "key": "twin_xy_r2",
+      "method": "twin_xy",
+      "replication": 2,
+      "test_logloss": 0.3989834723607622,
+      "reference_logloss": 0.41556685607935206,
+      "test_minus_reference": -0.01658338371858986
+    },
+    {
+      "key": "random_r3",
+      "method": "random",
+      "replication": 3,
+      "test_logloss": 0.42263531707939783,
+      "reference_logloss": 0.41575032178234517,
+      "test_minus_reference": 0.006884995297052665
+    },
+    {
+      "key": "twin_x_r3",
+      "method": "twin_x",
+      "replication": 3,
+      "test_logloss": 0.3988151592173661,
+      "reference_logloss": 0.41604828430118085,
+      "test_minus_reference": -0.01723312508381475
+    },
+    {
+      "key": "twin_xy_r3",
+      "method": "twin_xy",
+      "replication": 3,
+      "test_logloss": 0.39246600540724275,
+      "reference_logloss": 0.4148838267320869,
+      "test_minus_reference": -0.022417821324844156
+    },
+    {
+      "key": "random_r4",
+      "method": "random",
+      "replication": 4,
+      "test_logloss": 0.4033749871563944,
+      "reference_logloss": 0.414518609474817,
+      "test_minus_reference": -0.011143622318422586
+    },
+    {
+      "key": "twin_x_r4",
+      "method": "twin_x",
+      "replication": 4,
+      "test_logloss": 0.41178478240537986,
+      "reference_logloss": 0.417898074706351,
+      "test_minus_reference": -0.006113292300971129
+    },
+    {
+      "key": "twin_xy_r4",
+      "method": "twin_xy",
+      "replication": 4,
+      "test_logloss": 0.40344593695924597,
+      "reference_logloss": 0.41267053219541733,
+      "test_minus_reference": -0.009224595236171362
+    },
+    {
+      "key": "random_r5",
+      "method": "random",
+      "replication": 5,
+      "test_logloss": 0.4017564247253961,
+      "reference_logloss": 0.41634584624761695,
+      "test_minus_reference": -0.014589421522220869
+    },
+    {
+      "key": "twin_x_r5",
+      "method": "twin_x",
+      "replication": 5,
+      "test_logloss": 0.40596588082515794,
+      "reference_logloss": 0.4144995413811068,
+      "test_minus_reference": -0.008533660555948841
+    },
+    {
+      "key": "twin_xy_r5",
+      "method": "twin_xy",
+      "replication": 5,
+      "test_logloss": 0.40572874874527043,
+      "reference_logloss": 0.4137349880376104,
+      "test_minus_reference": -0.008006239292339956
+    },
+    {
+      "key": "random_r6",
+      "method": "random",
+      "replication": 6,
+      "test_logloss": 0.3941687801182182,
+      "reference_logloss": 0.4148845858396033,
+      "test_minus_reference": -0.020715805721385094
+    },
+    {
+      "key": "twin_x_r6",
+      "method": "twin_x",
+      "replication": 6,
+      "test_logloss": 0.43317333113303247,
+      "reference_logloss": 0.4143814728651074,
+      "test_minus_reference": 0.018791858267925066
+    },
+    {
+      "key": "twin_xy_r6",
+      "method": "twin_xy",
+      "replication": 6,
+      "test_logloss": 0.39358941904663913,
+      "reference_logloss": 0.4142747471061878,
+      "test_minus_reference": -0.020685328059548647
+    },
+    {
+      "key": "random_r7",
+      "method": "random",
+      "replication": 7,
+      "test_logloss": 0.412475939399534,
+      "reference_logloss": 0.4153794543361084,
+      "test_minus_reference": -0.002903514936574425
+    },
+    {
+      "key": "twin_x_r7",
+      "method": "twin_x",
+      "replication": 7,
+      "test_logloss": 0.41353717743924134,
+      "reference_logloss": 0.4136611131216247,
+      "test_minus_reference": -0.00012393568238333597
+    },
+    {
+      "key": "twin_xy_r7",
+      "method": "twin_xy",
+      "replication": 7,
+      "test_logloss": 0.4014516796670422,
+      "reference_logloss": 0.41972115684731987,
+      "test_minus_reference": -0.01826947718027766
+    },
+    {
+      "key": "random_r8",
+      "method": "random",
+      "replication": 8,
+      "test_logloss": 0.40559931288331397,
+      "reference_logloss": 0.414243197001097,
+      "test_minus_reference": -0.008643884117783052
+    },
+    {
+      "key": "twin_x_r8",
+      "method": "twin_x",
+      "replication": 8,
+      "test_logloss": 0.40285760297782774,
+      "reference_logloss": 0.41809627752218886,
+      "test_minus_reference": -0.01523867454436112
+    },
+    {
+      "key": "twin_xy_r8",
+      "method": "twin_xy",
+      "replication": 8,
+      "test_logloss": 0.40356168756600463,
+      "reference_logloss": 0.41590465201870863,
+      "test_minus_reference": -0.012342964452703997
+    },
+    {
+      "key": "random_r9",
+      "method": "random",
+      "replication": 9,
+      "test_logloss": 0.40240946361219104,
+      "reference_logloss": 0.4113024283017343,
+      "test_minus_reference": -0.008892964689543259
+    },
+    {
+      "key": "twin_x_r9",
+      "method": "twin_x",
+      "replication": 9,
+      "test_logloss": 0.40901203515411005,
+      "reference_logloss": 0.41428497697660976,
+      "test_minus_reference": -0.0052729418224997104
+    },
+    {
+      "key": "twin_xy_r9",
+      "method": "twin_xy",
+      "replication": 9,
+      "test_logloss": 0.4033479994548028,
+      "reference_logloss": 0.4158319272694163,
+      "test_minus_reference": -0.012483927814613494
+    },
+    {
+      "key": "random_r10",
+      "method": "random",
+      "replication": 10,
+      "test_logloss": 0.40923483405267996,
+      "reference_logloss": 0.4135420010249383,
+      "test_minus_reference": -0.004307166972258358
+    },
+    {
+      "key": "twin_x_r10",
+      "method": "twin_x",
+      "replication": 10,
+      "test_logloss": 0.4040032890542512,
+      "reference_logloss": 0.4164757706925926,
+      "test_minus_reference": -0.012472481638341415
+    },
+    {
+      "key": "twin_xy_r10",
+      "method": "twin_xy",
+      "replication": 10,
+      "test_logloss": 0.4044289143197851,
+      "reference_logloss": 0.41691141918080693,
+      "test_minus_reference": -0.012482504861021815
+    },
+    {
+      "key": "random_r11",
+      "method": "random",
+      "replication": 11,
+      "test_logloss": 0.41496474845301534,
+      "reference_logloss": 0.41685156982384997,
+      "test_minus_reference": -0.0018868213708346238
+    },
+    {
+      "key": "twin_x_r11",
+      "method": "twin_x",
+      "replication": 11,
+      "test_logloss": 0.4046528785535554,
+      "reference_logloss": 0.4178320479377668,
+      "test_minus_reference": -0.013179169384211376
+    },
+    {
+      "key": "twin_xy_r11",
+      "method": "twin_xy",
+      "replication": 11,
+      "test_logloss": 0.40226650024312005,
+      "reference_logloss": 0.4153785254642723,
+      "test_minus_reference": -0.013112025221152235
+    },
+    {
+      "key": "random_r12",
+      "method": "random",
+      "replication": 12,
+      "test_logloss": 0.39862937525881925,
+      "reference_logloss": 0.417569804919947,
+      "test_minus_reference": -0.018940429661127745
+    },
+    {
+      "key": "twin_x_r12",
+      "method": "twin_x",
+      "replication": 12,
+      "test_logloss": 0.40375846721590336,
+      "reference_logloss": 0.4152978261667444,
+      "test_minus_reference": -0.011539358950841017
+    },
+    {
+      "key": "twin_xy_r12",
+      "method": "twin_xy",
+      "replication": 12,
+      "test_logloss": 0.40120303078337427,
+      "reference_logloss": 0.41025660409751363,
+      "test_minus_reference": -0.009053573314139363
+    },
+    {
+      "key": "random_r13",
+      "method": "random",
+      "replication": 13,
+      "test_logloss": 0.4100963775616476,
+      "reference_logloss": 0.413916972021113,
+      "test_minus_reference": -0.0038205944594654206
+    },
+    {
+      "key": "twin_x_r13",
+      "method": "twin_x",
+      "replication": 13,
+      "test_logloss": 0.40850491587355264,
+      "reference_logloss": 0.4168531672524388,
+      "test_minus_reference": -0.008348251378886173
+    },
+    {
+      "key": "twin_xy_r13",
+      "method": "twin_xy",
+      "replication": 13,
+      "test_logloss": 0.39339155494260536,
+      "reference_logloss": 0.4130725857319341,
+      "test_minus_reference": -0.019681030789328757
+    },
+    {
+      "key": "random_r14",
+      "method": "random",
+      "replication": 14,
+      "test_logloss": 0.40882547913452894,
+      "reference_logloss": 0.4118483895035189,
+      "test_minus_reference": -0.0030229103689899395
+    },
+    {
+      "key": "twin_x_r14",
+      "method": "twin_x",
+      "replication": 14,
+      "test_logloss": 0.42188059408212375,
+      "reference_logloss": 0.41662137198962884,
+      "test_minus_reference": 0.0052592220924949085
+    },
+    {
+      "key": "twin_xy_r14",
+      "method": "twin_xy",
+      "replication": 14,
+      "test_logloss": 0.4083217480790073,
+      "reference_logloss": 0.4148234369975352,
+      "test_minus_reference": -0.006501688918527926
+    },
+    {
+      "key": "random_r15",
+      "method": "random",
+      "replication": 15,
+      "test_logloss": 0.4219243621717267,
+      "reference_logloss": 0.41175960760206165,
+      "test_minus_reference": 0.010164754569665035
+    },
+    {
+      "key": "twin_x_r15",
+      "method": "twin_x",
+      "replication": 15,
+      "test_logloss": 0.4044614144435114,
+      "reference_logloss": 0.41742427690688927,
+      "test_minus_reference": -0.012962862463377856
+    },
+    {
+      "key": "twin_xy_r15",
+      "method": "twin_xy",
+      "replication": 15,
+      "test_logloss": 0.40477004127547217,
+      "reference_logloss": 0.4141861541489244,
+      "test_minus_reference": -0.009416112873452231
+    },
+    {
+      "key": "random_r16",
+      "method": "random",
+      "replication": 16,
+      "test_logloss": 0.415275834284748,
+      "reference_logloss": 0.4159897399342906,
+      "test_minus_reference": -0.000713905649542601
+    },
+    {
+      "key": "twin_x_r16",
+      "method": "twin_x",
+      "replication": 16,
+      "test_logloss": 0.4182745592716053,
+      "reference_logloss": 0.41614778061080826,
+      "test_minus_reference": 0.002126778660797024
+    },
+    {
+      "key": "twin_xy_r16",
+      "method": "twin_xy",
+      "replication": 16,
+      "test_logloss": 0.3901181558366518,
+      "reference_logloss": 0.41423009637559244,
+      "test_minus_reference": -0.024111940538940613
+    },
+    {
+      "key": "random_r17",
+      "method": "random",
+      "replication": 17,
+      "test_logloss": 0.4216963020461188,
+      "reference_logloss": 0.4157748844088828,
+      "test_minus_reference": 0.005921417637235971
+    },
+    {
+      "key": "twin_x_r17",
+      "method": "twin_x",
+      "replication": 17,
+      "test_logloss": 0.4033258617761276,
+      "reference_logloss": 0.41363835115463815,
+      "test_minus_reference": -0.010312489378510536
+    },
+    {
+      "key": "twin_xy_r17",
+      "method": "twin_xy",
+      "replication": 17,
+      "test_logloss": 0.3977301175920646,
+      "reference_logloss": 0.41580241041243554,
+      "test_minus_reference": -0.018072292820370928
+    },
+    {
+      "key": "random_r18",
+      "method": "random",
+      "replication": 18,
+      "test_logloss": 0.39430676183245483,
+      "reference_logloss": 0.4147407583373899,
+      "test_minus_reference": -0.020433996504935048
+    },
+    {
+      "key": "twin_x_r18",
+      "method": "twin_x",
+      "replication": 18,
+      "test_logloss": 0.40803493078288144,
+      "reference_logloss": 0.41480526727277794,
+      "test_minus_reference": -0.0067703364898965
+    },
+    {
+      "key": "twin_xy_r18",
+      "method": "twin_xy",
+      "replication": 18,
+      "test_logloss": 0.3960313021607,
+      "reference_logloss": 0.41189852826517126,
+      "test_minus_reference": -0.015867226104471277
+    },
+    {
+      "key": "random_r19",
+      "method": "random",
+      "replication": 19,
+      "test_logloss": 0.41334753496386056,
+      "reference_logloss": 0.4199812584193528,
+      "test_minus_reference": -0.006633723455492235
+    },
+    {
+      "key": "twin_x_r19",
+      "method": "twin_x",
+      "replication": 19,
+      "test_logloss": 0.4326584761536452,
+      "reference_logloss": 0.41537057273100164,
+      "test_minus_reference": 0.01728790342264358
+    },
+    {
+      "key": "twin_xy_r19",
+      "method": "twin_xy",
+      "replication": 19,
+      "test_logloss": 0.40291132748598835,
+      "reference_logloss": 0.41481990995244733,
+      "test_minus_reference": -0.011908582466458983
+    },
+    {
+      "key": "random_r20",
+      "method": "random",
+      "replication": 20,
+      "test_logloss": 0.3935875065908149,
+      "reference_logloss": 0.4160030316244331,
+      "test_minus_reference": -0.02241552503361821
+    },
+    {
+      "key": "twin_x_r20",
+      "method": "twin_x",
+      "replication": 20,
+      "test_logloss": 0.39512289206501683,
+      "reference_logloss": 0.41595515029921787,
+      "test_minus_reference": -0.02083225823420104
+    },
+    {
+      "key": "twin_xy_r20",
+      "method": "twin_xy",
+      "replication": 20,
+      "test_logloss": 0.39709066949799693,
+      "reference_logloss": 0.41329049036861104,
+      "test_minus_reference": -0.016199820870614112
+    },
+    {
+      "key": "random_r21",
+      "method": "random",
+      "replication": 21,
+      "test_logloss": 0.4295555768595732,
+      "reference_logloss": 0.41302684224014247,
+      "test_minus_reference": 0.01652873461943072
+    },
+    {
+      "key": "twin_x_r21",
+      "method": "twin_x",
+      "replication": 21,
+      "test_logloss": 0.4048644087197495,
+      "reference_logloss": 0.4169019915298106,
+      "test_minus_reference": -0.01203758281006112
+    },
+    {
+      "key": "twin_xy_r21",
+      "method": "twin_xy",
+      "replication": 21,
+      "test_logloss": 0.39904907973601433,
+      "reference_logloss": 0.41446359469691413,
+      "test_minus_reference": -0.015414514960899794
+    },
+    {
+      "key": "random_r22",
+      "method": "random",
+      "replication": 22,
+      "test_logloss": 0.4184053437359805,
+      "reference_logloss": 0.41544829419342105,
+      "test_minus_reference": 0.002957049542559431
+    },
+    {
+      "key": "twin_x_r22",
+      "method": "twin_x",
+      "replication": 22,
+      "test_logloss": 0.4041690547672918,
+      "reference_logloss": 0.4142406075870251,
+      "test_minus_reference": -0.010071552819733265
+    },
+    {
+      "key": "twin_xy_r22",
+      "method": "twin_xy",
+      "replication": 22,
+      "test_logloss": 0.40251620961909557,
+      "reference_logloss": 0.4133160908505678,
+      "test_minus_reference": -0.010799881231472241
+    },
+    {
+      "key": "random_r23",
+      "method": "random",
+      "replication": 23,
+      "test_logloss": 0.42270589548507376,
+      "reference_logloss": 0.4142075781719632,
+      "test_minus_reference": 0.00849831731311057
+    },
+    {
+      "key": "twin_x_r23",
+      "method": "twin_x",
+      "replication": 23,
+      "test_logloss": 0.3980839793041261,
+      "reference_logloss": 0.4128406814910317,
+      "test_minus_reference": -0.014756702186905613
+    },
+    {
+      "key": "twin_xy_r23",
+      "method": "twin_xy",
+      "replication": 23,
+      "test_logloss": 0.39737226224747924,
+      "reference_logloss": 0.4149940231545145,
+      "test_minus_reference": -0.017621760907035267
+    },
+    {
+      "key": "random_r24",
+      "method": "random",
+      "replication": 24,
+      "test_logloss": 0.40827153084075063,
+      "reference_logloss": 0.41532844929942075,
+      "test_minus_reference": -0.007056918458670125
+    },
+    {
+      "key": "twin_x_r24",
+      "method": "twin_x",
+      "replication": 24,
+      "test_logloss": 0.4149422927322158,
+      "reference_logloss": 0.4148601924899074,
+      "test_minus_reference": 8.210024230836943e-05
+    },
+    {
+      "key": "twin_xy_r24",
+      "method": "twin_xy",
+      "replication": 24,
+      "test_logloss": 0.40194384655994,
+      "reference_logloss": 0.4132851785046504,
+      "test_minus_reference": -0.011341331944710431
+    },
+    {
+      "key": "random_r25",
+      "method": "random",
+      "replication": 25,
+      "test_logloss": 0.41373230520094084,
+      "reference_logloss": 0.4122451607956611,
+      "test_minus_reference": 0.00148714440527975
+    },
+    {
+      "key": "twin_x_r25",
+      "method": "twin_x",
+      "replication": 25,
+      "test_logloss": 0.4050244421808897,
+      "reference_logloss": 0.41712532620527093,
+      "test_minus_reference": -0.012100884024381253
+    },
+    {
+      "key": "twin_xy_r25",
+      "method": "twin_xy",
+      "replication": 25,
+      "test_logloss": 0.4092147323167552,
+      "reference_logloss": 0.4166040211962746,
+      "test_minus_reference": -0.007389288879519396
+    },
+    {
+      "key": "random_r26",
+      "method": "random",
+      "replication": 26,
+      "test_logloss": 0.4128599480025536,
+      "reference_logloss": 0.41441829532024904,
+      "test_minus_reference": -0.001558347317695441
+    },
+    {
+      "key": "twin_x_r26",
+      "method": "twin_x",
+      "replication": 26,
+      "test_logloss": 0.4093174378317609,
+      "reference_logloss": 0.41560096807960883,
+      "test_minus_reference": -0.006283530247847946
+    },
+    {
+      "key": "twin_xy_r26",
+      "method": "twin_xy",
+      "replication": 26,
+      "test_logloss": 0.41159215191247334,
+      "reference_logloss": 0.4159447931190958,
+      "test_minus_reference": -0.004352641206622487
+    },
+    {
+      "key": "random_r27",
+      "method": "random",
+      "replication": 27,
+      "test_logloss": 0.4031217005637363,
+      "reference_logloss": 0.4155867629835795,
+      "test_minus_reference": -0.012465062419843187
+    },
+    {
+      "key": "twin_x_r27",
+      "method": "twin_x",
+      "replication": 27,
+      "test_logloss": 0.42338233017150373,
+      "reference_logloss": 0.41487229949614574,
+      "test_minus_reference": 0.008510030675357994
+    },
+    {
+      "key": "twin_xy_r27",
+      "method": "twin_xy",
+      "replication": 27,
+      "test_logloss": 0.4132825165221614,
+      "reference_logloss": 0.41596755678066755,
+      "test_minus_reference": -0.002685040258506133
+    },
+    {
+      "key": "random_r28",
+      "method": "random",
+      "replication": 28,
+      "test_logloss": 0.4115905387312669,
+      "reference_logloss": 0.4149590400746536,
+      "test_minus_reference": -0.0033685013433867317
+    },
+    {
+      "key": "twin_x_r28",
+      "method": "twin_x",
+      "replication": 28,
+      "test_logloss": 0.401633632812639,
+      "reference_logloss": 0.4140526629506561,
+      "test_minus_reference": -0.01241903013801715
+    },
+    {
+      "key": "twin_xy_r28",
+      "method": "twin_xy",
+      "replication": 28,
+      "test_logloss": 0.39436584172819006,
+      "reference_logloss": 0.4120243704036539,
+      "test_minus_reference": -0.017658528675463858
+    },
+    {
+      "key": "random_r29",
+      "method": "random",
+      "replication": 29,
+      "test_logloss": 0.4087147772154796,
+      "reference_logloss": 0.4163215708322201,
+      "test_minus_reference": -0.007606793616740493
+    },
+    {
+      "key": "twin_x_r29",
+      "method": "twin_x",
+      "replication": 29,
+      "test_logloss": 0.4149118371969399,
+      "reference_logloss": 0.4152164009422465,
+      "test_minus_reference": -0.00030456374530657415
+    },
+    {
+      "key": "twin_xy_r29",
+      "method": "twin_xy",
+      "replication": 29,
+      "test_logloss": 0.3935239118734258,
+      "reference_logloss": 0.41290617538456437,
+      "test_minus_reference": -0.019382263511138587
+    }
+  ],
+  "summary": {
+    "random": {
+      "test_logloss": {
+        "mean": 0.4097100263954874,
+        "sd": 0.009278044974774309
+      },
+      "reference_logloss": {
+        "mean": 0.4146974002733133,
+        "sd": 0.001961282383921714
+      },
+      "test_minus_reference": {
+        "mean": -0.004987373877825694,
+        "sd": 0.009510647051839316
+      },
+      "estimation_rmse": 0.010597699056731889
+    },
+    "twin_x": {
+      "test_logloss": {
+        "mean": 0.4105660544782054,
+        "sd": 0.009828325367599396
+      },
+      "reference_logloss": {
+        "mean": 0.41600294028163354,
+        "sd": 0.0020031557498276006
+      },
+      "test_minus_reference": {
+        "mean": -0.005436885803428145,
+        "sd": 0.009709658486346657
+      },
+      "estimation_rmse": 0.010986109998400377
+    },
+    "twin_xy": {
+      "test_logloss": {
+        "mean": 0.4010966203406052,
+        "sd": 0.005808589460053876
+      },
+      "reference_logloss": {
+        "mean": 0.41459240544053766,
+        "sd": 0.001815179392060892
+      },
+      "test_minus_reference": {
+        "mean": -0.01349578509993243,
+        "sd": 0.005379002191237527
+      },
+      "estimation_rmse": 0.014495013782370761
+    }
+  },
+  "model_freeze_sha256": "c03c2911cb8c658c2a41ba374d80334004dc27fc406c90bd95fcacb96f683268",
+  "n_pool": 8000,
+  "n_train": 6400,
+  "n_test": 1600,
+  "n_reference": 40000,
+  "replications": 30
+}

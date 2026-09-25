@@ -1,0 +1,79 @@
+[
+  {
+    "entity": "llm_compromise",
+    "field": "overall_logloss",
+    "claimed": 0.09826,
+    "verdict": "Supported",
+    "evidence": {
+      "entity": "llm_compromise",
+      "field": "overall_logloss",
+      "value": 0.09826040743318754,
+      "pointer": "/runs/llm/endpoints/compromise/confirmation/0",
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+    }
+  },
+  {
+    "entity": "llm_compromise",
+    "field": "worst_logloss",
+    "claimed": 0.103333,
+    "verdict": "Supported",
+    "evidence": {
+      "entity": "llm_compromise",
+      "field": "worst_logloss",
+      "value": 0.10333273408629849,
+      "pointer": "/runs/llm/endpoints/compromise/confirmation/1",
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+    }
+  },
+  {
+    "entity": "experiment",
+    "field": "confirmation_n",
+    "claimed": 200000,
+    "verdict": "Supported",
+    "evidence": {
+      "entity": "experiment",
+      "field": "confirmation_n",
+      "value": 200000,
+      "pointer": "/confirmation_n",
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+    }
+  },
+  {
+    "entity": "full_compromise",
+    "field": "worst_logloss",
+    "claimed": 0.103417,
+    "verdict": "Supported",
+    "evidence": {
+      "entity": "full_compromise",
+      "field": "worst_logloss",
+      "value": 0.10341720864010438,
+      "pointer": "/runs/full/endpoints/compromise/confirmation/1",
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+    }
+  },
+  {
+    "entity": "llm_compromise",
+    "field": "worst_logloss",
+    "claimed": 0.4,
+    "verdict": "Contradicted",
+    "evidence": {
+      "entity": "llm_compromise",
+      "field": "worst_logloss",
+      "value": 0.10333273408629849,
+      "pointer": "/runs/llm/endpoints/compromise/confirmation/1",
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326"
+    }
+  },
+  {
+    "entity": "experiment",
+    "field": "fairness_passed",
+    "claimed": true,
+    "verdict": "Absent",
+    "evidence": null
+  }
+]

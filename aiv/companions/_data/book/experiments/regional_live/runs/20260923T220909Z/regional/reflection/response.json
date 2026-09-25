@@ -1,0 +1,34 @@
+{
+  "parent_specification": "leaf-output-medoid-single-cell-v1",
+  "change_type": "derived_feature",
+  "operation": "product",
+  "operands": [
+    "business_receipt_share",
+    "cash_intensity_z"
+  ],
+  "feature_name": "business_receipt_cash_intensity_product",
+  "rationale": "business_receipt_share (fraction of receipts declared as business activity, pre_period) and cash_intensity_z (standardized deviation of cash receipts from the account's own baseline, period_end) form the single largest pairwise fANOVA variance among all reported pairs (3.95e-05, evidence:fanova_pairs), more than double the next pair (cash_intensity_z x counterparty_concentration_z, 1.79e-05). business_receipt_share's own main effect is essentially flat (~1e-4 in magnitude, evidence:feature:business_receipt_share) while cash_intensity_z has the strongest univariate tail effect of any feature (bin_mean_brier rising to 0.042 in its top decile, main_effect 0.031, evidence:feature:cash_intensity_z). A flat marginal effect paired with a dominant joint-variance signal is the pattern a depth-two auxiliary model can struggle to represent efficiently, because each tree can only spend two splits, and business_receipt_share rarely gets picked when its own marginal signal is near zero, even though it may moderate how anomalous cash_intensity_z becomes informative. Both operands are dimensionless (a bounded fraction and a standardized score), so their product is a coherent dimensionless interaction term ('business-receipt-weighted cash anomaly'): it is large only when an account both draws a high declared share of business receipts and shows an unusual cash surge relative to its own history, a joint condition plausibly distinct from either factor alone. A difference or absolute difference between a [0,1] share and an unbounded z-score would mix incompatible scales and has no natural interpretation, so product is the operation whose units and domain meaning line up with the evidence. This is offered as a candidate representation refinement for the frozen auxiliary error model, not as a claim about the base AML model or about confirmed subpopulation weakness.",
+  "evidence_ids": [
+    "fanova_pairs",
+    "feature:business_receipt_share",
+    "feature:cash_intensity_z",
+    "run:74101",
+    "run:74102",
+    "run:74103",
+    "design"
+  ],
+  "falsifiable_prediction": "If refit with business_receipt_cash_intensity_product added to the depth-two auxiliary model and the same discovery protocol (identical seeds, budgets, region_min_share/max_share, k_medoids=4, single-cell constraint) is rerun, the maximum eligible-region Brier contrast at share>=0.10 should exceed the current ~0.055-0.067 range (primary regions in run:74101/74102/74103) by more than the seed-to-seed noise band already observed across those three runs, with the gain concentrated among rows where both business_receipt_share and cash_intensity_z are jointly elevated. If the expanded search instead reproduces essentially the same contrast/share frontier (within that noise band) or the new feature is rarely used in the refit trees, the interaction is not separately exploitable by this model class and the derived feature should be treated as not supported.",
+  "alternative_explanations": [
+    "The fANOVA pair variance may reflect finite-sample estimation noise from the fixed 40,000-row discovery sample reused adaptively across rounds, rather than a genuine unmodeled nonlinearity.",
+    "Depth-two trees splitting on business_receipt_share and cash_intensity_z in different trees may already approximate this interaction implicitly, so an explicit product term could add no incremental separation once refit.",
+    "The dominant structural limitation could instead be the single-cell constraint itself: region_medians for counterparty_concentration_z and documentation_gap_z vary widely across the three independent seeds (e.g., counterparty_concentration_z medians of -0.065, -0.87, -0.26), consistent with more than one concentrated error cluster that a union of two cells might combine at similar share; this remains a live competing explanation not ruled out here.",
+    "no_change could still be the correct outcome if numerical refitting shows the interaction term does not move the measured contrast beyond current seed variability."
+  ],
+  "limitations": [
+    "fANOVA pair magnitudes are observational associations computed on the same fixed, adaptively reused 40,000-row sample; they do not establish that the interaction is causal or that it will survive refitting.",
+    "No confirmation-sample evidence (separate from the discovery sample) was supplied to validate this pattern before proposing the change.",
+    "business_receipt_share's marginal effect is weak, so the value of this derived feature is entirely contingent on the interaction term proving useful after refit; if it does not, there is no fallback benefit from this operand alone.",
+    "The medoid pool and auxiliary embedding for the derived feature's downstream partitioning are fixed by protocol; any measured gain reflects the specific 3000-row medoid pool and 40,000-row scoring sample, not a general claim about the underlying population.",
+    "This proposal does not address possible multi-cluster structure suggested by cross-seed variation in counterparty_concentration_z and documentation_gap_z medians, which a union-of-cells change targets instead."
+  ]
+}

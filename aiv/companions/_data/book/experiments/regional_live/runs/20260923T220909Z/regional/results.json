@@ -1,0 +1,233 @@
+{
+  "confirmation": {
+    "twinning_74101": {
+      "n": 20634,
+      "share": 0.10317,
+      "brier": 0.0745244415237961,
+      "rest_brier": 0.014844423263813342,
+      "contrast": 0.05968001825998276,
+      "standard_error": 0.0016336490895151698,
+      "simultaneous_ci": [
+        0.05476635049054424,
+        0.06459368602942127
+      ]
+    },
+    "random_74101": {
+      "n": 20634,
+      "share": 0.10317,
+      "brier": 0.0745244415237961,
+      "rest_brier": 0.014844423263813342,
+      "contrast": 0.05968001825998276,
+      "standard_error": 0.0016336490895151698,
+      "simultaneous_ci": [
+        0.05476635049054424,
+        0.06459368602942127
+      ]
+    },
+    "continuation_74101": {
+      "n": 20634,
+      "share": 0.10317,
+      "brier": 0.0745244415237961,
+      "rest_brier": 0.014844423263813342,
+      "contrast": 0.05968001825998276,
+      "standard_error": 0.0016336490895151698,
+      "simultaneous_ci": [
+        0.05476635049054424,
+        0.06459368602942127
+      ]
+    },
+    "reflection_74101": {
+      "n": 21357,
+      "share": 0.106785,
+      "brier": 0.08577237801043543,
+      "rest_brier": 0.013258182365781385,
+      "contrast": 0.07251419564465404,
+      "standard_error": 0.00172520727786752,
+      "simultaneous_ci": [
+        0.06732514038715429,
+        0.0777032509021538
+      ]
+    },
+    "twinning_74102": {
+      "n": 19997,
+      "share": 0.099985,
+      "brier": 0.07480510464754667,
+      "rest_brier": 0.015024441103215847,
+      "contrast": 0.05978066354433082,
+      "standard_error": 0.0016570843720378418,
+      "simultaneous_ci": [
+        0.05479650744717346,
+        0.06476481964148818
+      ]
+    },
+    "random_74102": {
+      "n": 19997,
+      "share": 0.099985,
+      "brier": 0.07480510464754667,
+      "rest_brier": 0.015024441103215847,
+      "contrast": 0.05978066354433082,
+      "standard_error": 0.0016570843720378418,
+      "simultaneous_ci": [
+        0.05479650744717346,
+        0.06476481964148818
+      ]
+    },
+    "continuation_74102": {
+      "n": 19997,
+      "share": 0.099985,
+      "brier": 0.07480510464754667,
+      "rest_brier": 0.015024441103215847,
+      "contrast": 0.05978066354433082,
+      "standard_error": 0.0016570843720378418,
+      "simultaneous_ci": [
+        0.05479650744717346,
+        0.06476481964148818
+      ]
+    },
+    "reflection_74102": {
+      "n": 26704,
+      "share": 0.13352,
+      "brier": 0.07181148251335943,
+      "rest_brier": 0.013172077373409669,
+      "contrast": 0.058639405139949766,
+      "standard_error": 0.001418963224513434,
+      "simultaneous_ci": [
+        0.054371466629128305,
+        0.06290734365077122
+      ]
+    },
+    "twinning_74103": {
+      "n": 22219,
+      "share": 0.111095,
+      "brier": 0.07779554088392138,
+      "rest_brier": 0.01390352752340972,
+      "contrast": 0.06389201336051166,
+      "standard_error": 0.0015974889140642548,
+      "simultaneous_ci": [
+        0.05908710768067412,
+        0.06869691904034919
+      ]
+    },
+    "random_74103": {
+      "n": 22758,
+      "share": 0.11379,
+      "brier": 0.07194045253412884,
+      "rest_brier": 0.014461026905403056,
+      "contrast": 0.05747942562872578,
+      "standard_error": 0.0015204086429506055,
+      "simultaneous_ci": [
+        0.05290636095211319,
+        0.06205249030533837
+      ]
+    },
+    "continuation_74103": {
+      "n": 20554,
+      "share": 0.10277,
+      "brier": 0.08543208836076815,
+      "rest_brier": 0.013621652226140035,
+      "contrast": 0.07181043613462812,
+      "standard_error": 0.0017246776964060992,
+      "simultaneous_ci": [
+        0.06662297374512857,
+        0.07699789852412767
+      ]
+    },
+    "reflection_74103": {
+      "n": 21179,
+      "share": 0.105895,
+      "brier": 0.08440101841279432,
+      "rest_brier": 0.013492783177448855,
+      "contrast": 0.07090823523534547,
+      "standard_error": 0.0017142920829845496,
+      "simultaneous_ci": [
+        0.06575201055427599,
+        0.07606445991641494
+      ]
+    },
+    "pam": {
+      "n": 40267,
+      "share": 0.201335,
+      "brier": 0.05504753737206616,
+      "rest_brier": 0.012418992707694495,
+      "contrast": 0.042628544664371666,
+      "standard_error": 0.0010476661919912413,
+      "simultaneous_ci": [
+        0.039477388376428876,
+        0.045779700952314456
+      ]
+    }
+  },
+  "comparisons": [
+    {
+      "seed": 74101,
+      "a": "reflection",
+      "b": "continuation",
+      "contrast_difference": 0.012834177384671283,
+      "standard_error": 0.0015899521270532379,
+      "simultaneous_ci": [
+        0.008051940751484483,
+        0.017616414017858083
+      ]
+    },
+    {
+      "seed": 74101,
+      "a": "twinning",
+      "b": "random",
+      "contrast_difference": 0.0,
+      "standard_error": 0.0,
+      "simultaneous_ci": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "seed": 74102,
+      "a": "reflection",
+      "b": "continuation",
+      "contrast_difference": -0.0011412584043810556,
+      "standard_error": 0.0011389395769156945,
+      "simultaneous_ci": [
+        -0.0045669455524634285,
+        0.0022844287437013173
+      ]
+    },
+    {
+      "seed": 74102,
+      "a": "twinning",
+      "b": "random",
+      "contrast_difference": 0.0,
+      "standard_error": 0.0,
+      "simultaneous_ci": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "seed": 74103,
+      "a": "reflection",
+      "b": "continuation",
+      "contrast_difference": -0.0009022008992826541,
+      "standard_error": 0.0012869260248702381,
+      "simultaneous_ci": [
+        -0.004772999696062933,
+        0.002968597897497625
+      ]
+    },
+    {
+      "seed": 74103,
+      "a": "twinning",
+      "b": "random",
+      "contrast_difference": 0.006412587731785879,
+      "standard_error": 0.0010184330791706783,
+      "simultaneous_ci": [
+        0.003349358407588642,
+        0.009475817055983117
+      ]
+    }
+  ],
+  "overall_brier": 0.021001610747695763,
+  "family_size": 19,
+  "critical_value": 3.0077865564732638,
+  "frozen_sha256": "0dfb4699fa751fb6fb0e3b698fefe494aa1547f1746e594f076e8140dd012833",
+  "scope": "Three optimizer seeds share one discovery sample, one reflection and one confirmation sample; not independent study replications."
+}

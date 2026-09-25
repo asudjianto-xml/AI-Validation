@@ -1,0 +1,1535 @@
+{
+  "version": "parallel-aml-exact-v1",
+  "facts": {
+    "moe:confirmation/original_mean/overall_logloss": {
+      "value": 0.08861662209161544,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/runs/original/endpoints/mean/confirmation/0"
+    },
+    "moe:confirmation/original_mean/worst_logloss": {
+      "value": 0.12184648295379921,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/runs/original/endpoints/mean/confirmation/1"
+    },
+    "moe:confirmation/original_mean/personal_remittance_logloss": {
+      "value": 0.07878560733324261,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/runs/original/endpoints/mean/group_losses/0"
+    },
+    "moe:confirmation/original_mean/cash_business_logloss": {
+      "value": 0.09218811915882522,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/runs/original/endpoints/mean/group_losses/1"
+    },
+    "moe:confirmation/original_mean/trading_business_logloss": {
+      "value": 0.12184648295379921,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/runs/original/endpoints/mean/group_losses/2"
+    },
+    "moe:confirmation/original_compromise/overall_logloss": {
+      "value": 0.09745314529248374,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/runs/original/endpoints/compromise/confirmation/0"
+    },
+    "moe:confirmation/original_compromise/worst_logloss": {
+      "value": 0.10843550388068951,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/runs/original/endpoints/compromise/confirmation/1"
+    },
+    "moe:confirmation/original_compromise/personal_remittance_logloss": {
+      "value": 0.0914129837528793,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/runs/original/endpoints/compromise/group_losses/0"
+    },
+    "moe:confirmation/original_compromise/cash_business_logloss": {
+      "value": 0.10843550388068951,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/runs/original/endpoints/compromise/group_losses/1"
+    },
+    "moe:confirmation/original_compromise/trading_business_logloss": {
+      "value": 0.10330536027913596,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/runs/original/endpoints/compromise/group_losses/2"
+    },
+    "moe:confirmation/original_robust/overall_logloss": {
+      "value": 0.09745314529248374,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/runs/original/endpoints/robust/confirmation/0"
+    },
+    "moe:confirmation/original_robust/worst_logloss": {
+      "value": 0.10843550388068951,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/runs/original/endpoints/robust/confirmation/1"
+    },
+    "moe:confirmation/original_robust/personal_remittance_logloss": {
+      "value": 0.0914129837528793,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/runs/original/endpoints/robust/group_losses/0"
+    },
+    "moe:confirmation/original_robust/cash_business_logloss": {
+      "value": 0.10843550388068951,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/runs/original/endpoints/robust/group_losses/1"
+    },
+    "moe:confirmation/original_robust/trading_business_logloss": {
+      "value": 0.10330536027913596,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/runs/original/endpoints/robust/group_losses/2"
+    },
+    "moe:confirmation/llm_mean/overall_logloss": {
+      "value": 0.08738219492064418,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/runs/llm/endpoints/mean/confirmation/0"
+    },
+    "moe:confirmation/llm_mean/worst_logloss": {
+      "value": 0.11790825603175795,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/runs/llm/endpoints/mean/confirmation/1"
+    },
+    "moe:confirmation/llm_mean/personal_remittance_logloss": {
+      "value": 0.0774868935424204,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/runs/llm/endpoints/mean/group_losses/0"
+    },
+    "moe:confirmation/llm_mean/cash_business_logloss": {
+      "value": 0.09273963929335952,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/runs/llm/endpoints/mean/group_losses/1"
+    },
+    "moe:confirmation/llm_mean/trading_business_logloss": {
+      "value": 0.11790825603175795,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/runs/llm/endpoints/mean/group_losses/2"
+    },
+    "moe:confirmation/llm_compromise/overall_logloss": {
+      "value": 0.09826040743318754,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/runs/llm/endpoints/compromise/confirmation/0"
+    },
+    "moe:confirmation/llm_compromise/worst_logloss": {
+      "value": 0.10333273408629849,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/runs/llm/endpoints/compromise/confirmation/1"
+    },
+    "moe:confirmation/llm_compromise/personal_remittance_logloss": {
+      "value": 0.0958074653937336,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/runs/llm/endpoints/compromise/group_losses/0"
+    },
+    "moe:confirmation/llm_compromise/cash_business_logloss": {
+      "value": 0.10109380686772451,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/runs/llm/endpoints/compromise/group_losses/1"
+    },
+    "moe:confirmation/llm_compromise/trading_business_logloss": {
+      "value": 0.10333273408629849,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/runs/llm/endpoints/compromise/group_losses/2"
+    },
+    "moe:confirmation/llm_robust/overall_logloss": {
+      "value": 0.09826040743318754,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/runs/llm/endpoints/robust/confirmation/0"
+    },
+    "moe:confirmation/llm_robust/worst_logloss": {
+      "value": 0.10333273408629849,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/runs/llm/endpoints/robust/confirmation/1"
+    },
+    "moe:confirmation/llm_robust/personal_remittance_logloss": {
+      "value": 0.0958074653937336,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/runs/llm/endpoints/robust/group_losses/0"
+    },
+    "moe:confirmation/llm_robust/cash_business_logloss": {
+      "value": 0.10109380686772451,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/runs/llm/endpoints/robust/group_losses/1"
+    },
+    "moe:confirmation/llm_robust/trading_business_logloss": {
+      "value": 0.10333273408629849,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/runs/llm/endpoints/robust/group_losses/2"
+    },
+    "moe:confirmation/full_mean/overall_logloss": {
+      "value": 0.08646306659366024,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/runs/full/endpoints/mean/confirmation/0"
+    },
+    "moe:confirmation/full_mean/worst_logloss": {
+      "value": 0.11309142581486561,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/runs/full/endpoints/mean/confirmation/1"
+    },
+    "moe:confirmation/full_mean/personal_remittance_logloss": {
+      "value": 0.07842130781124675,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/runs/full/endpoints/mean/group_losses/0"
+    },
+    "moe:confirmation/full_mean/cash_business_logloss": {
+      "value": 0.08971860743585593,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/runs/full/endpoints/mean/group_losses/1"
+    },
+    "moe:confirmation/full_mean/trading_business_logloss": {
+      "value": 0.11309142581486561,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/runs/full/endpoints/mean/group_losses/2"
+    },
+    "moe:confirmation/full_compromise/overall_logloss": {
+      "value": 0.09263891856852173,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/runs/full/endpoints/compromise/confirmation/0"
+    },
+    "moe:confirmation/full_compromise/worst_logloss": {
+      "value": 0.10341720864010438,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/runs/full/endpoints/compromise/confirmation/1"
+    },
+    "moe:confirmation/full_compromise/personal_remittance_logloss": {
+      "value": 0.08978802690917263,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/runs/full/endpoints/compromise/group_losses/0"
+    },
+    "moe:confirmation/full_compromise/cash_business_logloss": {
+      "value": 0.09298554484893985,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/runs/full/endpoints/compromise/group_losses/1"
+    },
+    "moe:confirmation/full_compromise/trading_business_logloss": {
+      "value": 0.10341720864010438,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/runs/full/endpoints/compromise/group_losses/2"
+    },
+    "moe:confirmation/full_robust/overall_logloss": {
+      "value": 0.09263891856852173,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/runs/full/endpoints/robust/confirmation/0"
+    },
+    "moe:confirmation/full_robust/worst_logloss": {
+      "value": 0.10341720864010438,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/runs/full/endpoints/robust/confirmation/1"
+    },
+    "moe:confirmation/full_robust/personal_remittance_logloss": {
+      "value": 0.08978802690917263,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/runs/full/endpoints/robust/group_losses/0"
+    },
+    "moe:confirmation/full_robust/cash_business_logloss": {
+      "value": 0.09298554484893985,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/runs/full/endpoints/robust/group_losses/1"
+    },
+    "moe:confirmation/full_robust/trading_business_logloss": {
+      "value": 0.10341720864010438,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/runs/full/endpoints/robust/group_losses/2"
+    },
+    "moe:protocol/confirmation_n": {
+      "value": 200000,
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/confirmation_n"
+    },
+    "moe:comparison/original:compromise->llm:compromise/ci": {
+      "value": [
+        -0.00018948382673587247,
+        0.008041654579091815
+      ],
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/worst_reduction_ci/original:compromise->llm:compromise"
+    },
+    "moe:comparison/original:robust->llm:robust/ci": {
+      "value": [
+        -0.00018948382673587247,
+        0.008041654579091815
+      ],
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/worst_reduction_ci/original:robust->llm:robust"
+    },
+    "moe:comparison/llm:mean->llm:compromise/ci": {
+      "value": [
+        0.008482055054623867,
+        0.01685886345432988
+      ],
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/worst_reduction_ci/llm:mean->llm:compromise"
+    },
+    "moe:comparison/llm:mean->llm:robust/ci": {
+      "value": [
+        0.008482055054623867,
+        0.01685886345432988
+      ],
+      "source": "book/evidence/aml_end_to_end_current_20260921/results.json",
+      "source_sha256": "1ce98e539748870d0342ffb5ee401ef840c5f187b855399c5b5103f762bc7326",
+      "pointer": "/worst_reduction_ci/llm:mean->llm:robust"
+    },
+    "region:confirmation/twinning_73101/n": {
+      "value": 22785,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/twinning_73101/n"
+    },
+    "region:confirmation/twinning_73101/share": {
+      "value": 0.113925,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/twinning_73101/share"
+    },
+    "region:confirmation/twinning_73101/brier": {
+      "value": 0.07258430947407625,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/twinning_73101/brier"
+    },
+    "region:confirmation/twinning_73101/rest_brier": {
+      "value": 0.014644685118192223,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/twinning_73101/rest_brier"
+    },
+    "region:confirmation/twinning_73101/contrast": {
+      "value": 0.057939624355884026,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/twinning_73101/contrast"
+    },
+    "region:confirmation/twinning_73101/standard_error": {
+      "value": 0.0015254634911081595,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/twinning_73101/standard_error"
+    },
+    "region:confirmation/twinning_73101/simultaneous_ci": {
+      "value": [
+        0.05335135577493813,
+        0.06252789293682992
+      ],
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/twinning_73101/simultaneous_ci"
+    },
+    "region:confirmation/random_73101/n": {
+      "value": 28075,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/random_73101/n"
+    },
+    "region:confirmation/random_73101/share": {
+      "value": 0.140375,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/random_73101/share"
+    },
+    "region:confirmation/random_73101/brier": {
+      "value": 0.06294075638063731,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/random_73101/brier"
+    },
+    "region:confirmation/random_73101/rest_brier": {
+      "value": 0.014436699893563297,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/random_73101/rest_brier"
+    },
+    "region:confirmation/random_73101/contrast": {
+      "value": 0.04850405648707402,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/random_73101/contrast"
+    },
+    "region:confirmation/random_73101/standard_error": {
+      "value": 0.0013060465786106008,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/random_73101/standard_error"
+    },
+    "region:confirmation/random_73101/simultaneous_ci": {
+      "value": [
+        0.04457574714580115,
+        0.052432365828346886
+      ],
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/random_73101/simultaneous_ci"
+    },
+    "region:confirmation/continuation_73101/n": {
+      "value": 22785,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/continuation_73101/n"
+    },
+    "region:confirmation/continuation_73101/share": {
+      "value": 0.113925,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/continuation_73101/share"
+    },
+    "region:confirmation/continuation_73101/brier": {
+      "value": 0.07258430947407625,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/continuation_73101/brier"
+    },
+    "region:confirmation/continuation_73101/rest_brier": {
+      "value": 0.014644685118192223,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/continuation_73101/rest_brier"
+    },
+    "region:confirmation/continuation_73101/contrast": {
+      "value": 0.057939624355884026,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/continuation_73101/contrast"
+    },
+    "region:confirmation/continuation_73101/standard_error": {
+      "value": 0.0015254634911081595,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/continuation_73101/standard_error"
+    },
+    "region:confirmation/continuation_73101/simultaneous_ci": {
+      "value": [
+        0.05335135577493813,
+        0.06252789293682992
+      ],
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/continuation_73101/simultaneous_ci"
+    },
+    "region:confirmation/reflection_73101/n": {
+      "value": 23044,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/reflection_73101/n"
+    },
+    "region:confirmation/reflection_73101/share": {
+      "value": 0.11522,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/reflection_73101/share"
+    },
+    "region:confirmation/reflection_73101/brier": {
+      "value": 0.07285078874096361,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/reflection_73101/brier"
+    },
+    "region:confirmation/reflection_73101/rest_brier": {
+      "value": 0.014525180207738063,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/reflection_73101/rest_brier"
+    },
+    "region:confirmation/reflection_73101/contrast": {
+      "value": 0.05832560853322555,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/reflection_73101/contrast"
+    },
+    "region:confirmation/reflection_73101/standard_error": {
+      "value": 0.0015189521055788682,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/reflection_73101/standard_error"
+    },
+    "region:confirmation/reflection_73101/simultaneous_ci": {
+      "value": [
+        0.05375692481013867,
+        0.06289429225631242
+      ],
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/reflection_73101/simultaneous_ci"
+    },
+    "region:confirmation/twinning_73102/n": {
+      "value": 24621,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/twinning_73102/n"
+    },
+    "region:confirmation/twinning_73102/share": {
+      "value": 0.123105,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/twinning_73102/share"
+    },
+    "region:confirmation/twinning_73102/brier": {
+      "value": 0.06859207589251205,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/twinning_73102/brier"
+    },
+    "region:confirmation/twinning_73102/rest_brier": {
+      "value": 0.014598588565550739,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/twinning_73102/rest_brier"
+    },
+    "region:confirmation/twinning_73102/contrast": {
+      "value": 0.05399348732696131,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/twinning_73102/contrast"
+    },
+    "region:confirmation/twinning_73102/standard_error": {
+      "value": 0.0014544152375162798,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/twinning_73102/standard_error"
+    },
+    "region:confirmation/twinning_73102/simultaneous_ci": {
+      "value": [
+        0.049618916728029976,
+        0.05836805792589265
+      ],
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/twinning_73102/simultaneous_ci"
+    },
+    "region:confirmation/random_73102/n": {
+      "value": 20694,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/random_73102/n"
+    },
+    "region:confirmation/random_73102/share": {
+      "value": 0.10347,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/random_73102/share"
+    },
+    "region:confirmation/random_73102/brier": {
+      "value": 0.08022491364552181,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/random_73102/brier"
+    },
+    "region:confirmation/random_73102/rest_brier": {
+      "value": 0.01443854082745047,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/random_73102/rest_brier"
+    },
+    "region:confirmation/random_73102/contrast": {
+      "value": 0.06578637281807134,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/random_73102/contrast"
+    },
+    "region:confirmation/random_73102/standard_error": {
+      "value": 0.0016786640198662801,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/random_73102/standard_error"
+    },
+    "region:confirmation/random_73102/simultaneous_ci": {
+      "value": [
+        0.06073730974628218,
+        0.0708354358898605
+      ],
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/random_73102/simultaneous_ci"
+    },
+    "region:confirmation/continuation_73102/n": {
+      "value": 20010,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/continuation_73102/n"
+    },
+    "region:confirmation/continuation_73102/share": {
+      "value": 0.10005,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/continuation_73102/share"
+    },
+    "region:confirmation/continuation_73102/brier": {
+      "value": 0.07306536150696533,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/continuation_73102/brier"
+    },
+    "region:confirmation/continuation_73102/rest_brier": {
+      "value": 0.01548449069855484,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/continuation_73102/rest_brier"
+    },
+    "region:confirmation/continuation_73102/contrast": {
+      "value": 0.057580870808410484,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/continuation_73102/contrast"
+    },
+    "region:confirmation/continuation_73102/standard_error": {
+      "value": 0.0016466000949960263,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/continuation_73102/standard_error"
+    },
+    "region:confirmation/continuation_73102/simultaneous_ci": {
+      "value": [
+        0.052628249178793836,
+        0.06253349243802712
+      ],
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/continuation_73102/simultaneous_ci"
+    },
+    "region:confirmation/reflection_73102/n": {
+      "value": 24621,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/reflection_73102/n"
+    },
+    "region:confirmation/reflection_73102/share": {
+      "value": 0.123105,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/reflection_73102/share"
+    },
+    "region:confirmation/reflection_73102/brier": {
+      "value": 0.06859207589251205,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/reflection_73102/brier"
+    },
+    "region:confirmation/reflection_73102/rest_brier": {
+      "value": 0.014598588565550739,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/reflection_73102/rest_brier"
+    },
+    "region:confirmation/reflection_73102/contrast": {
+      "value": 0.05399348732696131,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/reflection_73102/contrast"
+    },
+    "region:confirmation/reflection_73102/standard_error": {
+      "value": 0.0014544152375162798,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/reflection_73102/standard_error"
+    },
+    "region:confirmation/reflection_73102/simultaneous_ci": {
+      "value": [
+        0.049618916728029976,
+        0.05836805792589265
+      ],
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/reflection_73102/simultaneous_ci"
+    },
+    "region:confirmation/twinning_73103/n": {
+      "value": 24626,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/twinning_73103/n"
+    },
+    "region:confirmation/twinning_73103/share": {
+      "value": 0.12313,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/twinning_73103/share"
+    },
+    "region:confirmation/twinning_73103/brier": {
+      "value": 0.06646808961154992,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/twinning_73103/brier"
+    },
+    "region:confirmation/twinning_73103/rest_brier": {
+      "value": 0.014895299131075498,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/twinning_73103/rest_brier"
+    },
+    "region:confirmation/twinning_73103/contrast": {
+      "value": 0.05157279048047442,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/twinning_73103/contrast"
+    },
+    "region:confirmation/twinning_73103/standard_error": {
+      "value": 0.001443721911938343,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/twinning_73103/standard_error"
+    },
+    "region:confirmation/twinning_73103/simultaneous_ci": {
+      "value": [
+        0.04723038312246039,
+        0.055915197838488445
+      ],
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/twinning_73103/simultaneous_ci"
+    },
+    "region:confirmation/random_73103/n": {
+      "value": 19791,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/random_73103/n"
+    },
+    "region:confirmation/random_73103/share": {
+      "value": 0.098955,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/random_73103/share"
+    },
+    "region:confirmation/random_73103/brier": {
+      "value": 0.08720947348820422,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/random_73103/brier"
+    },
+    "region:confirmation/random_73103/rest_brier": {
+      "value": 0.014001124665151085,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/random_73103/rest_brier"
+    },
+    "region:confirmation/random_73103/contrast": {
+      "value": 0.07320834882305313,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/random_73103/contrast"
+    },
+    "region:confirmation/random_73103/standard_error": {
+      "value": 0.0017882939996250505,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/random_73103/standard_error"
+    },
+    "region:confirmation/random_73103/simultaneous_ci": {
+      "value": [
+        0.0678295421719591,
+        0.07858715547414716
+      ],
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/random_73103/simultaneous_ci"
+    },
+    "region:confirmation/continuation_73103/n": {
+      "value": 20789,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/continuation_73103/n"
+    },
+    "region:confirmation/continuation_73103/share": {
+      "value": 0.103945,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/continuation_73103/share"
+    },
+    "region:confirmation/continuation_73103/brier": {
+      "value": 0.07521093337157508,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/continuation_73103/brier"
+    },
+    "region:confirmation/continuation_73103/rest_brier": {
+      "value": 0.014985303752144609,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/continuation_73103/rest_brier"
+    },
+    "region:confirmation/continuation_73103/contrast": {
+      "value": 0.060225629619430475,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/continuation_73103/contrast"
+    },
+    "region:confirmation/continuation_73103/standard_error": {
+      "value": 0.0016210857196878987,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/continuation_73103/standard_error"
+    },
+    "region:confirmation/continuation_73103/simultaneous_ci": {
+      "value": [
+        0.05534974978486243,
+        0.06510150945399852
+      ],
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/continuation_73103/simultaneous_ci"
+    },
+    "region:confirmation/reflection_73103/n": {
+      "value": 20646,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/reflection_73103/n"
+    },
+    "region:confirmation/reflection_73103/share": {
+      "value": 0.10323,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/reflection_73103/share"
+    },
+    "region:confirmation/reflection_73103/brier": {
+      "value": 0.07738206917193073,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/reflection_73103/brier"
+    },
+    "region:confirmation/reflection_73103/rest_brier": {
+      "value": 0.014783395767385061,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/reflection_73103/rest_brier"
+    },
+    "region:confirmation/reflection_73103/contrast": {
+      "value": 0.06259867340454567,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/reflection_73103/contrast"
+    },
+    "region:confirmation/reflection_73103/standard_error": {
+      "value": 0.0016409392156114453,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/reflection_73103/standard_error"
+    },
+    "region:confirmation/reflection_73103/simultaneous_ci": {
+      "value": [
+        0.057663078491839784,
+        0.06753426831725155
+      ],
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/reflection_73103/simultaneous_ci"
+    },
+    "region:confirmation/pam/n": {
+      "value": 40697,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/pam/n"
+    },
+    "region:confirmation/pam/share": {
+      "value": 0.203485,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/pam/share"
+    },
+    "region:confirmation/pam/brier": {
+      "value": 0.053992007536403035,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/pam/brier"
+    },
+    "region:confirmation/pam/rest_brier": {
+      "value": 0.012879723758361541,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/pam/rest_brier"
+    },
+    "region:confirmation/pam/contrast": {
+      "value": 0.04111228377804149,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/pam/contrast"
+    },
+    "region:confirmation/pam/standard_error": {
+      "value": 0.0010338564366238773,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/pam/standard_error"
+    },
+    "region:confirmation/pam/simultaneous_ci": {
+      "value": [
+        0.03800266428664084,
+        0.04422190326944214
+      ],
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/confirmation/pam/simultaneous_ci"
+    },
+    "region:comparison/reflection-continuation_73101/contrast_difference": {
+      "value": 0.00038598417734152235,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/comparisons/0/contrast_difference"
+    },
+    "region:comparison/reflection-continuation_73101/standard_error": {
+      "value": 0.0007011648204549153,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/comparisons/0/standard_error"
+    },
+    "region:comparison/reflection-continuation_73101/simultaneous_ci": {
+      "value": [
+        -0.0017229699434947615,
+        0.002494938298177806
+      ],
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/comparisons/0/simultaneous_ci"
+    },
+    "region:comparison/twinning-random_73101/contrast_difference": {
+      "value": 0.009435567868810009,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/comparisons/1/contrast_difference"
+    },
+    "region:comparison/twinning-random_73101/standard_error": {
+      "value": 0.001226647271895252,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/comparisons/1/standard_error"
+    },
+    "region:comparison/twinning-random_73101/simultaneous_ci": {
+      "value": [
+        0.005746074694868866,
+        0.013125061042751152
+      ],
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/comparisons/1/simultaneous_ci"
+    },
+    "region:comparison/reflection-continuation_73102/contrast_difference": {
+      "value": -0.0035873834814491717,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/comparisons/2/contrast_difference"
+    },
+    "region:comparison/reflection-continuation_73102/standard_error": {
+      "value": 0.0014152464909027041,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/comparisons/2/standard_error"
+    },
+    "region:comparison/reflection-continuation_73102/simultaneous_ci": {
+      "value": [
+        -0.007844142850882287,
+        0.0006693758879839432
+      ],
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/comparisons/2/simultaneous_ci"
+    },
+    "region:comparison/twinning-random_73102/contrast_difference": {
+      "value": -0.01179288549111003,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/comparisons/3/contrast_difference"
+    },
+    "region:comparison/twinning-random_73102/standard_error": {
+      "value": 0.0016529249655396084,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/comparisons/3/standard_error"
+    },
+    "region:comparison/twinning-random_73102/simultaneous_ci": {
+      "value": [
+        -0.0167645309813191,
+        -0.0068212400009009634
+      ],
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/comparisons/3/simultaneous_ci"
+    },
+    "region:comparison/reflection-continuation_73103/contrast_difference": {
+      "value": 0.0023730437851151934,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/comparisons/4/contrast_difference"
+    },
+    "region:comparison/reflection-continuation_73103/standard_error": {
+      "value": 0.0010926616498011957,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/comparisons/4/standard_error"
+    },
+    "region:comparison/reflection-continuation_73103/simultaneous_ci": {
+      "value": [
+        -0.0009134492359307404,
+        0.005659536806161127
+      ],
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/comparisons/4/simultaneous_ci"
+    },
+    "region:comparison/twinning-random_73103/contrast_difference": {
+      "value": -0.021635558342578715,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/comparisons/5/contrast_difference"
+    },
+    "region:comparison/twinning-random_73103/standard_error": {
+      "value": 0.0014286963357442019,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/comparisons/5/standard_error"
+    },
+    "region:comparison/twinning-random_73103/simultaneous_ci": {
+      "value": [
+        -0.025932771974512738,
+        -0.01733834471064469
+      ],
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/comparisons/5/simultaneous_ci"
+    },
+    "region:experiment/overall_brier": {
+      "value": 0.021245456822936302,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/overall_brier"
+    },
+    "region:experiment/family_size": {
+      "value": 19,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/family_size"
+    },
+    "region:experiment/scope": {
+      "value": "Three optimizer seeds share one discovery sample, one reflection and one confirmation sample; not independent study replications.",
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/results.json",
+      "source_sha256": "fad0af92d04996ccb01f907412dc018c401f39d05443c608d862a5ff3209649b",
+      "pointer": "/scope"
+    },
+    "region:protocol/version": {
+      "value": "medoid-loop-leaf-output-v1",
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/protocol.json",
+      "source_sha256": "8709c56daf1d8276fde0d09d43e5a8eebb031023878501ffefd2aadf0c488dc5",
+      "pointer": "/version"
+    },
+    "region:protocol/geometry": {
+      "value": "Euclidean distance across actual per-tree leaf outputs, float64, no coordinate standardization",
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/protocol.json",
+      "source_sha256": "8709c56daf1d8276fde0d09d43e5a8eebb031023878501ffefd2aadf0c488dc5",
+      "pointer": "/geometry"
+    },
+    "region:protocol/base_model": {
+      "value": "unchanged saved logistic model",
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/protocol.json",
+      "source_sha256": "8709c56daf1d8276fde0d09d43e5a8eebb031023878501ffefd2aadf0c488dc5",
+      "pointer": "/base_model"
+    },
+    "region:protocol/auxiliary": {
+      "value": "unchanged saved depth-two 120-tree model",
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/protocol.json",
+      "source_sha256": "8709c56daf1d8276fde0d09d43e5a8eebb031023878501ffefd2aadf0c488dc5",
+      "pointer": "/auxiliary"
+    },
+    "region:protocol/confirmation_n": {
+      "value": 200000,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/protocol.json",
+      "source_sha256": "8709c56daf1d8276fde0d09d43e5a8eebb031023878501ffefd2aadf0c488dc5",
+      "pointer": "/confirmation_n"
+    },
+    "region:protocol/confirmation_seed": {
+      "value": 62491,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/protocol.json",
+      "source_sha256": "8709c56daf1d8276fde0d09d43e5a8eebb031023878501ffefd2aadf0c488dc5",
+      "pointer": "/confirmation_seed"
+    },
+    "region:protocol/primary_policy": {
+      "value": "maximum discovery contrast on Pareto frontier with share >= 0.10; tie larger share then earlier ID",
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/protocol.json",
+      "source_sha256": "8709c56daf1d8276fde0d09d43e5a8eebb031023878501ffefd2aadf0c488dc5",
+      "pointer": "/primary_policy"
+    },
+    "region:protocol/inference": {
+      "value": "Bonferroni simultaneous normal intervals for 13 selected gaps and six paired differences (19 claims); iid observations conditional on fixed fits",
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/protocol.json",
+      "source_sha256": "8709c56daf1d8276fde0d09d43e5a8eebb031023878501ffefd2aadf0c488dc5",
+      "pointer": "/inference"
+    },
+    "region:protocol/reflection_calls": {
+      "value": 1,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/protocol.json",
+      "source_sha256": "8709c56daf1d8276fde0d09d43e5a8eebb031023878501ffefd2aadf0c488dc5",
+      "pointer": "/reflection_calls"
+    },
+    "region:discovery/twinning_73101/medoids": {
+      "value": [
+        467,
+        689,
+        1529,
+        2214
+      ],
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/0/discovery/medoids"
+    },
+    "region:discovery/twinning_73101/region/cells": {
+      "value": [
+        0
+      ],
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/0/discovery/region/cells"
+    },
+    "region:discovery/twinning_73101/region/share": {
+      "value": 0.115625,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/0/discovery/region/share"
+    },
+    "region:discovery/twinning_73101/region/contrast": {
+      "value": 0.06161626666214909,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/0/discovery/region/contrast"
+    },
+    "region:discovery/random_73101/medoids": {
+      "value": [
+        405,
+        892,
+        2614,
+        2881
+      ],
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/1/discovery/medoids"
+    },
+    "region:discovery/random_73101/region/cells": {
+      "value": [
+        3
+      ],
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/1/discovery/region/cells"
+    },
+    "region:discovery/random_73101/region/share": {
+      "value": 0.1412,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/1/discovery/region/share"
+    },
+    "region:discovery/random_73101/region/contrast": {
+      "value": 0.04850602548967849,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/1/discovery/region/contrast"
+    },
+    "region:discovery/continuation_73101/medoids": {
+      "value": [
+        467,
+        689,
+        1529,
+        2214
+      ],
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/2/discovery/medoids"
+    },
+    "region:discovery/continuation_73101/region/cells": {
+      "value": [
+        0
+      ],
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/2/discovery/region/cells"
+    },
+    "region:discovery/continuation_73101/region/share": {
+      "value": 0.115625,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/2/discovery/region/share"
+    },
+    "region:discovery/continuation_73101/region/contrast": {
+      "value": 0.06161626666214909,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/2/discovery/region/contrast"
+    },
+    "region:discovery/reflection_73101/medoids": {
+      "value": [
+        13,
+        1529,
+        1690,
+        2303
+      ],
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/3/discovery/medoids"
+    },
+    "region:discovery/reflection_73101/region/cells": {
+      "value": [
+        2,
+        3
+      ],
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/3/discovery/region/cells"
+    },
+    "region:discovery/reflection_73101/region/share": {
+      "value": 0.11655,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/3/discovery/region/share"
+    },
+    "region:discovery/reflection_73101/region/contrast": {
+      "value": 0.06441212811162274,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/3/discovery/region/contrast"
+    },
+    "region:discovery/twinning_73102/medoids": {
+      "value": [
+        426,
+        1690,
+        1745,
+        1928
+      ],
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/4/discovery/medoids"
+    },
+    "region:discovery/twinning_73102/region/cells": {
+      "value": [
+        1
+      ],
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/4/discovery/region/cells"
+    },
+    "region:discovery/twinning_73102/region/share": {
+      "value": 0.1241,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/4/discovery/region/share"
+    },
+    "region:discovery/twinning_73102/region/contrast": {
+      "value": 0.05729532775609904,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/4/discovery/region/contrast"
+    },
+    "region:discovery/random_73102/medoids": {
+      "value": [
+        244,
+        2191,
+        2643,
+        2951
+      ],
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/5/discovery/medoids"
+    },
+    "region:discovery/random_73102/region/cells": {
+      "value": [
+        2
+      ],
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/5/discovery/region/cells"
+    },
+    "region:discovery/random_73102/region/share": {
+      "value": 0.10305,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/5/discovery/region/share"
+    },
+    "region:discovery/random_73102/region/contrast": {
+      "value": 0.06541012498653673,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/5/discovery/region/contrast"
+    },
+    "region:discovery/continuation_73102/medoids": {
+      "value": [
+        480,
+        1943,
+        1954,
+        2657
+      ],
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/6/discovery/medoids"
+    },
+    "region:discovery/continuation_73102/region/cells": {
+      "value": [
+        3
+      ],
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/6/discovery/region/cells"
+    },
+    "region:discovery/continuation_73102/region/share": {
+      "value": 0.1008,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/6/discovery/region/share"
+    },
+    "region:discovery/continuation_73102/region/contrast": {
+      "value": 0.06415802131891132,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/6/discovery/region/contrast"
+    },
+    "region:discovery/reflection_73102/medoids": {
+      "value": [
+        426,
+        1690,
+        1745,
+        1928
+      ],
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/7/discovery/medoids"
+    },
+    "region:discovery/reflection_73102/region/cells": {
+      "value": [
+        1
+      ],
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/7/discovery/region/cells"
+    },
+    "region:discovery/reflection_73102/region/share": {
+      "value": 0.1241,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/7/discovery/region/share"
+    },
+    "region:discovery/reflection_73102/region/contrast": {
+      "value": 0.05729532775609904,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/7/discovery/region/contrast"
+    },
+    "region:discovery/twinning_73103/medoids": {
+      "value": [
+        829,
+        1055,
+        1398,
+        2003
+      ],
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/8/discovery/medoids"
+    },
+    "region:discovery/twinning_73103/region/cells": {
+      "value": [
+        1
+      ],
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/8/discovery/region/cells"
+    },
+    "region:discovery/twinning_73103/region/share": {
+      "value": 0.1243,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/8/discovery/region/share"
+    },
+    "region:discovery/twinning_73103/region/contrast": {
+      "value": 0.06055615833648183,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/8/discovery/region/contrast"
+    },
+    "region:discovery/random_73103/medoids": {
+      "value": [
+        557,
+        1176,
+        2184,
+        2952
+      ],
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/9/discovery/medoids"
+    },
+    "region:discovery/random_73103/region/cells": {
+      "value": [
+        1
+      ],
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/9/discovery/region/cells"
+    },
+    "region:discovery/random_73103/region/share": {
+      "value": 0.1008,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/9/discovery/region/share"
+    },
+    "region:discovery/random_73103/region/contrast": {
+      "value": 0.07706745193676391,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/9/discovery/region/contrast"
+    },
+    "region:discovery/continuation_73103/medoids": {
+      "value": [
+        104,
+        755,
+        967,
+        2666
+      ],
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/10/discovery/medoids"
+    },
+    "region:discovery/continuation_73103/region/cells": {
+      "value": [
+        0
+      ],
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/10/discovery/region/cells"
+    },
+    "region:discovery/continuation_73103/region/share": {
+      "value": 0.10455,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/10/discovery/region/share"
+    },
+    "region:discovery/continuation_73103/region/contrast": {
+      "value": 0.06557493123645691,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/10/discovery/region/contrast"
+    },
+    "region:discovery/reflection_73103/medoids": {
+      "value": [
+        829,
+        1398,
+        2003,
+        2593
+      ],
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/11/discovery/medoids"
+    },
+    "region:discovery/reflection_73103/region/cells": {
+      "value": [
+        3
+      ],
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/11/discovery/region/cells"
+    },
+    "region:discovery/reflection_73103/region/share": {
+      "value": 0.1049,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/11/discovery/region/share"
+    },
+    "region:discovery/reflection_73103/region/contrast": {
+      "value": 0.0643668234010845,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/11/discovery/region/contrast"
+    },
+    "region:discovery/pam/medoids": {
+      "value": [
+        95,
+        984,
+        2678,
+        2975
+      ],
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/12/discovery/medoids"
+    },
+    "region:discovery/pam/region/cells": {
+      "value": [
+        1
+      ],
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/12/discovery/region/cells"
+    },
+    "region:discovery/pam/region/share": {
+      "value": 0.20535,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/12/discovery/region/share"
+    },
+    "region:discovery/pam/region/contrast": {
+      "value": 0.041794826359640797,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/frozen_finalists.json",
+      "source_sha256": "291bbaee05c21e44736b83c16428418e4775730ef488d15b6e1b8fbb7b105630",
+      "pointer": "/finalists/12/discovery/region/contrast"
+    },
+    "region:admission/admitted": {
+      "value": true,
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/reflection/admission.json",
+      "source_sha256": "84f268857b4eafa06b333d90011477c72de730f44faf727ca7243d35c22295f3",
+      "pointer": "/admitted"
+    },
+    "region:admission/parent": {
+      "value": "leaf-output-medoid-single-cell-v1",
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/reflection/admission.json",
+      "source_sha256": "84f268857b4eafa06b333d90011477c72de730f44faf727ca7243d35c22295f3",
+      "pointer": "/parent"
+    },
+    "region:admission/version": {
+      "value": "leaf-output-medoid-union-v1",
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/reflection/admission.json",
+      "source_sha256": "84f268857b4eafa06b333d90011477c72de730f44faf727ca7243d35c22295f3",
+      "pointer": "/version"
+    },
+    "region:admission/reason": {
+      "value": "A union of at most two cells from the same four-medoid partition preserves the frozen logistic predictor, auxiliary leaf-output embedding, observed covariates, Brier loss reference and all support checks. Membership uses only covariates and frozen output-space medoids. The new rule can be executed and scored without any new measurements. The fragmentation mechanism and performance prediction remain unverified.",
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/reflection/admission.json",
+      "source_sha256": "84f268857b4eafa06b333d90011477c72de730f44faf727ca7243d35c22295f3",
+      "pointer": "/reason"
+    },
+    "region:admission/response_sha256": {
+      "value": "ae5eeeb2ed78326e70d5b1e61ff41f8417982a0b383f5e6add3d68f3e0ebd3aa",
+      "source": "book/evidence/aml_medoid_loop_leaf_output_20260921/reflection/admission.json",
+      "source_sha256": "84f268857b4eafa06b333d90011477c72de730f44faf727ca7243d35c22295f3",
+      "pointer": "/response_sha256"
+    }
+  },
+  "scope": "Saved synthetic experiments; exact supplied mappings only. No free-text extraction or live reporting assessment."
+}

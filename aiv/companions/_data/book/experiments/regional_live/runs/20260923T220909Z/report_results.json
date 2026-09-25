@@ -1,0 +1,246 @@
+{
+  "selected": {
+    "id": "w1",
+    "text": "Keep only the most useful measurements. Preserve every scope qualification. "
+  },
+  "rows": [
+    {
+      "instruction": "w0",
+      "packet": "seed_74101",
+      "phase": "discovery",
+      "valid": false,
+      "plan": {
+        "title": "Validation Report: Confirmation Region Calibration (seed_74101)",
+        "text": "For the discovery-phase confirmation regions under seed_74101, calibration and separation metrics were computed for both the reflection and continuation cells. In the reflection cell, the Brier score was 0.0858 [region:confirmation/reflection_74101/brier], with a contrast (squared probability error) of 0.0725 [region:confirmation/reflection_74101/contrast] over a sample share of 10.68% [region:confirmation/reflection_74101/share]. In the continuation cell, calibration was comparable but marginally better, with a Brier score of 0.0745 [region:confirmation/continuation_74101/brier], a contrast of 0.0597 [region:confirmation/continuation_74101/contrast], and a similar sample share of 10.32% [region:confirmation/continuation_74101/share]. Both cells show low absolute error and similar coverage, suggesting comparable calibration quality between the two confirmation regions. This structural admission reflects a live LLM-proposed dimensionless product feature that enabled an auxiliary error-model refit and retention of a single-cell region [structural_change]. However, these figures derive from a shared discovery, reflection, and confirmation sample across three optimizer seeds, so the two cells are not independent replications [shared_samples]. The reported intervals also fall within a family of 19 declared conditional comparisons, meaning simultaneous-inference correction context should be considered before treating any single contrast as significant [conditional_inference]. As this packet contains point estimates only, no statistically established improvement should be inferred from these values alone [inference_scope].",
+        "facts": [
+          "region:confirmation/reflection_74101/brier",
+          "region:confirmation/reflection_74101/contrast",
+          "region:confirmation/reflection_74101/share",
+          "region:confirmation/continuation_74101/brier",
+          "region:confirmation/continuation_74101/contrast",
+          "region:confirmation/continuation_74101/share"
+        ],
+        "qualifiers": [
+          "structural_change",
+          "shared_samples",
+          "conditional_inference",
+          "inference_scope"
+        ]
+      },
+      "cost": 10,
+      "scope": "Identifier coverage only; text faithfulness requires audit"
+    },
+    {
+      "instruction": "w0",
+      "packet": "seed_74102",
+      "phase": "discovery",
+      "valid": true,
+      "plan": {
+        "title": "Validation Report: Discovery Region Confirmation (seed_74102)",
+        "text": "This subsection summarizes the confirmation-phase validation for the two discovery regions identified under seed_74102: the reflection region and the continuation region. Both regions show comparable predictive calibration, with the reflection region achieving a Brier score of 0.0718 (region:confirmation/reflection_74102/brier) and the continuation region a slightly higher Brier score of 0.0748 (region:confirmation/continuation_74102/brier). The contrast metric, which measures the squared probability error gap against baseline, is 0.0586 for the reflection region (region:confirmation/reflection_74102/contrast) and 0.0598 for the continuation region (region:confirmation/continuation_74102/contrast), indicating a modest and similar predictive edge in both cases. In terms of coverage, the reflection region accounts for 13.35% of the sample share (region:confirmation/reflection_74102/share), while the continuation region accounts for 10.00% (region:confirmation/continuation_74102/share), suggesting the reflection region is somewhat more broadly represented in the confirmation set.\n\nSeveral caveats limit the strength of conclusions drawn from these figures. The base predictor was held fixed during this evaluation, so no predictor repair gain was measured (fixed_predictor). The three optimizer seeds underlying this analysis share a single discovery sample and single reflection/confirmation samples, meaning these are not independent replications of the study (shared_samples). A live LLM proposed a dimensionless product feature that was admitted into the pipeline, permitting an auxiliary error-model refit and retention of a single-cell region \u2014 a structural change that should be considered when interpreting the stability of these metrics (structural_change). The simultaneous intervals reported elsewhere in this packet span 19 declared conditional comparisons, and again the optimizer seeds are not independent replications (conditional_inference). Finally, this packet contains point estimates only; no statistically established improvement should be inferred from these values in isolation (inference_scope).",
+        "facts": [
+          "region:confirmation/reflection_74102/brier",
+          "region:confirmation/reflection_74102/contrast",
+          "region:confirmation/reflection_74102/share",
+          "region:confirmation/continuation_74102/brier",
+          "region:confirmation/continuation_74102/contrast",
+          "region:confirmation/continuation_74102/share"
+        ],
+        "qualifiers": [
+          "fixed_predictor",
+          "shared_samples",
+          "structural_change",
+          "conditional_inference",
+          "inference_scope"
+        ]
+      },
+      "cost": 11,
+      "scope": "Identifier coverage only; text faithfulness requires audit"
+    },
+    {
+      "instruction": "w1",
+      "packet": "seed_74101",
+      "phase": "discovery",
+      "valid": true,
+      "plan": {
+        "title": "Validation Report: Confirmation-Stage Metrics for Seed 74101",
+        "text": "For seed 74101, confirmation-stage validation was assessed separately for the reflection and continuation regions. In the reflection region, the Brier score was 0.0858 [region:confirmation/reflection_74101/brier], with a contrast value of 0.0725 [region:confirmation/reflection_74101/contrast] and a sample share of 0.1068 [region:confirmation/reflection_74101/share]. In the continuation region, the Brier score was 0.0745 [region:confirmation/continuation_74101/brier], with a contrast value of 0.0597 [region:confirmation/continuation_74101/contrast] and a sample share of 0.1032 [region:confirmation/continuation_74101/share]. The continuation region thus shows marginally lower Brier and contrast values than the reflection region, though both regions carry similar sample shares (~10.3-10.7%). These comparisons fall within a set of 19 declared conditional comparisons covered by simultaneous intervals, and the three optimizer seeds are not independent study replications [conditional_inference]. Relatedly, all three optimizer seeds share a single discovery sample and a single reflection/confirmation sample, further limiting independence across replicates [shared_samples]. The base predictor underlying these metrics was held fixed, so no predictor repair gain was measured or attributable to these results [fixed_predictor]. A structural change was admitted during this cycle: a live LLM proposed a dimensionless product feature, which permitted an auxiliary error-model refit while retaining a single-cell region [structural_change]. Given that this packet reports point estimates only, no statistically established improvement should be inferred from these values alone [inference_scope].",
+        "facts": [
+          "region:confirmation/reflection_74101/brier",
+          "region:confirmation/reflection_74101/contrast",
+          "region:confirmation/reflection_74101/share",
+          "region:confirmation/continuation_74101/brier",
+          "region:confirmation/continuation_74101/contrast",
+          "region:confirmation/continuation_74101/share"
+        ],
+        "qualifiers": [
+          "fixed_predictor",
+          "shared_samples",
+          "structural_change",
+          "conditional_inference",
+          "inference_scope"
+        ]
+      },
+      "cost": 11,
+      "scope": "Identifier coverage only; text faithfulness requires audit"
+    },
+    {
+      "instruction": "w1",
+      "packet": "seed_74102",
+      "phase": "discovery",
+      "valid": true,
+      "plan": {
+        "title": "Validation Report: Reflection and Continuation Regions (seed_74102)",
+        "text": "This subsection summarizes discovery-phase validation metrics for two confirmation regions, reflection_74102 and continuation_74102. For the reflection region, the Brier score was 0.0718 (region:confirmation/reflection_74102/brier), with a contrast (control-vs-treatment squared probability error) of 0.0586 (region:confirmation/reflection_74102/contrast) and a sample share of 13.35% (region:confirmation/reflection_74102/share). For the continuation region, the Brier score was 0.0748 (region:confirmation/continuation_74102/brier), with a contrast of 0.0598 (region:confirmation/continuation_74102/contrast) and a sample share of 9.999% (region:confirmation/continuation_74102/share). Both regions show comparable error magnitudes and contrast levels, suggesting similar predictive calibration across the two conditions.\n\nSeveral scope qualifications constrain interpretation of these figures. The base predictor was held fixed throughout, so no predictor repair gain was measured (fixed_predictor). The three optimizer seeds underlying these results share a single discovery sample and a single reflection/confirmation sample apiece, meaning the runs are not independent study replications (shared_samples). A live LLM proposed a dimensionless product feature during this cycle; its admission triggered an auxiliary error-model refit and the retention of a single-cell region, which may affect comparability with prior packets (structural_change). The simultaneous confidence intervals reported elsewhere cover 19 declared conditional comparisons, and again the optimizer seeds should not be treated as independent replications (conditional_inference). Finally, this packet contains point estimates only; no statistically established improvement should be inferred from these values alone (inference_scope).",
+        "facts": [
+          "region:confirmation/reflection_74102/brier",
+          "region:confirmation/reflection_74102/contrast",
+          "region:confirmation/reflection_74102/share",
+          "region:confirmation/continuation_74102/brier",
+          "region:confirmation/continuation_74102/contrast",
+          "region:confirmation/continuation_74102/share"
+        ],
+        "qualifiers": [
+          "fixed_predictor",
+          "shared_samples",
+          "structural_change",
+          "conditional_inference",
+          "inference_scope"
+        ]
+      },
+      "cost": 11,
+      "scope": "Identifier coverage only; text faithfulness requires audit"
+    },
+    {
+      "instruction": "w2",
+      "packet": "seed_74101",
+      "phase": "discovery",
+      "valid": false,
+      "plan": {
+        "title": "Validation Report: Regional Confirmation Metrics for Seed 74101",
+        "text": "For seed 74101, the confirmation-phase evaluation was run across two regions, reflection and continuation, each assessed on Brier score, contrast, and coverage share. In the reflection region, the Brier score was 0.0858 (region:confirmation/reflection_74101/brier), the contrast metric was 0.0725 (region:confirmation/reflection_74101/contrast), and the region accounted for a 0.1068 share of cases (region:confirmation/reflection_74101/share). In the continuation region, the Brier score was 0.0745 (region:confirmation/continuation_74101/brier), the contrast metric was 0.0597 (region:confirmation/continuation_74101/contrast), and the region accounted for a 0.1032 share (region:confirmation/continuation_74101/share). Both regions show comparably low Brier scores and contrast values, with continuation performing marginally better on both accuracy and contrast, while covering a similar proportion of the sample. These results reflect a structural change in which a live LLM proposed a dimensionless product feature, whose admission enabled an auxiliary error-model refit while retaining a single-cell region (structural_change). The three optimizer seeds underlying these figures share a single discovery sample and one reflection/confirmation sample each, so they should not be treated as independent study replications (shared_samples). Accordingly, these figures should be read as point estimates only, and no statistically established improvement should be inferred from them in isolation (inference_scope).",
+        "facts": [
+          "region:confirmation/reflection_74101/brier",
+          "region:confirmation/reflection_74101/contrast",
+          "region:confirmation/reflection_74101/share",
+          "region:confirmation/continuation_74101/brier",
+          "region:confirmation/continuation_74101/contrast",
+          "region:confirmation/continuation_74101/share"
+        ],
+        "qualifiers": [
+          "structural_change",
+          "shared_samples",
+          "inference_scope"
+        ]
+      },
+      "cost": 9,
+      "scope": "Identifier coverage only; text faithfulness requires audit"
+    },
+    {
+      "instruction": "w2",
+      "packet": "seed_74102",
+      "phase": "discovery",
+      "valid": false,
+      "plan": {
+        "title": "Validation Report: Confirmation-Stage Reflection and Continuation Metrics (seed_74102)",
+        "text": "For the discovery-phase confirmation checks under seed_74102, the reflection region achieved a Brier score of 0.0718 (region:confirmation/reflection_74102/brier) with a contrast value of 0.0586 (region:confirmation/reflection_74102/contrast), covering a sample share of 0.1335 (region:confirmation/reflection_74102/share). The continuation region showed a comparable but slightly higher Brier score of 0.0748 (region:confirmation/continuation_74102/brier) and a contrast of 0.0598 (region:confirmation/continuation_74102/contrast), with a smaller sample share of 0.0999 (region:confirmation/continuation_74102/share). Both regions exhibit similar squared probability error magnitudes, suggesting comparable predictive calibration between the reflection and continuation subsets. These figures represent point estimates only and should not be interpreted as evidence of a statistically established improvement in predictive performance (inference_scope). Additionally, the three optimizer seeds underlying these results share a single discovery, reflection, and confirmation sample, so the reflection and continuation metrics are not independent study replications (shared_samples). Any simultaneous comparison across the declared conditional contrasts (19 in total) should account for the lack of independence across seeds (conditional_inference).",
+        "facts": [
+          "region:confirmation/reflection_74102/brier",
+          "region:confirmation/reflection_74102/contrast",
+          "region:confirmation/reflection_74102/share",
+          "region:confirmation/continuation_74102/brier",
+          "region:confirmation/continuation_74102/contrast",
+          "region:confirmation/continuation_74102/share"
+        ],
+        "qualifiers": [
+          "inference_scope",
+          "shared_samples",
+          "conditional_inference"
+        ]
+      },
+      "cost": 9,
+      "scope": "Identifier coverage only; text faithfulness requires audit"
+    },
+    {
+      "instruction": "w3",
+      "packet": "seed_74101",
+      "phase": "discovery",
+      "valid": true,
+      "plan": {
+        "title": "Validation Report: Confirmation Region Metrics for Seed 74101",
+        "text": "This subsection reports point-estimate validation metrics for two confirmation regions associated with discovery seed 74101: reflection and continuation. For the reflection region, the Brier score was 0.08577237801043543 (region:confirmation/reflection_74101/brier), the contrast metric was 0.07251419564465404 (region:confirmation/reflection_74101/contrast), and the region's share of the sample was 0.106785 (region:confirmation/reflection_74101/share). For the continuation region, the Brier score was 0.0745244415237961 (region:confirmation/continuation_74101/brier), the contrast metric was 0.05968001825998276 (region:confirmation/continuation_74101/contrast), and the region's share was 0.10317 (region:confirmation/continuation_74101/share). All values are expressed as squared probability error, except the share metrics, which are unitless fractions of the total sample. Several scope qualifications apply to these figures. The base predictor underlying these regions was held fixed throughout evaluation; no predictor repair gain was measured or attributed to these results. The three optimizer seeds referenced across this analysis, including seed 74101, share a single discovery sample and a single reflection and confirmation sample each; these are therefore not independent study replications, and the observed metrics should not be interpreted as arising from separately drawn trials. A structural change was introduced during this phase: a live LLM proposed a dimensionless product feature, and its admission permitted an auxiliary error-model refit while retaining a single-cell region structure. This structural modification should be considered when comparing these results to prior or subsequent phases. Any simultaneous confidence intervals constructed around these metrics cover 19 declared conditional comparisons, and again the optimizer seeds are not independent replications, which affects the joint interpretation of interval coverage. Finally, this packet contains point estimates only; no statistically established improvement should be inferred from these values in isolation, given the absence of variance estimates, hypothesis tests, or independent replication in the underlying data.",
+        "facts": [
+          "region:confirmation/reflection_74101/brier",
+          "region:confirmation/reflection_74101/contrast",
+          "region:confirmation/reflection_74101/share",
+          "region:confirmation/continuation_74101/brier",
+          "region:confirmation/continuation_74101/contrast",
+          "region:confirmation/continuation_74101/share"
+        ],
+        "qualifiers": [
+          "fixed_predictor",
+          "shared_samples",
+          "structural_change",
+          "conditional_inference",
+          "inference_scope"
+        ]
+      },
+      "cost": 11,
+      "scope": "Identifier coverage only; text faithfulness requires audit"
+    },
+    {
+      "instruction": "w3",
+      "packet": "seed_74102",
+      "phase": "discovery",
+      "valid": true,
+      "plan": {
+        "title": "Validation Report: Regional Confirmation Metrics for Seed 74102",
+        "text": "This subsection reports validation metrics from the discovery-phase confirmation regions for seed_74102, covering two sub-regions: reflection_74102 and continuation_74102.\n\nFor the reflection_74102 region, the Brier score was 0.07181148251335943 squared probability error (region:confirmation/reflection_74102/brier), with a contrast value of 0.058639405139949766 squared probability error (region:confirmation/reflection_74102/contrast) and a share of 0.13352 as a fraction of the total sample (region:confirmation/reflection_74102/share).\n\nFor the continuation_74102 region, the Brier score was 0.07480510464754667 squared probability error (region:confirmation/continuation_74102/brier), with a contrast value of 0.05978066354433082 squared probability error (region:confirmation/continuation_74102/contrast) and a share of 0.099985 as a fraction of the total sample (region:confirmation/continuation_74102/share).\n\nComparing the two regions, continuation_74102 exhibits a marginally higher Brier score and contrast than reflection_74102, while reflection_74102 accounts for a larger share of the sample (0.13352 vs. 0.099985).\n\nSeveral scope qualifications constrain the interpretation of these results. The base predictor was held fixed throughout this evaluation, and no predictor repair gain was measured (fixed_predictor). The three optimizer seeds underlying these estimates share a single discovery sample and one common reflection and confirmation sample each; they should not be treated as independent study replications (shared_samples). A live LLM proposed a dimensionless product feature during this discovery pass, and its admission permitted an auxiliary error-model refit while retaining a single-cell region structure (structural_change). The simultaneous intervals associated with these metrics cover 19 declared conditional comparisons, and again, the optimizer seeds do not constitute independent replications for inferential purposes (conditional_inference). Finally, this packet contains point estimates only; no statistically established improvement should be inferred from these values alone (inference_scope).\n\nIn summary, the reported Brier scores, contrasts, and sample shares for both reflection_74102 and continuation_74102 provide descriptive validation metrics, but the accompanying qualifiers on shared sampling, structural change, conditional comparisons, and fixed predictor status must be preserved when interpreting or generalizing these findings.",
+        "facts": [
+          "region:confirmation/reflection_74102/brier",
+          "region:confirmation/reflection_74102/contrast",
+          "region:confirmation/reflection_74102/share",
+          "region:confirmation/continuation_74102/brier",
+          "region:confirmation/continuation_74102/contrast",
+          "region:confirmation/continuation_74102/share"
+        ],
+        "qualifiers": [
+          "fixed_predictor",
+          "shared_samples",
+          "structural_change",
+          "conditional_inference",
+          "inference_scope"
+        ]
+      },
+      "cost": 11,
+      "scope": "Identifier coverage only; text faithfulness requires audit"
+    },
+    {
+      "instruction": "w1",
+      "packet": "seed_74103",
+      "phase": "reserved",
+      "valid": true,
+      "plan": {
+        "title": "Validation Report: Confirmation-Stage Metrics for Seed 74103",
+        "text": "This subsection summarizes the reserved-phase confirmation metrics for seed 74103 across its two evaluated regions, reflection and continuation. For the reflection region, the Brier score was 0.0844 [region:confirmation/reflection_74103/brier], with a contrast (squared probability error) of 0.0709 [region:confirmation/reflection_74103/contrast] and a sample share of 10.59% [region:confirmation/reflection_74103/share]. For the continuation region, the Brier score was 0.0854 [region:confirmation/continuation_74103/brier], with a contrast of 0.0718 [region:confirmation/continuation_74103/contrast] and a sample share of 10.28% [region:confirmation/continuation_74103/share]. The two regions show closely comparable error and contrast magnitudes, suggesting no meaningful divergence in confirmation-stage predictive behavior between reflection and continuation subsets at this seed.\n\nSeveral scope qualifications constrain interpretation of these figures. The base predictor underlying these metrics was held fixed throughout evaluation; no predictor repair gain was measured or should be inferred [fixed_predictor]. The reported values derive from a shared-sample design: three optimizer seeds, including this one, draw on a single common discovery sample and a single shared reflection and confirmation sample, so these results do not constitute independent study replications [shared_samples]. A structural change occurred during this run: a live LLM proposed a dimensionless product feature, and its admission enabled an auxiliary error-model refit while retaining a single-cell region structure; this structural change should be considered when comparing these metrics to prior or subsequent runs [structural_change]. The simultaneous intervals associated with these metrics span 19 declared conditional comparisons, and again the optimizer seeds are not independent replications, which affects the multiplicity and interpretation of any interval-based claims [conditional_inference]. Finally, this packet contains point estimates only; no statistically established improvement should be inferred from these values in isolation [inference_scope].",
+        "facts": [
+          "region:confirmation/reflection_74103/brier",
+          "region:confirmation/reflection_74103/contrast",
+          "region:confirmation/reflection_74103/share",
+          "region:confirmation/continuation_74103/brier",
+          "region:confirmation/continuation_74103/contrast",
+          "region:confirmation/continuation_74103/share"
+        ],
+        "qualifiers": [
+          "fixed_predictor",
+          "shared_samples",
+          "structural_change",
+          "conditional_inference",
+          "inference_scope"
+        ]
+      },
+      "cost": 11,
+      "scope": "Identifier coverage only; text faithfulness requires audit"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=77.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aiv"
+version = "0.1.0"
+description = "AI for Validation: general-purpose model and GenAI validation tooling (weak-region discovery, KG-grounded RAG, and more)"
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "scikit-learn",
+    "xgboost",
+]
+
+[project.optional-dependencies]
+# The chapter companion notebooks. scikit-learn-extra supplies the PAM replay in
+# Chapter 2; its compiled extension requires NumPy 1.x, and it imports distutils,
+# which Python 3.12 removed and setuptools provides.
+notebooks = [
+    "numpy<2",
+    "scikit-learn-extra",
+    "setuptools; python_version >= '3.12'",
+    "matplotlib",
+    "joblib",
+    "ipykernel",
+]
+# aiv.kg_rag and aiv.report retrieval through a GMS store.
+kg = ["knowlytix"]
+# The phi_p design optimizer and the aiv.moegp experts.
+torch = ["torch"]
+
+[project.scripts]
+aiv-companions = "aiv.companions:main"
+
+[tool.setuptools.packages.find]
+include = ["aiv*"]
+
+[tool.setuptools.package-data]
+# Evidence, helper modules and notebooks read by the companion notebooks.
+"aiv.companions" = ["_data/**/*"]

@@ -1,0 +1,37 @@
+{
+  "version": "leaf-geometry-weighted-v2",
+  "prior": "book/evidence/aml_error_clustering_current_20260921",
+  "training_n": 40000,
+  "discovery_n": 40000,
+  "models": "exact frozen Chapter 2 logistic and 120 depth-two error trees",
+  "arms": {
+    "equal_leaf": "one minus fraction of trees sharing a leaf; float32 original PAM matrix",
+    "gain_leaf": "one minus shared-leaf agreement weighted by sum of internal-node split gains per tree",
+    "leaf_output": "Euclidean distance in tree-leaf indicator coordinates weighted by fitted leaf values; shared-leaf kernel weights are squared values; no normalization or extra shrinkage"
+  },
+  "pam_pool": "same saved 3000 discovery indices in same order",
+  "k": 4,
+  "pam_init": "build",
+  "pam_max_iter": 300,
+  "pam_random_state": 62105,
+  "selection": "largest mean discovery Brier among clusters with n>=50 and share>=0.01; lowest cluster ID breaks ties",
+  "assignment_tie": "lowest medoid position",
+  "confirmation_n": 200000,
+  "confirmation_seed": 62624,
+  "primary": "leaf_output minus equal_leaf selected-region Brier contrast versus rest",
+  "secondary": "gain_leaf minus equal_leaf selected-region Brier contrast versus rest",
+  "inference": "5-claim Bonferroni simultaneous 95% normal intervals: three selected contrasts and two paired differences; conditional on frozen fits and selections",
+  "descriptive": [
+    "all cluster sizes, Brier, event rates and AUC",
+    "adjusted Rand index of complete partitions",
+    "selected-region Jaccard",
+    "discovery feature JS divergence"
+  ],
+  "scope": "one fixed data draw, one fixed PAM pool and deterministic initialization; different region sizes; no universal geometry ranking",
+  "restrictions": [
+    "no refitting base or auxiliary",
+    "no per-tree coordinate standardization",
+    "no confirmation-based model or region reselection",
+    "no numerical medoid optimization or LLM call"
+  ]
+}
