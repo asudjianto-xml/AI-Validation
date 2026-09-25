@@ -100,6 +100,28 @@ The observations are simulated account-months from a synthetic population. The
 measurements describe the frozen model in that population and do not establish
 operational AML performance.
 
+## Course presentations
+
+The `presentations/` folder holds the PDF slides of the *AI for Model Validation*
+course: eleven decks with 149 slides in total. The combined file
+[`AI_for_Model_Validation_Complete_Course.pdf`](presentations/AI_for_Model_Validation_Complete_Course.pdf)
+contains all of them in order. Deck numbers are course modules, not book chapter
+numbers. The slides are not part of the pip package.
+
+| Deck | Topic | Book coverage | Slides |
+|---|---|---|---:|
+| 1 | [Introduction](presentations/1-AI_for_Model_Validation_Introduction.pdf) | Chapter 1 | 9 |
+| 2 | [One-Shot Assessment](presentations/2-AI_for_Model_Validation_DiscoveryLoop.pdf) | Chapter 2 | 11 |
+| 3 | [Inner Array](presentations/3-AI_for_Model_Validation_InnerArray.pdf) | Chapters 2–3 | 15 |
+| 4 | [Outer Array](presentations/4-AI_for_Model_Validation_OuterArray.pdf) | Chapter 2 | 10 |
+| 5 | [Scoring and Pareto](presentations/5-AI_for_Model_Validation_Scoring.pdf) | Chapter 2 | 12 |
+| 6 | [Optimization](presentations/6-AI_for_Model_Validation_Optimizer.pdf) | Chapter 3 | 14 |
+| 7 | [LLM Reflection](presentations/7-AI_for_Model_Validation_Reflection.pdf) | Chapter 4 | 13 |
+| 8 | [Reference Evidence and Verification](presentations/8-AI_for_Model_Validation_GeometricKG.pdf) | Chapters 5–6 | 21 |
+| 9 | [Agentic Test Suites](presentations/9-AI_for_Model_Validation_TestGeneration.pdf) | Chapter 7 | 15 |
+| 10 | [Confirmation and Findings](presentations/10-AI_for_Model_Validation_Findings.pdf) | Chapter 8 | 14 |
+| 11 | [Report Generation](presentations/11-AI_for_Model_Validation_Report.pdf) | Chapter 9 | 15 |
+
 ## The `aiv` package
 
 | Module | Purpose |
