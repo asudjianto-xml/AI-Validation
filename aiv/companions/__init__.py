@@ -26,7 +26,7 @@ ENVIRONMENT_VARIABLE = "MODEL_VALIDATION_ROOT"
 MARKER = "book/notebooks/regional_case/companion.py"
 NOTEBOOK_SETS = {
     "regional_case": "book/notebooks/regional_case",
-    "regional_live": "book/experiments/regional_live/runs/20260923T220909Z/notebooks",
+    "regional_live": "book/notebooks/regional_live",
 }
 
 
@@ -66,7 +66,7 @@ def copy_notebooks(destination, overwrite: bool = False) -> list[Path]:
     for name, relative in NOTEBOOK_SETS.items():
         target = destination / name
         target.mkdir(parents=True, exist_ok=True)
-        for source in sorted((root / relative).glob("ch0*.ipynb")):
+        for source in sorted((root / relative).glob("ch[0-9][0-9]_*.ipynb")):
             path = target / source.name
             if path.exists() and not overwrite:
                 raise FileExistsError(f"{path} exists; pass --overwrite to replace it")

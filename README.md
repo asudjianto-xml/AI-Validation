@@ -28,7 +28,7 @@ pip install ".[notebooks]"
 ```
 
 The `notebooks` extra adds Matplotlib, joblib, ipykernel and scikit-learn-extra.
-The Chapter 2 notebook uses scikit-learn-extra's `KMedoids` to replay a recorded PAM
+The Chapter 3 notebook uses scikit-learn-extra's `KMedoids` to replay a recorded PAM
 clustering. Its compiled extension requires NumPy 1.x, so the extra pins `numpy<2`, and
 it imports `distutils`, so the extra installs setuptools on Python 3.12 and later.
 Prebuilt scikit-learn-extra wheels exist for Python 3.6 to 3.11 on x86-64; on other
@@ -62,21 +62,21 @@ output.
 
 | Chapter | Notebook | Content |
 |---|---|---|
-| 1 | `ch01_foundations` | One medoid candidate from search to frontier, frozen selection, confirmation and a source-bound claim check |
-| 2 | `ch02_evaluator` | Frozen-model Brier losses, a refitted depth-two error model, weighted leaf coordinates, PAM and confirmation of the selected region |
-| 3 | `ch03_search` | Search budgets, candidate lineage, frontier recomputation and the twinning-versus-random confirmation comparison |
-| 4 | `ch04_reflection` | A recorded language-model proposal, its admission and its matched-budget comparison with continued search |
-| 5 | `ch05_evidence_store` | Rebuilding the evidence store and resolving records to their source fields |
-| 6 | `ch06_verify_claims` | Typed claim verification, missing evidence and corrupted-record handling |
-| 7 | `ch07_adversarial_prompts` | A crossed design of claim mutations against the verifier |
-| 8 | `ch08_findings` | Thirteen confirmed regional findings, selection optimism and paired simultaneous intervals |
-| 9 | `ch09_report` | Evidence packets, content-plan checks and a source-checked report section |
+| 2 | `ch02_foundations` | One medoid candidate from search to frontier, frozen selection, confirmation and a source-bound claim check |
+| 3 | `ch03_evaluator` | Frozen-model Brier losses, a refitted depth-two error model, weighted leaf coordinates, PAM and confirmation of the selected region |
+| 4 | `ch04_search` | Search budgets, candidate lineage, frontier recomputation and the twinning-versus-random confirmation comparison |
+| 5 | `ch05_reflection` | A recorded language-model proposal, its admission and its matched-budget comparison with continued search |
+| 6 | `ch06_evidence_store` | Rebuilding the evidence store and resolving records to their source fields |
+| 7 | `ch07_verify_claims` | Typed claim verification, missing evidence and corrupted-record handling |
+| 8 | `ch08_adversarial_prompts` | A crossed design of claim mutations against the verifier |
+| 9 | `ch09_findings` | Thirteen confirmed regional findings, selection optimism and paired simultaneous intervals |
+| 10 | `ch10_report` | Evidence packets, content-plan checks and a source-checked report section |
 
 `regional_live/` holds nine notebooks that inspect a later end-to-end run with live
 language-model calls: a structural proposal, 70 answer tests and nine report drafts.
 The notebooks read the recorded calls and make no new ones.
 
-No notebook fits the frozen predictor or calls a language model. Chapter 2 refits the
+No notebook fits the frozen predictor or calls a language model. Chapter 3 refits the
 auxiliary error model in memory and checks it against the saved model.
 
 ## Data
@@ -88,7 +88,7 @@ records identify their source files by those paths and digests. Its main content
 
 - `book/evidence/aml_error_clustering_current_20260921/`: the frozen predictor, the
   auxiliary error model and the 40,000 discovery observations;
-- `book/evidence/aml_leaf_geometry_weighted_20260924/`: the Chapter 2 geometry, its
+- `book/evidence/aml_leaf_geometry_weighted_20260924/`: the Chapter 3 geometry, its
   selections and 200,000 confirmation observations;
 - `book/evidence/aml_medoid_loop_leaf_output_20260921/`: the medoid search histories,
   the recorded structural proposal and admission, frozen finalists and 200,000

@@ -24,7 +24,7 @@ dependencies = [
 
 [project.optional-dependencies]
 # The chapter companion notebooks. scikit-learn-extra supplies the PAM replay in
-# Chapter 2; its compiled extension requires NumPy 1.x, and it imports distutils,
+# Chapter 3; its compiled extension requires NumPy 1.x, and it imports distutils,
 # which Python 3.12 removed and setuptools provides.
 notebooks = [
     "numpy<2",
