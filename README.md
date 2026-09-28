@@ -28,6 +28,19 @@ or, from a clone of this repository:
 pip install ".[notebooks]"
 ```
 
+With conda, create an environment for Python 3.12 or later and install the package into
+it with pip; `aiv` is not published on conda channels:
+
+```bash
+conda create -n aiv -c conda-forge python=3.13 -y
+conda activate aiv
+pip install "aiv[notebooks] @ git+https://github.com/asudjianto-xml/AI-Validation.git" jupyterlab
+```
+
+Let pip install XGBoost rather than running `conda install xgboost`, which can select a
+release older than 3.4. On Windows, run these commands from the Anaconda Prompt, or run
+`conda init powershell` once to use them in PowerShell.
+
 The `notebooks` extra adds Matplotlib, joblib, ipykernel and XGBoost 3.4 or later. The
 Chapter 3 notebook refits the auxiliary error model and asserts that its trees equal the
 saved model's; earlier XGBoost releases fit different trees, and XGBoost 3.4 requires
