@@ -5,7 +5,7 @@ import json, re, subprocess, tempfile, time, uuid, socket
 MODEL='claude-sonnet-5'
 def save(path,obj):
     path.parent.mkdir(parents=True,exist_ok=True)
-    path.write_text(json.dumps(obj,indent=2,allow_nan=False)+'\n')
+    path.write_text(json.dumps(obj,indent=2,allow_nan=False)+'\n',encoding='utf-8')
 def parse(text):
     def pairs(items):
         out={}

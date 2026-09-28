@@ -107,7 +107,7 @@ def load_provenance(store_dir: str) -> dict:
     if not os.path.isfile(path):
         return {}
     index = {}
-    for entry in json.load(open(path)).get("triples", []):
+    for entry in json.load(open(path, encoding="utf-8")).get("triples", []):
         head, relation, tail = entry["triple"]
         spans = [ev.get("span", "") for ev in entry.get("evidence", [])]
         index[(head, relation, tail)] = spans[0] if spans else None

@@ -18,7 +18,7 @@ def answer_score(rec,task,access):
                 provenance_correct=set(x['sources'])==set(refs),parsed=x)
 
 def main(folder,workers):
-    data=json.loads((folder/'reference.json').read_text());facts=data['facts'];seeds=data['seeds']
+    data=json.loads((folder/'reference.json').read_text(encoding="utf-8"));facts=data['facts'];seeds=data['seeds']
     tasks=[]
     for j,seed in enumerate(seeds):
         phase='reserved' if j==2 else 'discovery'

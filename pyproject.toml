@@ -23,13 +23,11 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-# The chapter companion notebooks. scikit-learn-extra supplies the PAM replay in
-# Chapter 3; its compiled extension requires NumPy 1.x, and it imports distutils,
-# which Python 3.12 removed and setuptools provides.
+# The chapter companion notebooks. Chapter 3 refits the auxiliary error model and
+# compares its trees with the saved model; that comparison holds for XGBoost 3.4,
+# which requires Python 3.12 or later.
 notebooks = [
-    "numpy<2",
-    "scikit-learn-extra",
-    "setuptools; python_version >= '3.12'",
+    "xgboost>=3.4",
     "matplotlib",
     "joblib",
     "ipykernel",

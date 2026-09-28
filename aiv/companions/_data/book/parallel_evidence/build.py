@@ -13,7 +13,7 @@ MOE = BOOK / 'evidence/aml_end_to_end_current_20260921'
 
 
 def read(path):
-    return json.loads(path.read_text())
+    return json.loads(path.read_text(encoding="utf-8"))
 
 
 def sha(path):
@@ -70,7 +70,7 @@ def construct():
     facts = {}
     def add(id_, source, pointer):
         assert id_ not in facts
-        facts[id_] = dict(value=resolve(read(source), pointer), source=str(source.relative_to(ROOT)),
+        facts[id_] = dict(value=resolve(read(source), pointer), source=source.relative_to(ROOT).as_posix(),
                           source_sha256=sha(source), pointer=pointer)
     # Same 50 measurements as the existing mixture projection, with split-qualified identities.
     r = read(MOE / 'results.json')
@@ -165,9 +165,9 @@ def main(check=False):
     for name, value in generated.items():
         text = value if isinstance(value,str) else json.dumps(value,indent=2)+'\n'
         if check:
-            assert (OUT/name).read_text() == text, 'Stale projection: '+name
+            assert (OUT/name).read_text(encoding="utf-8") == text, 'Stale projection: '+name
         else:
-            (OUT/name).write_text(text)
+            (OUT/name).write_text(text, encoding="utf-8")
     print(json.dumps(generated['summary.json'], indent=2))
 
 if __name__ == '__main__':

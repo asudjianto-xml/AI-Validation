@@ -27,12 +27,12 @@ def digest(path):
 
 
 def read(path):
-    return json.loads(Path(path).read_text())
+    return json.loads(Path(path).read_text(encoding="utf-8"))
 
 
 def save(path, data):
     Path(path).parent.mkdir(parents=True, exist_ok=True)
-    Path(path).write_text(json.dumps(data, indent=2, allow_nan=False) + '\n')
+    Path(path).write_text(json.dumps(data, indent=2, allow_nan=False) + '\n', encoding="utf-8")
 
 
 def resolve(data, pointer):
@@ -103,7 +103,7 @@ def build_store(root=ROOT):
             path = root / directory / name
             if not path.exists():
                 raise FileNotFoundError(path)
-            sources[str(path.relative_to(root))] = digest(path)
+            sources[path.relative_to(root).as_posix()] = digest(path)
     graph = [{'head': f['id'], 'relation': 'asserted_at',
               'tail': f['source'] + '#' + f['pointer']} for f in facts]
     return dict(schema_version=1, facts=facts, sources=sources, graph=graph,

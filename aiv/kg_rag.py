@@ -42,7 +42,7 @@ def load_tools():
 
 def load_provenance(store_dir: str) -> dict:
     """Map each stored triple to its source span(s) from provenance.json."""
-    prov = json.load(open(os.path.join(store_dir, "provenance.json")))
+    prov = json.load(open(os.path.join(store_dir, "provenance.json"), encoding="utf-8"))
     idx = {}
     for e in prov.get("triples", []):
         h, r, t = e["triple"]
@@ -132,7 +132,7 @@ QUESTIONS = [
 def main():
     tools, sdir = load_tools()
     prov = load_provenance(sdir)
-    report = open(os.path.join(sdir, "documents", "combined.md")).read()
+    report = open(os.path.join(sdir, "documents", "combined.md"), encoding="utf-8").read()
     for q in QUESTIONS:
         print("=" * 88)
         print("Q:", q)

@@ -356,6 +356,16 @@ class KMedoidsTests(unittest.TestCase):
             members = np.flatnonzero(res.labels == c)
             self.assertIn(medoid_of(D, members), set(res.medoids))
 
+    def test_build_swap_matches_scikit_learn_extra(self):
+        # Reference medoids from scikit-learn-extra 0.3.0 KMedoids(method="pam",
+        # init="build"); the integer grid produces many tied distances.
+        from aiv.wsearch.kmedoids import pam_build_swap
+        for kind, expected in [("ties", [8, 15, 107, 101, 105]), ("normal", [27, 62, 37, 101, 73])]:
+            rng = np.random.default_rng(7)
+            X = rng.integers(0, 4, (120, 3)).astype(float) if kind == "ties" else rng.normal(size=(120, 3))
+            D = np.sqrt(((X[:, None] - X[None]) ** 2).sum(-1))
+            self.assertEqual(pam_build_swap(D, 5, block=17).tolist(), expected)
+
     def test_medoid_minimises_average_dissimilarity(self):
         from aiv.wsearch.kmedoids import medoid_of
         rng = np.random.default_rng(1)

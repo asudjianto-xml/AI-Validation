@@ -10,7 +10,7 @@ BOOK = ROOT/'book'
 RUN = BOOK/'evidence/aml_medoid_loop_leaf_output_20260921'
 
 def read(path):
-    return json.loads(Path(path).read_text())
+    return json.loads(Path(path).read_text(encoding="utf-8"))
 
 def sha(path):
     return hashlib.sha256(Path(path).read_bytes()).hexdigest()

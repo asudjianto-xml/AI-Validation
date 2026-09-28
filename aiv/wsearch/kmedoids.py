@@ -85,6 +85,69 @@ def pam(D: np.ndarray, k: int, max_swaps: int = 200, seed: int = 0) -> PamResult
     return PamResult(med, near, float(d1.sum()), swaps, sil)
 
 
+def pam_build_swap(D: np.ndarray, k: int, max_iter: int = 300, block: int = 512) -> np.ndarray:
+    """BUILD then SWAP, reproducing scikit-learn-extra 0.3.0
+    ``KMedoids(method="pam", init="build", metric="precomputed")`` exactly.
+
+    Ported from scikit-learn-extra's ``_k_medoids_helper.pyx`` (BSD-3-Clause,
+    Timothee Mathieu) so replays need neither that package nor its NumPy 1.x
+    extension. Tie-breaking and summation order follow the Cython loops: BUILD
+    keeps the last candidate with the largest gain, SWAP keeps the first
+    (candidate, medoid) pair with the most negative cost change, and every cost
+    is accumulated sequentially (``cumsum``) over non-medoids in index order.
+    Returns medoid indices in the order ``medoid_indices_`` reports them.
+    """
+    D = np.asarray(D, dtype=float)
+    n = len(D)
+    if not 1 <= k <= n:
+        raise ValueError("k must be between 1 and the sample size")
+
+    med = [int(np.argmin(np.sum(D, axis=0)))]              # build
+    rest = np.delete(np.arange(n), med[0])
+    Dj = D[med[0]].copy()
+    for _ in range(k - 1):
+        gain = np.empty(len(rest))
+        for s in range(0, len(rest), block):
+            rows = rest[s:s + block]
+            terms = np.maximum(0.0, Dj[rest][None, :] - D[np.ix_(rows, rest)])
+            gain[s:s + block] = np.cumsum(terms, axis=1)[:, -1]
+        pos = len(gain) - 1 - int(np.argmax(gain[::-1]))   # last maximum
+        new = int(rest[pos])
+        med.append(new)
+        rest = np.delete(rest, pos)
+        Dj = np.minimum(Dj, D[:, new])
+    med = np.array(med, dtype=np.int64)
+    if k == 1:
+        return med
+
+    Djs, Ejs = np.sort(D[med], axis=0)[[0, 1]]             # swap
+    for _ in range(max_iter):
+        old = med.copy()
+        other = np.delete(np.arange(n), med)
+        dj, ej = Djs[other], Ejs[other]
+        cost = np.empty((len(other), k))
+        for s in range(0, len(other), block):
+            h = other[s:s + block]
+            Dhj = D[np.ix_(h, other)]                      # D[id_h, id_j]
+            Djh = D[np.ix_(other, h)].T                    # D[id_j, id_h]
+            second = Dhj < ej[None, :]
+            closer = Djh < dj[None, :]
+            for i, id_i in enumerate(med):
+                owned = (D[id_i, other] == dj)[None, :]
+                terms = np.where(owned, np.where(second, Djh - dj[None, :], (ej - dj)[None, :]),
+                                 np.where(closer, Djh - dj[None, :], 0.0))
+                own = np.where(D[h, id_i] < Ejs[id_i], D[id_i, h], Ejs[id_i])
+                cost[s:s + block, i] = np.cumsum(terms, axis=1)[:, -1] + own
+        best = int(np.argmin(cost.ravel()))                # first minimum, candidate-major
+        if cost.ravel()[best] < 0:
+            h, i = divmod(best, k)
+            med[med == med[i]] = other[h]
+            Djs, Ejs = np.sort(D[med], axis=0)[[0, 1]]
+        if np.array_equal(old, med):
+            break
+    return med
+
+
 def medoid_of(D: np.ndarray, members: np.ndarray) -> int:
     """The member with the smallest average dissimilarity to the rest."""
     members = np.asarray(members, dtype=int)

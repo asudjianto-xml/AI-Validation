@@ -15,7 +15,8 @@ evidence store.
 
 ## Installation
 
-Python 3.10 or later is required.
+The package requires Python 3.10 or later; the companion notebooks require Python 3.12
+or later.
 
 ```bash
 pip install "aiv[notebooks] @ git+https://github.com/asudjianto-xml/AI-Validation.git"
@@ -27,17 +28,23 @@ or, from a clone of this repository:
 pip install ".[notebooks]"
 ```
 
-The `notebooks` extra adds Matplotlib, joblib, ipykernel and scikit-learn-extra.
-The Chapter 3 notebook uses scikit-learn-extra's `KMedoids` to replay a recorded PAM
-clustering. Its compiled extension requires NumPy 1.x, so the extra pins `numpy<2`, and
-it imports `distutils`, so the extra installs setuptools on Python 3.12 and later.
-Prebuilt scikit-learn-extra wheels exist for Python 3.6 to 3.11 on x86-64; on other
-platforms pip compiles it from source, which needs a C compiler. XGBoost 3 on Linux also
-installs the `nvidia-nccl-cu13` wheel, a download of about 290 MB.
+The `notebooks` extra adds Matplotlib, joblib, ipykernel and XGBoost 3.4 or later. The
+Chapter 3 notebook refits the auxiliary error model and asserts that its trees equal the
+saved model's; earlier XGBoost releases fit different trees, and XGBoost 3.4 requires
+Python 3.12. The same notebook replays the recorded PAM clustering with
+`aiv.wsearch.kmedoids.pam_build_swap`, an exact port of scikit-learn-extra 0.3.0's
+`KMedoids(method="pam", init="build")`, so no compiled extension or NumPy pin is needed.
+XGBoost 3 on Linux also installs the `nvidia-nccl-cu13` wheel, a download of about 290 MB.
+
+The notebooks verify SHA-256 digests of the evidence files. The repository's
+`.gitattributes` stops Git from converting their line endings on checkout; a clone made
+before that file existed, with `core.autocrlf=true` (the Git for Windows default), fails
+those checks and must be cloned again.
 
 The saved model artifacts were produced with scikit-learn 1.6.1 and XGBoost 3.4.0. The
-notebooks have also been executed with scikit-learn 1.9.1 and XGBoost 3.4.1, and each
-notebook's `execution_summary.json` records the versions used for its saved outputs.
+notebooks have also been executed with scikit-learn 1.9.1 and XGBoost 3.4.1, including
+on Windows with Python 3.12 and 3.13 (NumPy 1.26 and 2.5). Each notebook's first code
+cell prints the Python version used for its saved outputs.
 
 Two further extras are optional: `kg` installs `knowlytix` for `aiv.kg_rag`, and `torch`
 installs PyTorch for the space-filling design optimizer and `aiv.moegp`.

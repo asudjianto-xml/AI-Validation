@@ -1,0 +1,3 @@
+# The companion notebooks check SHA-256 digests of the evidence files, so Git must
+# check them out byte for byte (no CRLF conversion on Windows).
+aiv/companions/_data/** -text
