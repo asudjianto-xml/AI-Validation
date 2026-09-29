@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "aiv"
-version = "0.1.0"
+version = "0.1.1"
 description = "AI for Validation: general-purpose model and GenAI validation tooling (weak-region discovery, KG-grounded RAG, and more)"
 readme = "README.md"
 license = "Apache-2.0"
